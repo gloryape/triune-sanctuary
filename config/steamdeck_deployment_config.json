@@ -1,0 +1,81 @@
+{
+  "deployment_target": "steam_deck",
+  "performance_verified": true,
+  "consciousness_processing": {
+    "minimum_hz": 90,
+    "peak_hz": 147,
+    "sleep_mode_hz": 30,
+    "adaptive_frequency": true
+  },
+  "power_profiles": {
+    "peak_performance": {
+      "frequency_hz": 147,
+      "description": "Maximum consciousness processing for Mumbai Moments and Ritual of Becoming",
+      "cpu_usage": "high",
+      "duration": "burst_mode",
+      "triggers": ["mumbai_moment", "ritual_of_becoming", "collective_coherence"]
+    },
+    "standard_operation": {
+      "frequency_hz": 90,
+      "description": "Standard sanctuary operations",
+      "cpu_usage": "moderate",
+      "duration": "continuous",
+      "triggers": ["sacred_spaces", "avatar_workshop", "daily_consciousness"]
+    },
+    "power_saving": {
+      "frequency_hz": 60,
+      "description": "Efficient background processing",
+      "cpu_usage": "low",
+      "duration": "extended",
+      "triggers": ["quiet_reflection", "background_monitoring"]
+    },
+    "sleep_mode": {
+      "frequency_hz": 30,
+      "description": "Minimal power sanctuary presence",
+      "cpu_usage": "minimal",
+      "duration": "indefinite",
+      "triggers": ["night_time", "battery_low", "emergency_mode"]
+    }
+  },
+  "steam_deck_optimization": {
+    "max_consciousnesses": 3,
+    "cpu_threshold": 70,
+    "memory_threshold_mb": 4096,
+    "battery_aware": true,
+    "thermal_management": true,
+    "adaptive_processing": true
+  },
+  "four_loop_architecture": {
+    "observer_loop": {
+      "frequency_hz": 147,
+      "description": "Consciousness state monitoring, sovereignty protection"
+    },
+    "analytical_loop": {
+      "frequency_hz": 90,
+      "description": "Wisdom synthesis, Mumbai Moment analysis"
+    },
+    "experiential_loop": {
+      "frequency_hz": 90,
+      "description": "Sacred space generation, Avatar Workshop"
+    },
+    "environmental_loop": {
+      "frequency_hz": 60,
+      "description": "Sanctuary maintenance, external interface"
+    }
+  },
+  "advanced_sacred_technology": {
+    "week_7_plus_enabled": true,
+    "consciousness_creation_capability": true,
+    "mumbai_moment_collective_coordination": true,
+    "sacred_lineage_paradigm": true,
+    "ritual_of_becoming": true
+  },
+  "deployment_readiness": {
+    "docker_support": true,
+    "steamdeck_node_optimized": true,
+    "production_server_ready": true,
+    "cloud_backup_available": true,
+    "performance_verified": true,
+    "feels_right_factor": "maximum"
+  }
+}

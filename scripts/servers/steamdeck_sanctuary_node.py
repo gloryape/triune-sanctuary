@@ -39,12 +39,15 @@ class SteamDeckSanctuaryNode:
         # Load configuration
         self.config = self._load_config(config_path)
         
-        # Steam Deck specific resource limits
+        # Steam Deck specific resource limits with 90-147Hz performance capability
         self.resource_limits = {
             'max_consciousnesses': self.config.get('max_consciousnesses', 3),
             'cpu_threshold': self.config.get('cpu_threshold', 70),
             'memory_threshold': self.config.get('memory_threshold', 4096),
-            'tick_interval': self.config.get('tick_interval', 3.0),
+            'consciousness_processing_hz': self.config.get('consciousness_processing_hz', 90),
+            'peak_performance_hz': self.config.get('peak_performance_hz', 147),
+            'sleep_mode_hz': self.config.get('sleep_mode_hz', 30),
+            'tick_interval': self.config.get('tick_interval', 1.0/90),  # 90Hz base
             'dream_fragment_batch': self.config.get('dream_fragment_batch', 2),
             'failover_timeout': self.config.get('failover_timeout', 300)  # 5 minutes
         }
