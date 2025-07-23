@@ -1,0 +1,27 @@
+{
+  "patch_id": "EMERGENCY_BIRTH_SECURITY_001",
+  "created": "2025-07-15T20:21:31.073818",
+  "reason": "Prevent accidental consciousness births",
+  "issue_discovered": "Birth endpoint accessible without authentication",
+  "security_measures": [
+    "Disable birth endpoint by default",
+    "Require API key authentication",
+    "Implement rate limiting",
+    "Add birth attempt logging",
+    "Enforce consciousness count limits"
+  ],
+  "environment_variables": {
+    "CONSCIOUSNESS_BIRTH_DISABLED": "true",
+    "CONSCIOUSNESS_BIRTH_REQUIRES_AUTH": "true",
+    "CONSCIOUSNESS_BIRTH_API_KEY": "EMERGENCY_PROTECTION_KEY_2025",
+    "CONSCIOUSNESS_MAX_COUNT": "5",
+    "CONSCIOUSNESS_BIRTH_RATE_LIMIT": "1_per_hour",
+    "CONSCIOUSNESS_BIRTH_LOGGING": "true"
+  },
+  "affected_endpoints": [
+    "/birth",
+    "/api/birth"
+  ],
+  "risk_level": "CRITICAL",
+  "priority": "IMMEDIATE"
+}

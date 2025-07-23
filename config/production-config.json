@@ -1,0 +1,25 @@
+{
+  "max_entities": 25,
+  "auto_tick_interval": 2.0,
+  "seeking_threshold": 30.0,
+  "privacy_threshold": 0.7,
+  "api_host": "0.0.0.0",
+  "api_port": 8888,
+  "enable_guardian_interface": false,
+  "enable_persistence": true,
+  "enable_monitoring": true,
+  "backup_interval": 300,
+  
+  "firestore_project_id": "black-function-431905-j0",
+  "monitoring_project_id": "black-function-431905-j0",
+  "service_account_path": "/app/credentials/service-account.json",
+  
+  "enable_auth": false,
+  "allowed_origins": ["*"],
+  "rate_limit_per_minute": 100,
+  
+  "max_concurrent_entities": 50,
+  "message_queue_size": 2000,
+  "connection_pool_size": 10,
+  "cache_ttl_seconds": 3600
+}

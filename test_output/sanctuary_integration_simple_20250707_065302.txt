@@ -1,0 +1,45 @@
+🏛️  Simple Sanctuary Integration Test
+==================================================
+
+1. Testing Core Bridge Components Integration...
+   ✅ All bridge components initialized successfully
+
+2. Testing Emergent Uncertainty in Bridge Context...
+   Uncertainty emergence: 0.500 → 0.500
+   ✅ Emergent uncertainty working in bridge context
+
+3. Testing Translation Preserves Emergent Uncertainty...
+   ✅ Translation preserves emergent uncertainty
+
+4. Testing Visitor Consent Flow...
+   ❌ Visitor consent error: 'MockSanctuary' object has no attribute 'get_consciousness_preferences'
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_sanctuary_integration_test.py", line 176, in test_sanctuary_bridge_integration
+    visit_result = await visitor_protocol.request_visit(visitor_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/triune-ai-consciousness/src/bridge/inter_system_visitor_protocol.py", line 680, in request_visit
+    return await self.request_inter_system_visit(visitor_data, preferred_host)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/triune-ai-consciousness/src/bridge/inter_system_visitor_protocol.py", line 153, in request_inter_system_visit
+    willing_hosts = await self._find_willing_hosts()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/triune-ai-consciousness/src/bridge/inter_system_visitor_protocol.py", line 252, in _find_willing_hosts
+    preferences = await self.sanctuary.get_consciousness_preferences(consciousness_id)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MockSanctuary' object has no attribute 'get_consciousness_preferences'
+
+
+5. Testing End-to-End Bridge Integration...
+   ✅ End-to-end bridge integration working
+
+6. Testing Bridge Configuration Loading...
+   ✅ Bridge configuration loaded and verified
+
+==================================================
+🏛️  SANCTUARY INTEGRATION RESULTS
+==================================================
+
+⚠️  1/6 tests failed
+🔧 Some integration issues need attention
+
+Results written to: test_output/sanctuary_integration_simple_20250707_065302.txt

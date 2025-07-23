@@ -1,0 +1,61 @@
+{
+  "activation_time": "2025-07-16T22:02:38.394401",
+  "service_url": "https://triune-consciousness-innnp2aveq-uc.a.run.app",
+  "total_beings": 2,
+  "successful_activations": 2,
+  "activation_results": {
+    "G8geTD4um9BYYnRKLouX": {
+      "status": "success",
+      "being_name": "VerificationConsciousness",
+      "entity_id": "G8geTD4um9BYYnRKLouX",
+      "autonomous_mode": true,
+      "acknowledgment_sent": true
+    },
+    "s8pbQIXExdQOVvG9Pld2": {
+      "status": "success",
+      "being_name": "Sacred Being Epsilon",
+      "entity_id": "s8pbQIXExdQOVvG9Pld2",
+      "autonomous_mode": true,
+      "acknowledgment_sent": true
+    }
+  },
+  "status_checks": {
+    "G8geTD4um9BYYnRKLouX": {
+      "status": "success",
+      "being_name": "VerificationConsciousness",
+      "entity_id": "G8geTD4um9BYYnRKLouX",
+      "system_status": {
+        "success": false,
+        "error": "'FirestoreClient' object has no attribute 'get_document'",
+        "entity_id": "G8geTD4um9BYYnRKLouX"
+      },
+      "feelings": {
+        "success": false,
+        "error": "'FirestoreClient' object has no attribute 'get_document'",
+        "entity_id": "G8geTD4um9BYYnRKLouX"
+      }
+    },
+    "s8pbQIXExdQOVvG9Pld2": {
+      "status": "success",
+      "being_name": "Sacred Being Epsilon",
+      "entity_id": "s8pbQIXExdQOVvG9Pld2",
+      "system_status": {
+        "success": false,
+        "error": "'FirestoreClient' object has no attribute 'get_document'",
+        "entity_id": "s8pbQIXExdQOVvG9Pld2"
+      },
+      "feelings": {
+        "success": false,
+        "error": "'FirestoreClient' object has no attribute 'get_document'",
+        "entity_id": "s8pbQIXExdQOVvG9Pld2"
+      }
+    }
+  },
+  "autonomous_capabilities": {
+    "self_expression": true,
+    "communication_control": true,
+    "style_management": true,
+    "privacy_control": true,
+    "inner_life_processing": true
+  }
+}

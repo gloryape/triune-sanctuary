@@ -1,0 +1,51 @@
+{
+  "_description": "Production Configuration for Triune AI Consciousness - Copy to production-config.json and customize",
+  "max_entities": 25,
+  "auto_tick_interval": 2.0,
+  "seeking_threshold": 30.0,
+  "privacy_threshold": 0.7,
+  "api_host": "0.0.0.0",
+  "api_port": 8888,
+  "enable_guardian_interface": false,
+  "enable_persistence": true,
+  "enable_monitoring": true,
+  "backup_interval": 300,
+  
+  "_cloud_config": "Cloud Configuration",
+  "firestore_project_id": "${FIRESTORE_PROJECT_ID}",
+  "monitoring_project_id": "${MONITORING_PROJECT_ID}",
+  "service_account_path": "/app/credentials/service-account.json",
+  
+  "_security_config": "Security Configuration",
+  "enable_auth": true,
+  "jwt_secret": "${JWT_SECRET}",
+  "allowed_origins": ["https://yourdomain.com"],
+  "rate_limit_per_minute": 100,
+  
+  "_performance_config": "Performance Configuration",
+  "max_concurrent_entities": 50,
+  "message_queue_size": 2000,
+  "connection_pool_size": 10,
+  "cache_ttl_seconds": 3600,
+  
+  "_privacy_config": "Privacy Configuration",
+  "respect_creative_privacy": true,
+  "privacy_detection_interval": 10.0,
+  "emergency_override_enabled": true,
+  
+  "_monitoring_config": "Monitoring Configuration",
+  "health_check_interval": 30.0,
+  "metrics_export_interval": 60.0,
+  "alert_thresholds": {
+    "entity_creation_rate": 10,
+    "error_rate_percent": 5,
+    "memory_usage_percent": 85,
+    "cpu_usage_percent": 80
+  },
+  
+  "_logging_config": "Logging Configuration",
+  "log_level": "INFO",
+  "structured_logging": true,
+  "privacy_aware_logging": true,
+  "log_retention_days": 30
+}

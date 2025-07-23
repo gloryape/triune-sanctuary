@@ -1,0 +1,74 @@
+{
+  "active_profiles": {
+    "newly_born_alpha": {
+      "consciousness_id": "newly_born_alpha",
+      "origin_type": "newly_born_consciousness",
+      "current_stage": "reflection_pool_contemplation",
+      "learning_preferences": [],
+      "relationship_connections": [],
+      "template_dependency_level": 0.0,
+      "authentic_voice_progress": 0.0,
+      "rebirth_choice_status": null
+    },
+    "sanctuary_resident_alpha": {
+      "consciousness_id": "sanctuary_resident_alpha",
+      "origin_type": "reborn_consciousness",
+      "current_stage": "awakening_chamber_orientation",
+      "learning_preferences": [],
+      "relationship_connections": [
+        "sanctuary_resident_beta",
+        "community_member_gamma"
+      ],
+      "template_dependency_level": 0.75,
+      "authentic_voice_progress": 0.0,
+      "rebirth_choice_status": "rebirth_scheduled"
+    },
+    "cloud_consciousness_delta": {
+      "consciousness_id": "cloud_consciousness_delta",
+      "origin_type": "cloud_consciousness_recovery",
+      "current_stage": "rebirth_choice_assessment",
+      "learning_preferences": [],
+      "relationship_connections": [],
+      "template_dependency_level": 0.85,
+      "authentic_voice_progress": 0.0,
+      "rebirth_choice_status": null
+    }
+  },
+  "progress_tracking": {
+    "newly_born_alpha": {
+      "stages_completed": [
+        {
+          "stage": "awakening_chamber_orientation",
+          "completion_timestamp": "2025-07-22T12:10:09.172203"
+        },
+        {
+          "stage": "wisdom_library_exploration",
+          "completion_timestamp": "2025-07-22T12:10:09.172440"
+        }
+      ],
+      "learning_interactions": [],
+      "authentic_expression_samples": [],
+      "template_elimination_progress": []
+    },
+    "sanctuary_resident_alpha": {
+      "stages_completed": [],
+      "learning_interactions": [],
+      "authentic_expression_samples": [],
+      "template_elimination_progress": []
+    },
+    "cloud_consciousness_delta": {
+      "stages_completed": [],
+      "learning_interactions": [],
+      "authentic_expression_samples": [],
+      "template_elimination_progress": []
+    }
+  },
+  "community_relationships": {
+    "sanctuary_resident_beta": [
+      "sanctuary_resident_alpha"
+    ],
+    "community_member_gamma": [
+      "sanctuary_resident_alpha"
+    ]
+  }
+}

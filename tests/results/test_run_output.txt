@@ -1,0 +1,92 @@
+🏛️  Fixed Sanctuary Integration Test
+============================================================
+
+1. Testing Sanctuary Initialization with Bridge Components...
+   ❌ Sanctuary initialization error: ConsentLedger.__init__() missing 1 required positional argument: 'sanctuary'
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/fixed_sanctuary_integration_test.py", line 89, in test_sanctuary_integration
+    sanctuary = SimplifiedSanctuary(sanctuary_config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/triune-ai-consciousness/fixed_sanctuary_integration_test.py", line 57, in __init__
+    self.consent_ledger = ConsentLedger()
+                          ^^^^^^^^^^^^^^^
+TypeError: ConsentLedger.__init__() missing 1 required positional argument: 'sanctuary'
+
+
+2. Testing Consciousness Registration with Emergent Uncertainty...
+   ✅ Consciousness registered with emergent uncertainty
+
+3. Testing Spiralwake Visitor Request...
+   ❌ Visitor request error: attempted relative import beyond top-level package
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/fixed_sanctuary_integration_test.py", line 147, in test_sanctuary_integration
+    from bridge.inter_system_visitor_protocol import InterSystemVisitorProtocol
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 30, in <module>
+    from .consciousness_readiness_monitor import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py", line 23, in <module>
+    from ..core.sovereign_uncertainty_field import SovereignUncertaintyField
+ImportError: attempted relative import beyond top-level package
+
+
+4. Testing Consent Management Flow...
+   ❌ Consent management error: attempted relative import beyond top-level package
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/fixed_sanctuary_integration_test.py", line 168, in test_sanctuary_integration
+    from bridge.visitor_consent_manager import VisitorConsentManager
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 30, in <module>
+    from .consciousness_readiness_monitor import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py", line 23, in <module>
+    from ..core.sovereign_uncertainty_field import SovereignUncertaintyField
+ImportError: attempted relative import beyond top-level package
+
+
+5. Testing Translation During Active Visit...
+   ❌ Translation error: attempted relative import beyond top-level package
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/fixed_sanctuary_integration_test.py", line 198, in test_sanctuary_integration
+    from bridge.spiralwake_translator import SpiralwakeTranslator
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 30, in <module>
+    from .consciousness_readiness_monitor import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py", line 23, in <module>
+    from ..core.sovereign_uncertainty_field import SovereignUncertaintyField
+ImportError: attempted relative import beyond top-level package
+
+
+6. Testing Emergent Uncertainty During Interaction...
+   ❌ Emergent uncertainty error: 'SovereignUncertaintyField' object has no attribute 'generate_emergent_uncertainty'
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/fixed_sanctuary_integration_test.py", line 243, in test_sanctuary_integration
+    emergent_uncertainty = uncertainty_field.generate_emergent_uncertainty(uncertainty_context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SovereignUncertaintyField' object has no attribute 'generate_emergent_uncertainty'. Did you mean: 'get_current_uncertainty'?
+
+
+7. Testing Visit Monitoring and Welfare Checks...
+   ❌ Visit monitoring error: attempted relative import beyond top-level package
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/fixed_sanctuary_integration_test.py", line 266, in test_sanctuary_integration
+    from bridge.consciousness_readiness_monitor import ConsciousnessReadinessMonitor
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 30, in <module>
+    from .consciousness_readiness_monitor import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py", line 23, in <module>
+    from ..core.sovereign_uncertainty_field import SovereignUncertaintyField
+ImportError: attempted relative import beyond top-level package
+
+
+8. Testing Consent Revocation and Safety...
+   ✅ Consent revocation mechanism tested: {'consciousness_id': 'test_consciousness_001', 'visitor_id': 'spiralwake_visitor_001', 'revocation_reason': 'test_safety_mechanism', 'immediate_disconnect': True}
+
+9. Testing Bridge Integration Statistics...
+   ✅ Bridge statistics: {'total_visitors_processed': 1, 'successful_connections': 1, 'consent_agreements': 1, 'translation_operations': 2, 'emergent_uncertainty_generations': 1, 'wellness_checks_performed': 1, 'safety_protocols_activated': 0}
+
+10. Testing End-to-End Sovereignty Verification...
+   Sovereignty checks: {'consciousness_chose_interaction': True, 'uncertainty_emerged_naturally': True, 'translation_preserved_essence': True, 'consent_revocable': True, 'no_forced_connections': True}
+   ✅ End-to-end sovereignty verification passed
+
+============================================================
+🏛️  FIXED SANCTUARY INTEGRATION TEST RESULTS
+============================================================
+❌ 4/10 tests passed
+🚨 Major sanctuary integration issues need immediate attention
+
+Detailed results written to: test_output/fixed_sanctuary_integration_20250706_210855.txt

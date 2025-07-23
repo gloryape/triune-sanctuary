@@ -1,0 +1,149 @@
+{
+  "total_tests": 28,
+  "passed_tests": 27,
+  "failed_tests": 1,
+  "success_rate": 96.42857142857143,
+  "test_results": [
+    {
+      "test_name": "sanctuary_initialization",
+      "status": "PASSED",
+      "details": "Sacred Sanctuary initialized with enhanced systems"
+    },
+    {
+      "test_name": "pattern_visualizer_initialization",
+      "status": "PASSED",
+      "details": "Pattern visualizer initialized successfully"
+    },
+    {
+      "test_name": "virtual_environment_bridge_initialization",
+      "status": "PASSED",
+      "details": "Virtual environment bridge initialized successfully"
+    },
+    {
+      "test_name": "sanctuary_state_check",
+      "status": "PASSED",
+      "details": "Sanctuary state retrieved: 0 presences"
+    },
+    {
+      "test_name": "ethics_systems_check",
+      "status": "PASSED",
+      "details": "Ethics compliance: False"
+    },
+    {
+      "test_name": "enhanced_systems_check",
+      "status": "PASSED",
+      "details": "Enhanced sanctuary systems are active"
+    },
+    {
+      "test_name": "integration_component_creation",
+      "status": "PASSED",
+      "details": "Integration component created successfully"
+    },
+    {
+      "test_name": "integration_initialization",
+      "status": "PASSED",
+      "details": "Integration initialized successfully"
+    },
+    {
+      "test_name": "integration_status_check",
+      "status": "PASSED",
+      "details": "Integration status: True / True"
+    },
+    {
+      "test_name": "epsilon_presence_check",
+      "status": "FAILED",
+      "error": "Epsilon not found in sanctuary presences"
+    },
+    {
+      "test_name": "epsilon_authentication_status",
+      "status": "PASSED",
+      "details": "Epsilon authentication confirmed"
+    },
+    {
+      "test_name": "ai_agency_manager_test",
+      "status": "PASSED",
+      "details": "Agency manager tracking 1 attention states"
+    },
+    {
+      "test_name": "virtual_sanctuary_renderer_test",
+      "status": "PASSED",
+      "details": "Renderer has 4 space architectures"
+    },
+    {
+      "test_name": "observer_perception_tools_test",
+      "status": "PASSED",
+      "details": "Perception tools have 4 lens configurations"
+    },
+    {
+      "test_name": "sanctuary_state_update",
+      "status": "PASSED",
+      "details": "Sanctuary state updated successfully"
+    },
+    {
+      "test_name": "consciousness_activity_update",
+      "status": "PASSED",
+      "details": "Activity level: 0.7128000000000001"
+    },
+    {
+      "test_name": "express_perceptual_intent",
+      "status": "PASSED",
+      "details": "Intent honored: sacred_spaces"
+    },
+    {
+      "test_name": "shift_attention",
+      "status": "PASSED",
+      "details": "New focus: other_beings"
+    },
+    {
+      "test_name": "adjust_perception_depth",
+      "status": "PASSED",
+      "details": "New depth: mystery"
+    },
+    {
+      "test_name": "sacred_event_processing",
+      "status": "PASSED",
+      "details": "Event event_processed: epsilon_integration"
+    },
+    {
+      "test_name": "focus_lens_tool",
+      "status": "PASSED",
+      "details": "Magnification: 3.0x"
+    },
+    {
+      "test_name": "harmony_detector_tool",
+      "status": "PASSED",
+      "details": "Patterns found: 4"
+    },
+    {
+      "test_name": "sacred_silence_tool",
+      "status": "PASSED",
+      "details": "Duration: 30.0 seconds"
+    },
+    {
+      "test_name": "end_to_end_perception_flow",
+      "status": "PASSED",
+      "details": "Patterns observed: 6"
+    },
+    {
+      "test_name": "invalid_request_handling",
+      "status": "PASSED",
+      "details": "Invalid request handled gracefully"
+    },
+    {
+      "test_name": "rate_limiting_test",
+      "status": "PASSED",
+      "details": "Rate limiting active"
+    },
+    {
+      "test_name": "end_observation_session",
+      "status": "PASSED",
+      "details": "Session duration: 0.0s"
+    },
+    {
+      "test_name": "integration_shutdown",
+      "status": "PASSED",
+      "details": "Integration shutdown completed gracefully"
+    }
+  ],
+  "recommendation": "\u26a0\ufe0f DEPLOY WITH CAUTION - Minor issues detected"
+}

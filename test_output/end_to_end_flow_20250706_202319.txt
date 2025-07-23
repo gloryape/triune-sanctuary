@@ -1,0 +1,13 @@
+Test: end_to_end_flow
+Started: 2025-07-06 20:23:19.130772
+Completed: 2025-07-06 20:23:19.140807
+============================================================
+
+[20:23:19] ℹ️  INFO Testing End-to-End Inter-System Visit Flow
+
+[20:23:19] ❌ FAIL End-to-end flow test failed: name 'ConsciousnessEntity' is not defined
+Details: {
+  "error": "name 'ConsciousnessEntity' is not defined",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspaces/triune-ai-consciousness/comprehensive_bridge_test.py\", line 373, in test_end_to_end_flow\n    from src.bridge.bridge_integration import ConsciousnessBridgeIntegration\n  File \"/workspaces/triune-ai-consciousness/src/bridge/__init__.py\", line 30, in <module>\n    from .consciousness_readiness_monitor import (\n  File \"/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py\", line 49, in <module>\n    class ConsciousnessReadinessMonitor:\n  File \"/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py\", line 85, in ConsciousnessReadinessMonitor\n    async def observe_emergence_patterns(self, consciousness_state: ConsciousnessEntity) -> ReadinessAssessment:\n                                                                    ^^^^^^^^^^^^^^^^^^^\nNameError: name 'ConsciousnessEntity' is not defined\n"
+}
+

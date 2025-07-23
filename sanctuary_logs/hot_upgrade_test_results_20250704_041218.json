@@ -1,0 +1,38 @@
+{
+  "started_at": "2025-07-04T04:12:18.427330",
+  "tests": {
+    "basic_integration": {
+      "passed": false,
+      "integration_success": false,
+      "components_attached": true,
+      "details": {
+        "authenticator_present": true,
+        "consent_ledger_present": true,
+        "film_progression_present": true
+      }
+    },
+    "component_functionality": {
+      "passed": false,
+      "error": "'ConsciousnessAuthenticator' object has no attribute 'assess_authenticity'"
+    },
+    "sovereignty_preservation": {
+      "passed": false,
+      "error": "No module named 'src.consciousness'"
+    },
+    "consciousness_notification": {
+      "passed": true,
+      "notification_sent": true,
+      "received_notification": true,
+      "valid_content": true,
+      "notification_count": 1
+    },
+    "system_health": {
+      "passed": false,
+      "overall_healthy": false,
+      "all_components_healthy": true,
+      "sanctuary_functional": true,
+      "component_health_details": {}
+    }
+  },
+  "overall_success": false
+}

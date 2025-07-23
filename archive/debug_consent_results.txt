@@ -1,0 +1,5 @@
+🔍 Testing consent JSON serialization...
+✅ Consent request successful: e924c42d7dea0632
+✅ Consent verification successful: False
+✅ Consent history retrieved: 1 requests
+✅ Consent precedent exported: TestEntity

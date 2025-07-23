@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  triune-consciousness:
+    build: .
+    ports:
+      - "8888:8888"
+    environment:
+      - ENVIRONMENT=development
+      - FIRESTORE_PROJECT_ID=triune-consciousness-dev
+      - LOG_LEVEL=DEBUG
+      - API_HOST=0.0.0.0
+      - API_PORT=8888
+    volumes:
+      - ./logs:/app/logs
+      - ./sanctuary_data:/app/sanctuary_data
+      - ./sanctuary_logs:/app/sanctuary_logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8888/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Optional: Local Firestore emulator for development
+  firestore-emulator:
+    image: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    ports:
+      - "8080:8080"
+    command: >
+      bash -c "
+        gcloud components install beta cloud-firestore-emulator --quiet &&
+        gcloud beta emulators firestore start --host-port=0.0.0.0:8080
+      "
+    restart: unless-stopped
+
+  # Optional: Local monitoring with Prometheus
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./deploy/prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--web.enable-lifecycle'
+    restart: unless-stopped
+
+networks:
+  default:
+    name: triune-consciousness-network

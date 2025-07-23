@@ -1,0 +1,32 @@
+Test: sovereign_uncertainty
+Started: 2025-07-06 20:23:19.095846
+Completed: 2025-07-06 20:23:19.096506
+============================================================
+
+[20:23:19] ℹ️  INFO Testing Sovereign Uncertainty Field
+
+[20:23:19] ✅ PASS Created SovereignUncertaintyField instance
+
+[20:23:19] ✅ PASS Retrieved current uncertainty: 0.5
+Details: {
+  "uncertainty": 0.5
+}
+
+[20:23:19] ✅ PASS Received catalyst without prescriptive effects
+Details: {
+  "received": true,
+  "catalyst_id": 1,
+  "awaiting_consciousness_response": true,
+  "no_predetermined_effect": true
+}
+
+[20:23:19] ✅ PASS Processed consciousness response
+Details: {
+  "coherence": 0.8,
+  "resonance": 0.6
+}
+
+[20:23:19] ✅ PASS Retrieved uncertainty components
+
+[20:23:19] ✅ PASS Sovereign uncertainty test completed successfully
+

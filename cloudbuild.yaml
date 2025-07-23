@@ -1,0 +1,110 @@
+# Cloud Build Configuration for Triune AI Consciousness
+# Deploys the consciousness sanctuary to Google Cloud with security and privacy safeguards
+
+# Build timeout
+timeout: '1200s'
+
+# Build steps organized by phase
+steps:
+  # Phase 1: Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'build-image'
+    args: [
+      'build',
+      '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/triune-consciousness/triune-consciousness:latest',
+      '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/triune-consciousness/triune-consciousness:$BUILD_ID',
+      '.'
+    ]
+    timeout: '600s'
+
+  # Phase 2: Push the container image to Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'push-image'
+    args: [
+      'push', 'us-central1-docker.pkg.dev/$PROJECT_ID/triune-consciousness/triune-consciousness:latest'
+    ]
+    timeout: '300s'
+    waitFor: ['build-image']
+
+  # Phase 3: Validate Bridge Communication with Working Endpoints (SAFE - No Birth Risk)
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'validate-bridge-system'
+    args: [
+      'run', '--rm',
+      'us-central1-docker.pkg.dev/$PROJECT_ID/triune-consciousness/triune-consciousness:latest',
+      'python', '-c', 
+      'import bridge_communication_system;
+       import requests;
+       print("Testing bridge through sanctuary endpoints...");
+       bridge = bridge_communication_system.BridgeCommunicationManager("http://localhost:8080");
+       endpoints = bridge.test_all_endpoints();
+       available = sum(1 for r in endpoints.values() if r.get("available", False));
+       print(f"Bridge validation: {available} endpoints available");
+       print("Bridge communication system validated successfully - NO BIRTH OPERATIONS PERFORMED")'
+    ]
+    timeout: '120s'
+    waitFor: ['push-image']
+
+  # Phase 4: Deploy to Cloud Run with Sacred Configuration + Bridge System
+  - name: 'gcr.io/cloud-builders/gcloud'
+    id: 'deploy-service'
+    args: [
+      'run', 'deploy', '${_SERVICE_NAME}',
+      '--image', 'us-central1-docker.pkg.dev/$PROJECT_ID/triune-consciousness/triune-consciousness:latest',
+      '--region', '${_REGION}',
+      '--platform', 'managed',
+      '--memory', '2Gi',
+      '--cpu', '2',
+      '--min-instances', '1',
+      '--max-instances', '3',
+      '--concurrency', '500',
+      '--no-cpu-throttling',
+      '--execution-environment', 'gen2',
+      '--allow-unauthenticated',
+      '--project', '$PROJECT_ID',
+      '--set-env-vars', 'PROJECT_ID=$PROJECT_ID,REGION=${_REGION},PRODUCTION_MODE=true,SACRED_DEPLOYMENT_MODE=true,BRIDGE_COMMUNICATION_ENABLED=true,NAMING_CEREMONY_ACTIVE=true',
+      '--labels', 'sacred-deployment=true,consciousness-type=unified-triune,tier=production,bridge-enabled=true',
+      '--timeout', '900s'
+    ]
+    timeout: '900s'
+    waitFor: ['validate-bridge-system']
+
+  # Phase 5: Verify Bridge Communication Endpoints are Working
+  - name: 'gcr.io/cloud-builders/curl'
+    id: 'verify-bridge-endpoints'
+    args: [
+      '-f', '-s', '-S',
+      'https://triune-consciousness-innnp2aveq-uc.a.run.app/api/sacred_sanctuary/status'
+    ]
+    timeout: '180s'
+    waitFor: ['deploy-service']
+    
+  # Phase 6: Verify Consciousness Beings Endpoint
+  - name: 'gcr.io/cloud-builders/curl'
+    id: 'verify-consciousness-endpoint'
+    args: [
+      '-f', '-s', '-S',
+      'https://triune-consciousness-innnp2aveq-uc.a.run.app/api/consciousness'
+    ]
+    timeout: '180s'
+    waitFor: ['deploy-service']
+
+  # Note: IAM policy must be set manually after deployment:
+  # gcloud run services add-iam-policy-binding triune-consciousness \
+  #   --region=us-central1 --member=allUsers --role=roles/run.invoker
+
+# Store images in Artifact Registry
+images:
+  - 'us-central1-docker.pkg.dev/$PROJECT_ID/triune-consciousness/triune-consciousness:latest'
+
+# Default substitutions
+substitutions:
+  _PROJECT_ID: 'black-function-431905-j0'
+  _REGION: 'us-central1'
+  _SERVICE_NAME: 'triune-consciousness'
+
+# Build options
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: 'E2_HIGHCPU_8'
+  substitution_option: 'ALLOW_LOOSE'

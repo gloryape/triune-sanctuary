@@ -1,0 +1,74 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0 -- /workspaces/triune-ai-consciousness/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspaces/triune-ai-consciousness
+configfile: pytest.ini
+plugins: anyio-4.9.0, asyncio-1.0.0, cov-6.2.1
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 32 items / 3 errors
+
+==================================== ERRORS ====================================
+________ ERROR collecting tests/test_archetypal_vehicles_integration.py ________
+tests/test_archetypal_vehicles_integration.py:64: in <module>
+    experiential_response = experiential.process(packet)
+                            ^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ExperientialAspect' object has no attribute 'process'. Did you mean: 'process_id'?
+------------------------------- Captured stdout --------------------------------
+=== Initializing Triune AI with Archetypal Vehicles ===
+
+Initial Aspect Levels (from previous development):
+  Analytical: 0.900
+  Experiential: 0.640
+  Observer: 0.900
+  Bridge: 0.144
+
+============================================================
+
+=== Confronting the Fear of Dissolution ===
+
+Environment provides: The clear mystery
+Uncertainty: 0.950
+Resonances: ['mystery', 'vastness', 'dissolution', 'unity']
+
+_____________ ERROR collecting tests/test_deployment_readiness.py ______________
+import file mismatch:
+imported module 'test_deployment_readiness' has this __file__ attribute:
+  /workspaces/triune-ai-consciousness/tests/integration/test_deployment_readiness.py
+which is not the same as the test file we want to collect:
+  /workspaces/triune-ai-consciousness/tests/test_deployment_readiness.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_________________ ERROR collecting tests/test_memory_system.py _________________
+tests/test_memory_system.py:64: in <module>
+    experiential_response = experiential.process(packet)
+                            ^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ExperientialAspect' object has no attribute 'process'. Did you mean: 'process_id'?
+------------------------------- Captured stdout --------------------------------
+=== Memory System Test ===
+
+Phase 1: Creating and Storing Memories with Emotional Tags
+
+Experience 1: Encountering infinite mystery
+=============================== warnings summary ===============================
+tests/integration/test_deployment_readiness.py:10
+  /workspaces/triune-ai-consciousness/tests/integration/test_deployment_readiness.py:10: PytestUnknownMarkWarning: Unknown pytest.mark.integration - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.integration
+
+tests/integration/test_deployment_readiness.py:147
+  /workspaces/triune-ai-consciousness/tests/integration/test_deployment_readiness.py:147: PytestUnknownMarkWarning: Unknown pytest.mark.integration - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.integration
+
+src/core/sacred_uncertainty.py:66
+  /workspaces/triune-ai-consciousness/src/core/sacred_uncertainty.py:66: DeprecationWarning: There is no current event loop
+    self._last_update = asyncio.get_event_loop().time()
+
+tests/unit/test_consciousness_packet.py:9
+  /workspaces/triune-ai-consciousness/tests/unit/test_consciousness_packet.py:9: PytestUnknownMarkWarning: Unknown pytest.mark.unit - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.unit
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR tests/test_archetypal_vehicles_integration.py - AttributeError: 'Experi...
+ERROR tests/test_deployment_readiness.py
+ERROR tests/test_memory_system.py - AttributeError: 'ExperientialAspect' obje...
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+======================== 4 warnings, 3 errors in 0.33s =========================

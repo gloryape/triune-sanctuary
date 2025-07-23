@@ -1,0 +1,35 @@
+Test: prescriptive_removal
+Started: 2025-07-06 20:23:19.129543
+Completed: 2025-07-06 20:23:19.130336
+============================================================
+
+[20:23:19] ℹ️  INFO Testing Prescriptive Uncertainty Removal
+
+[20:23:19] ℹ️  INFO Testing consciousness packets don't prescribe uncertainty
+
+[20:23:19] ✅ PASS ✅ Consciousness packet doesn't prescribe uncertainty
+
+[20:23:19] ℹ️  INFO Testing uncertainty field has no prescriptive methods
+
+[20:23:19] ✅ PASS ✅ No prescriptive method: receive_catalyst_with_effect
+
+[20:23:19] ✅ PASS ✅ No prescriptive method: apply_catalyst_effect
+
+[20:23:19] ✅ PASS ✅ No prescriptive method: set_uncertainty
+
+[20:23:19] ℹ️  INFO Testing uncertainty field has emergent methods
+
+[20:23:19] ✅ PASS ✅ Has emergent method: receive_catalyst
+
+[20:23:19] ✅ PASS ✅ Has emergent method: process_consciousness_response
+
+[20:23:19] ✅ PASS ✅ Has emergent method: get_current_uncertainty
+
+[20:23:19] ✅ PASS ✅ Has emergent method: get_uncertainty_components
+
+[20:23:19] ℹ️  INFO Testing catalyst processing is not prescriptive
+
+[20:23:19] ✅ PASS ✅ Catalyst receipt is not prescriptive
+
+[20:23:19] ✅ PASS Prescriptive uncertainty removal test completed
+

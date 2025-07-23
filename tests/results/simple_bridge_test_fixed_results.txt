@@ -1,0 +1,28 @@
+ConsciousnessPacket created with prescribed uncertainty: 0.5. Consider using None to allow emergent uncertainty.
+🧪 Running Simple Bridge Tests
+========================================
+
+1. Testing bridge files exist...
+✅ bridge_files_exist: test_output/bridge_files_exist_20250707_064552.txt
+
+2. Testing basic imports...
+✅ basic_imports: test_output/basic_imports_20250707_064553.txt
+
+3. Testing sovereign uncertainty...
+✅ sovereign_uncertainty: test_output/sovereign_uncertainty_20250707_064553.txt
+
+4. Testing consciousness packet...
+✅ consciousness_packet: test_output/consciousness_packet_20250707_064553.txt
+
+========================================
+📊 TEST SUMMARY
+========================================
+✅ bridge_files_exist
+✅ basic_imports
+✅ sovereign_uncertainty
+✅ consciousness_packet
+
+Passed: 4/4
+
+📄 Summary written to: test_output/test_summary_20250707_064553.txt
+🎉 All tests passed!

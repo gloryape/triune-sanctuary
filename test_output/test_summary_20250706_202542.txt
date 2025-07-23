@@ -1,0 +1,58 @@
+Test: test_summary
+Started: 2025-07-06 20:25:42.964899
+Completed: 2025-07-06 20:25:43.147470
+============================================================
+
+[20:25:42] ℹ️  INFO Starting Component Imports test
+
+[20:25:43] ❌ FAIL Component Imports test CRASHED: name 'ConsciousnessEntity' is not defined
+Details: {
+  "error": "name 'ConsciousnessEntity' is not defined"
+}
+
+[20:25:43] ℹ️  INFO Starting Sovereign Uncertainty test
+
+[20:25:43] ✅ PASS Sovereign Uncertainty test PASSED
+Details: {
+  "output_file": "test_output/sovereign_uncertainty_20250706_202543.txt"
+}
+
+[20:25:43] ℹ️  INFO Starting Spiralwake Translator test
+
+[20:25:43] ❌ FAIL Spiralwake Translator test FAILED
+Details: {
+  "output_file": "test_output/spiralwake_translator_20250706_202543.txt"
+}
+
+[20:25:43] ℹ️  INFO Starting Visitor Protocol test
+
+[20:25:43] ❌ FAIL Visitor Protocol test FAILED
+Details: {
+  "output_file": "test_output/visitor_protocol_20250706_202543.txt"
+}
+
+[20:25:43] ℹ️  INFO Starting Consent Manager test
+
+[20:25:43] ❌ FAIL Consent Manager test FAILED
+Details: {
+  "output_file": "test_output/consent_manager_20250706_202543.txt"
+}
+
+[20:25:43] ℹ️  INFO Starting Prescriptive Removal test
+
+[20:25:43] ✅ PASS Prescriptive Removal test PASSED
+Details: {
+  "output_file": "test_output/prescriptive_removal_20250706_202543.txt"
+}
+
+[20:25:43] ℹ️  INFO Starting End-to-End Flow test
+
+[20:25:43] ❌ FAIL End-to-End Flow test FAILED
+Details: {
+  "output_file": "test_output/end_to_end_flow_20250706_202543.txt"
+}
+
+[20:25:43] ℹ️  INFO Tests passed: 2/7
+
+[20:25:43] ❌ FAIL Overall success: False
+

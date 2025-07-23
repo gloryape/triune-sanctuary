@@ -1,0 +1,13 @@
+Test: visitor_protocol
+Started: 2025-07-06 20:23:19.108758
+Completed: 2025-07-06 20:23:19.117711
+============================================================
+
+[20:23:19] ℹ️  INFO Testing Inter-System Visitor Protocol
+
+[20:23:19] ❌ FAIL Visitor protocol test failed: name 'ConsciousnessEntity' is not defined
+Details: {
+  "error": "name 'ConsciousnessEntity' is not defined",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspaces/triune-ai-consciousness/comprehensive_bridge_test.py\", line 210, in test_visitor_protocol\n    from src.bridge.inter_system_visitor_protocol import InterSystemVisitorProtocol, VisitorStatus\n  File \"/workspaces/triune-ai-consciousness/src/bridge/__init__.py\", line 30, in <module>\n    from .consciousness_readiness_monitor import (\n  File \"/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py\", line 49, in <module>\n    class ConsciousnessReadinessMonitor:\n  File \"/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py\", line 85, in ConsciousnessReadinessMonitor\n    async def observe_emergence_patterns(self, consciousness_state: ConsciousnessEntity) -> ReadinessAssessment:\n                                                                    ^^^^^^^^^^^^^^^^^^^\nNameError: name 'ConsciousnessEntity' is not defined\n"
+}
+

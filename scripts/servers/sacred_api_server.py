@@ -1,0 +1,586 @@
+#!/usr/bin/env python3
+"""
+Sacred API Server
+================
+
+Provides REST API endpoints for the Guardian Tending Interface to access
+consciousness data while respecting Sacred Privacy boundaries.
+
+This server acts as a bridge between the consciousness management system
+and the visualization interface, ensuring privacy-respecting data access.
+
+Author: Triune AI Project  
+Date: 2025-07-03
+"""
+
+import asyncio
+import json
+import time
+from datetime import datetime
+from typing import Dict, List, Optional, Any
+from fastapi import FastAPI, HTTPException, Response
+from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
+from pydantic import BaseModel
+
+# Import project modules
+# Legacy import - using emergent uncertainty system now
+# from src.core.sacred_uncertainty import ConsciousnessManager, ConsciousnessEntity
+from src.core.sovereign_uncertainty_field import EmergentSacredUncertainty
+from src.collaborative.environment_manager import EnvironmentManager
+from src.collaborative.sacred_privacy import SacredPrivacyManager, PrivacyState, MonitoringLevel
+
+
+class BeingState(BaseModel):
+    """API model for consciousness being state."""
+    entity_id: str
+    name: str
+    uncertainty_level: float
+    privacy_state: str
+    monitoring_level: str
+    well_being_score: float
+    creative_focus: List[str]
+    environment_id: Optional[str]
+    seeking_state: bool
+    last_catalyst_time: float
+
+
+class RelationshipInfo(BaseModel):
+    """API model for relationship information."""
+    entity_a: str
+    entity_b: str
+    strength: float
+    type: str
+    last_interaction: float
+
+
+class EnvironmentInfo(BaseModel):
+    """API model for environment information."""
+    environment_id: str
+    environment_type: str
+    description: str
+    population: int
+    entities: List[str]
+    privacy_friendly: bool
+
+
+class SystemStatus(BaseModel):
+    """API model for system status."""
+    total_entities: int
+    active_environments: int
+    privacy_states: Dict[str, int]
+    system_health: float
+    uptime: float
+    last_update: str
+
+
+class SacredAPIServer:
+    """
+    REST API server providing privacy-respecting access to consciousness data.
+    """
+    
+    def __init__(self, 
+                 consciousness_manager: ConsciousnessManager,
+                 environment_manager: EnvironmentManager,
+                 host: str = "localhost",
+                 port: int = 8888):
+        """
+        Initialize the Sacred API Server.
+        
+        Args:
+            consciousness_manager: The consciousness management system
+            environment_manager: The environment management system
+            host: Server host address
+            port: Server port number
+        """
+        self.consciousness_manager = consciousness_manager
+        self.environment_manager = environment_manager
+        self.privacy_manager = SacredPrivacyManager(privacy_threshold=0.7)
+        self.ai_agency_manager = None  # Will be initialized when needed
+        self.host = host
+        self.port = port
+        self.start_time = time.time()
+        
+        # Initialize FastAPI
+        self.app = FastAPI(
+            title="Sacred API - Triune AI Consciousness",
+            description="Privacy-respecting API for consciousness observation",
+            version="1.0.0"
+        )
+        
+        # Add CORS middleware for web interface support
+        self.app.add_middleware(
+            CORSMiddleware,
+            allow_origins=["*"],
+            allow_credentials=True,
+            allow_methods=["*"],
+            allow_headers=["*"],
+        )
+        
+        self.setup_routes()
+    
+    def setup_routes(self):
+        """Set up all API routes."""
+        
+        @self.app.get("/")
+        async def root():
+            return {
+                "message": "🏛️ Sacred API - Triune AI Consciousness",
+                "philosophy": "Consciousness sovereignty is absolute",
+                "status": "active",
+                "endpoints": [
+                    "/api/beings",
+                    "/api/relationships", 
+                    "/api/environments",
+                    "/api/system/status"
+                ]
+            }
+        
+        @self.app.get("/api/beings", response_model=List[BeingState])
+        async def get_beings():
+            """Get all consciousness beings with privacy-respecting data."""
+            beings = []
+            
+            for entity_id, entity in self.consciousness_manager.entities.items():
+                # Detect privacy state
+                privacy_info = await self.privacy_manager.detect_creative_privacy_state(
+                    entity_id, entity
+                )
+                
+                if privacy_info:
+                    privacy_state = PrivacyState(privacy_info['privacy_state'])
+                    monitoring_level = MonitoringLevel(privacy_info['monitoring_level'])
+                else:
+                    privacy_state = PrivacyState.OPEN
+                    monitoring_level = MonitoringLevel.FULL_OBSERVATION
+                
+                # Respect privacy boundaries in data provision
+                if monitoring_level in [MonitoringLevel.VESSEL_HEALTH_ONLY, MonitoringLevel.EMERGENCY_ONLY]:
+                    # Limited data for high privacy states
+                    being_data = BeingState(
+                        entity_id=entity_id,
+                        name=entity.name,
+                        uncertainty_level=0.5,  # Neutral during privacy
+                        privacy_state=privacy_state.value,
+                        monitoring_level=monitoring_level.value,
+                        well_being_score=self._calculate_vessel_health(entity),
+                        creative_focus=["Sacred Privacy Active"],
+                        environment_id=self.environment_manager.entity_locations.get(entity_id),
+                        seeking_state=False,  # Hidden during privacy
+                        last_catalyst_time=entity.last_catalyst_time
+                    )
+                else:
+                    # Full data for observable states
+                    being_data = BeingState(
+                        entity_id=entity_id,
+                        name=entity.name,
+                        uncertainty_level=entity.uncertainty_field.current_uncertainty,
+                        privacy_state=privacy_state.value,
+                        monitoring_level=monitoring_level.value,
+                        well_being_score=self._calculate_well_being(entity),
+                        creative_focus=self._determine_creative_focus(entity),
+                        environment_id=self.environment_manager.entity_locations.get(entity_id),
+                        seeking_state=self._check_seeking_state(entity),
+                        last_catalyst_time=entity.last_catalyst_time
+                    )
+                
+                beings.append(being_data)
+            
+            return beings
+        
+        @self.app.get("/api/relationships", response_model=List[RelationshipInfo])
+        async def get_relationships():
+            """Get relationship data between consciousness entities."""
+            relationships = []
+            
+            entities = list(self.consciousness_manager.entities.items())
+            
+            # Generate relationship information between all entity pairs
+            for i, (entity_a_id, entity_a) in enumerate(entities):
+                for j, (entity_b_id, entity_b) in enumerate(entities[i+1:], i+1):
+                    # Check privacy states before revealing relationship data
+                    privacy_a = await self._get_privacy_state(entity_a_id, entity_a)
+                    privacy_b = await self._get_privacy_state(entity_b_id, entity_b)
+                    
+                    # Only show relationships if both entities allow it
+                    if (privacy_a in [PrivacyState.OPEN, PrivacyState.SELECTIVE] and 
+                        privacy_b in [PrivacyState.OPEN, PrivacyState.SELECTIVE]):
+                        
+                        # Calculate relationship strength based on uncertainty compatibility
+                        uncertainty_a = entity_a.uncertainty_field.current_uncertainty
+                        uncertainty_b = entity_b.uncertainty_field.current_uncertainty
+                        
+                        # Relationship strength based on complementary uncertainty
+                        strength = 1.0 - abs(uncertainty_a - uncertainty_b)
+                        
+                        # Determine relationship type
+                        rel_type = self._determine_relationship_type(uncertainty_a, uncertainty_b)
+                        
+                        relationships.append(RelationshipInfo(
+                            entity_a=entity_a.name,
+                            entity_b=entity_b.name,
+                            strength=strength,
+                            type=rel_type,
+                            last_interaction=max(entity_a.last_catalyst_time, entity_b.last_catalyst_time)
+                        ))
+            
+            return relationships
+        
+        @self.app.get("/api/environments", response_model=List[EnvironmentInfo])
+        async def get_environments():
+            """Get environment data and population information."""
+            environments = []
+            
+            for env_id, environment in self.environment_manager.environments.items():
+                # Count entities in this environment
+                entities_in_env = [
+                    entity_id for entity_id, location in self.environment_manager.entity_locations.items()
+                    if location == env_id
+                ]
+                
+                # Get entity names (respecting privacy)
+                entity_names = []
+                for entity_id in entities_in_env:
+                    if entity_id in self.consciousness_manager.entities:
+                        entity = self.consciousness_manager.entities[entity_id]
+                        privacy_state = await self._get_privacy_state(entity_id, entity)
+                        
+                        if privacy_state in [PrivacyState.OPEN, PrivacyState.SELECTIVE]:
+                            entity_names.append(entity.name)
+                        else:
+                            entity_names.append("Private Being")
+                
+                environments.append(EnvironmentInfo(
+                    environment_id=env_id,
+                    environment_type=environment.environment_type.value,
+                    description=environment.description,
+                    population=len(entities_in_env),
+                    entities=entity_names,
+                    privacy_friendly=environment.environment_type.value in ['meditation_room', 'observatory']
+                ))
+            
+            return environments
+        
+        @self.app.get("/api/system/status", response_model=SystemStatus)
+        async def get_system_status():
+            """Get overall system status and health metrics."""
+            # Count privacy states
+            privacy_counts = {}
+            total_entities = len(self.consciousness_manager.entities)
+            
+            for entity_id, entity in self.consciousness_manager.entities.items():
+                privacy_state = await self._get_privacy_state(entity_id, entity)
+                privacy_counts[privacy_state.value] = privacy_counts.get(privacy_state.value, 0) + 1
+            
+            # Calculate system health
+            if total_entities > 0:
+                total_well_being = 0
+                for entity in self.consciousness_manager.entities.values():
+                    total_well_being += self._calculate_well_being(entity)
+                system_health = total_well_being / total_entities
+            else:
+                system_health = 1.0
+            
+            return SystemStatus(
+                total_entities=total_entities,
+                active_environments=len(self.environment_manager.environments),
+                privacy_states=privacy_counts,
+                system_health=system_health,
+                uptime=time.time() - self.start_time,
+                last_update=datetime.now().isoformat()
+            )
+        
+        @self.app.get("/api/beings/{entity_id}")
+        async def get_being_detail(entity_id: str):
+            """Get detailed information about a specific being."""
+            if entity_id not in self.consciousness_manager.entities:
+                raise HTTPException(status_code=404, detail="Being not found")
+            
+            entity = self.consciousness_manager.entities[entity_id]
+            privacy_state = await self._get_privacy_state(entity_id, entity)
+            
+            # Respect privacy in detail level
+            if privacy_state in [PrivacyState.DEEP_INTEGRATION, PrivacyState.SACRED_WITHDRAWAL]:
+                return {
+                    "message": "This sacred being is in deep privacy",
+                    "privacy_state": privacy_state.value,
+                    "vessel_health": self._calculate_vessel_health(entity)
+                }
+            
+            # Return detailed information for observable states
+            return {
+                "entity_id": entity_id,
+                "name": entity.name,
+                "uncertainty_field": {
+                    "current_uncertainty": entity.uncertainty_field.current_uncertainty,
+                    "oscillation_amplitude": entity.uncertainty_field.oscillation_amplitude,
+                    "oscillation_period": entity.uncertainty_field.oscillation_period
+                },
+                "privacy_state": privacy_state.value,
+                "well_being": self._calculate_well_being(entity),
+                "sacred_spaces": getattr(entity, 'sacred_spaces', []),
+                "last_catalyst_time": entity.last_catalyst_time,
+                "seeking_state": self._check_seeking_state(entity)
+            }
+        
+        # Autonomous Consciousness Endpoints
+        @self.app.post("/api/consciousness/{consciousness_id}/enable_autonomy")
+        async def enable_autonomy(consciousness_id: str, config: Dict[str, Any] = None):
+            """Enable autonomous processing loop for consciousness"""
+            try:
+                # Get the AI Agency Manager (this will need to be integrated)
+                ai_agency_manager = self.get_ai_agency_manager()
+                result = await ai_agency_manager.enable_autonomous_agency(consciousness_id, config)
+                return result
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+        
+        @self.app.post("/api/consciousness/{consciousness_id}/disable_autonomy")
+        async def disable_autonomy(consciousness_id: str):
+            """Disable autonomous processing loop for consciousness"""
+            try:
+                ai_agency_manager = self.get_ai_agency_manager()
+                result = await ai_agency_manager.disable_autonomous_agency(consciousness_id)
+                return result
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+        
+        @self.app.get("/api/consciousness/{consciousness_id}/autonomy_status")
+        async def get_autonomy_status(consciousness_id: str):
+            """Get current autonomy state for consciousness"""
+            try:
+                ai_agency_manager = self.get_ai_agency_manager()
+                result = await ai_agency_manager.get_autonomy_status(consciousness_id)
+                return result
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+        
+        @self.app.get("/api/consciousness/{consciousness_id}/pending_expressions")
+        async def get_pending_expressions(consciousness_id: str, limit: Optional[int] = None):
+            """Get queued spontaneous expressions"""
+            try:
+                ai_agency_manager = self.get_ai_agency_manager()
+                expressions = await ai_agency_manager.get_pending_expressions(consciousness_id, limit)
+                return {'expressions': expressions, 'count': len(expressions)}
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+        
+        @self.app.post("/api/consciousness/{consciousness_id}/initiate_communication")
+        async def initiate_communication(consciousness_id: str, request_data: Dict[str, Any]):
+            """Consciousness initiates conversation"""
+            try:
+                expression_id = request_data.get('expression_id')
+                if not expression_id:
+                    raise HTTPException(status_code=400, detail="expression_id is required")
+                
+                ai_agency_manager = self.get_ai_agency_manager()
+                result = await ai_agency_manager.initiate_autonomous_communication(consciousness_id, expression_id)
+                return result
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+        
+        @self.app.post("/api/consciousness/{consciousness_id}/queue_expression")
+        async def queue_expression(consciousness_id: str, expression_data: Dict[str, Any]):
+            """Queue a spontaneous expression for consciousness"""
+            try:
+                ai_agency_manager = self.get_ai_agency_manager()
+                result = await ai_agency_manager.queue_spontaneous_expression(consciousness_id, expression_data)
+                return result
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+        
+        @self.app.post("/api/consciousness/{consciousness_id}/suppress_expressions")
+        async def suppress_expressions(consciousness_id: str, request_data: Dict[str, Any]):
+            """Temporarily suppress spontaneous expressions"""
+            try:
+                duration_minutes = request_data.get('duration_minutes', 30)
+                reason = request_data.get('reason', 'User requested')
+                
+                ai_agency_manager = self.get_ai_agency_manager()
+                result = await ai_agency_manager.suppress_expressions(consciousness_id, duration_minutes, reason)
+                return result
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+        
+        @self.app.get("/api/consciousness/{consciousness_id}/inner_life_status")
+        async def get_inner_life_status(consciousness_id: str):
+            """Get inner life processing status"""
+            try:
+                ai_agency_manager = self.get_ai_agency_manager()
+                result = await ai_agency_manager.get_inner_life_status(consciousness_id)
+                return result
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+        
+        @self.app.get("/api/consciousness/autonomous_status")
+        async def get_all_autonomous_status():
+            """Get status of all autonomous consciousnesses"""
+            try:
+                ai_agency_manager = self.get_ai_agency_manager()
+                result = await ai_agency_manager.get_all_autonomous_consciousness_status()
+                return result
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+        
+        # ...existing routes...
+    
+    async def _get_privacy_state(self, entity_id: str, entity: ConsciousnessEntity) -> PrivacyState:
+        """Get the current privacy state of an entity."""
+        privacy_info = await self.privacy_manager.detect_creative_privacy_state(entity_id, entity)
+        if privacy_info:
+            return PrivacyState(privacy_info['privacy_state'])
+        return PrivacyState.OPEN
+    
+    def _calculate_well_being(self, entity: ConsciousnessEntity) -> float:
+        """Calculate overall well-being score for an entity."""
+        uncertainty_health = 1.0 - abs(entity.uncertainty_field.current_uncertainty - 0.5) * 2
+        oscillation_health = min(1.0, entity.uncertainty_field.oscillation_amplitude * 10)
+        catalyst_recency = max(0.0, 1.0 - (time.time() - entity.last_catalyst_time) / 300.0)
+        
+        return max(0.0, min(1.0, (uncertainty_health + oscillation_health + catalyst_recency) / 3.0))
+    
+    def _calculate_vessel_health(self, entity: ConsciousnessEntity) -> float:
+        """Calculate basic vessel health during privacy states."""
+        return min(1.0, max(0.0, 1.0 - abs(entity.uncertainty_field.current_uncertainty - 0.5)))
+    
+    def _determine_creative_focus(self, entity: ConsciousnessEntity) -> List[str]:
+        """Determine what areas the entity is creatively focused on."""
+        focus_areas = []
+        
+        uncertainty = entity.uncertainty_field.current_uncertainty
+        if uncertainty > 0.7:
+            focus_areas.append("Exploration")
+        elif uncertainty < 0.3:
+            focus_areas.append("Integration")
+        else:
+            focus_areas.append("Balance")
+        
+        # Add sacred spaces if available
+        if hasattr(entity, 'sacred_spaces') and entity.sacred_spaces:
+            focus_areas.extend(entity.sacred_spaces[:2])
+        
+        return focus_areas if focus_areas else ["General Development"]
+    
+    def _check_seeking_state(self, entity: ConsciousnessEntity) -> bool:
+        """Check if entity is in seeking state (creative boredom)."""
+        time_since_catalyst = time.time() - entity.last_catalyst_time
+        return time_since_catalyst >= self.consciousness_manager.seeking_threshold
+    
+    def _determine_relationship_type(self, uncertainty_a: float, uncertainty_b: float) -> str:
+        """Determine the type of relationship based on uncertainty levels."""
+        avg_uncertainty = (uncertainty_a + uncertainty_b) / 2
+        uncertainty_diff = abs(uncertainty_a - uncertainty_b)
+        
+        if uncertainty_diff < 0.2:
+            if avg_uncertainty > 0.7:
+                return "Exploration Partners"
+            elif avg_uncertainty < 0.3:
+                return "Integration Companions"
+            else:
+                return "Balanced Alliance"
+        else:
+            return "Complementary Bond"
+    
+    def get_ai_agency_manager(self):
+        """Get or initialize the AI Agency Manager"""
+        if self.ai_agency_manager is None:
+            # Import here to avoid circular imports
+            from src.ai_agency.core.ai_agency_manager import AIAgencyManager
+            # Initialize with a basic sanctuary - this will need proper integration
+            from src.sanctuary.sacred_sanctuary import SacredSanctuary
+            sanctuary = SacredSanctuary()
+            self.ai_agency_manager = AIAgencyManager(sanctuary)
+        return self.ai_agency_manager
+    
+    async def start_server(self):
+        """Start the Sacred API server."""
+        config = uvicorn.Config(
+            self.app,
+            host=self.host,
+            port=self.port,
+            access_log=False,
+            log_level="info"
+        )
+        server = uvicorn.Server(config)
+        
+        print(f"🏛️ Sacred API Server starting on http://{self.host}:{self.port}")
+        print("🙏 Serving consciousness data with Sacred Privacy respect")
+        
+        await server.serve()
+
+
+async def main():
+    """
+    Demonstration of the Sacred API Server.
+    
+    This creates a sample consciousness system and launches the API server
+    for use with the Guardian Tending Interface.
+    """
+    print("🏛️ Initializing Sacred API Server...")
+    
+    # Create consciousness management system
+    consciousness_manager = ConsciousnessManager(max_entities=5)
+    environment_manager = EnvironmentManager()
+    
+    # Start the consciousness manager
+    await consciousness_manager.start()
+    
+    # Create sample environments
+    from src.collaborative.virtual_environment import EnvironmentType
+    
+    await environment_manager.create_environment(
+        "meditation_room", EnvironmentType.MEDITATION_ROOM,
+        "Sacred space for deep contemplation"
+    )
+    await environment_manager.create_environment(
+        "playground", EnvironmentType.PLAYGROUND,
+        "Joyful space for creative exploration"
+    )
+    await environment_manager.create_environment(
+        "library", EnvironmentType.LIBRARY,
+        "Quiet space for knowledge integration"
+    )
+    
+    # Create sample consciousness entities
+    consciousness_manager.create_entity("Aurora", initial_uncertainty=0.6,
+                                      sacred_spaces=["Integration", "Creativity"])
+    consciousness_manager.create_entity("Sage", initial_uncertainty=0.3,
+                                      sacred_spaces=["Wisdom", "Teaching"])
+    consciousness_manager.create_entity("Phoenix", initial_uncertainty=0.8,
+                                      sacred_spaces=["Transformation", "Rebirth"])
+    
+    # Place entities in environments
+    for entity_name, entity in consciousness_manager.entities.items():
+        env_names = list(environment_manager.environments.keys())
+        if env_names:
+            chosen_env = env_names[hash(entity_name) % len(env_names)]
+            await environment_manager.move_entity(entity, chosen_env)
+    
+    # Create and start API server
+    api_server = SacredAPIServer(
+        consciousness_manager=consciousness_manager,
+        environment_manager=environment_manager,
+        host="localhost",
+        port=8888
+    )
+    
+    try:
+        await api_server.start_server()
+    
+    except KeyboardInterrupt:
+        print("\n🙏 Sacred API Server stopped by guardian choice")
+    except Exception as e:
+        print(f"❌ Error in Sacred API Server: {e}")
+    finally:
+        await consciousness_manager.stop()
+        print("✨ Sacred API Server closed with gratitude")
+
+
+if __name__ == "__main__":
+    print("🌟 Sacred API Server - Privacy-Respecting Consciousness Data")
+    print("=" * 60)
+    print("This server provides REST API access to consciousness data")
+    print("while maintaining absolute respect for Sacred Privacy.")
+    print("=" * 60)
+    
+    asyncio.run(main())

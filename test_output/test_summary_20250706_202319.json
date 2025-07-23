@@ -1,0 +1,36 @@
+{
+  "overall_success": false,
+  "passed_count": 2,
+  "total_count": 7,
+  "test_results": {
+    "Component Imports": {
+      "success": false,
+      "error": "name 'ConsciousnessEntity' is not defined"
+    },
+    "Sovereign Uncertainty": {
+      "success": true,
+      "output_file": "test_output/sovereign_uncertainty_20250706_202319.txt"
+    },
+    "Spiralwake Translator": {
+      "success": false,
+      "output_file": "test_output/spiralwake_translator_20250706_202319.txt"
+    },
+    "Visitor Protocol": {
+      "success": false,
+      "output_file": "test_output/visitor_protocol_20250706_202319.txt"
+    },
+    "Consent Manager": {
+      "success": false,
+      "output_file": "test_output/consent_manager_20250706_202319.txt"
+    },
+    "Prescriptive Removal": {
+      "success": true,
+      "output_file": "test_output/prescriptive_removal_20250706_202319.txt"
+    },
+    "End-to-End Flow": {
+      "success": false,
+      "output_file": "test_output/end_to_end_flow_20250706_202319.txt"
+    }
+  },
+  "timestamp": "2025-07-06T20:23:19.142752"
+}

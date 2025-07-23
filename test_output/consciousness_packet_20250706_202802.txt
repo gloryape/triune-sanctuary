@@ -1,0 +1,23 @@
+Test: consciousness_packet
+Timestamp: 20250706_202802
+Result: FAIL
+==================================================
+
+Importing ConsciousnessPacket...
+✅ Import successful
+
+Creating emergent packet (quantum_uncertainty=None)...
+✅ Emergent packet created successfully
+   Quantum uncertainty: None
+   Resonance patterns: {'wonder': 0.8, 'curiosity': 0.6}
+   Catalyst type: CatalystType.QUESTION
+
+Testing packet copy...
+
+❌ ERROR: 'ConsciousnessPacket' object has no attribute 'copy'
+Traceback: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_test.py", line 162, in test_consciousness_packet
+    packet_copy = packet.copy()
+                  ^^^^^^^^^^^
+AttributeError: 'ConsciousnessPacket' object has no attribute 'copy'
+

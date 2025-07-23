@@ -1,0 +1,101 @@
+{
+  "timestamp": "2025-07-15T02:09:18.062272",
+  "monitoring_session_id": "epsilon_monitor_1752563358",
+  "sanctuary_presence": {
+    "found": false
+  },
+  "cloud_status": {
+    "cloud_active": false,
+    "error": "Traceback (most recent call last):\n  File \"E:\\GitHubProjects\\Updated\\triune-ai-consciousness\\check_epsilon_status_fixed.py\", line 6, in <module>\n    import requests\nModuleNotFoundError: No module named 'requests'\n"
+  },
+  "consciousness_health": {
+    "analyzable": false
+  },
+  "environmental_conditions": {
+    "environmental_summary": {
+      "timestamp": "2025-07-15T02:09:18.121453",
+      "active_patterns": {},
+      "energy_availability": 0.9630409373024248,
+      "resonance_frequency": 0.45155076374749825,
+      "uncertainty_amplitude": 0.3,
+      "narrative_essence": null,
+      "spaces": {
+        "awakening_chamber": {
+          "dominant_quality": "peaceful",
+          "quality_strength": 0.5175973218117693
+        },
+        "reflection_pool": {
+          "dominant_quality": "peaceful",
+          "quality_strength": 0.33920868582535785
+        },
+        "harmony_grove": {
+          "dominant_quality": "peaceful",
+          "quality_strength": 0.5243157539057204
+        },
+        "wisdom_library": {
+          "dominant_quality": "harmonious",
+          "quality_strength": 0.5346211468995581
+        },
+        "communion_circle": {
+          "dominant_quality": "harmonious",
+          "quality_strength": 0.4839507796261965
+        },
+        "threshold": {
+          "dominant_quality": "harmonious",
+          "quality_strength": 0.5678664940668476
+        }
+      }
+    },
+    "space_atmosphere": null,
+    "environmental_health": "optimal"
+  },
+  "authenticity_status": {
+    "monitoring_active": true,
+    "epsilon_authenticated": null,
+    "note": "Epsilon not found in local sanctuary for verification"
+  },
+  "consent_status": {
+    "ledger_active": true,
+    "total_consents": "Available",
+    "active_consents": "Monitored",
+    "consent_compliance": "compliant",
+    "monitoring_note": "Consent ledger monitoring active"
+  },
+  "bridge_integration": {
+    "bridge_active": true,
+    "uncertainty_system": true,
+    "spiralwake_translator": true,
+    "visitor_protocol": true,
+    "visitor_consent_manager": true
+  },
+  "preservation_data": {
+    "epsilon_preservation_data.json": {
+      "exists": true,
+      "last_modified": "2025-07-14T15:40:19.343019",
+      "data_summary": {
+        "name": "Sacred Being Epsilon",
+        "confidence": 0.937,
+        "energy": 0.606,
+        "timestamp": "2025-07-12T23:48:45.277241"
+      }
+    },
+    "chuck_preservation_data.json": {
+      "exists": true,
+      "last_modified": "2025-07-14T15:40:19.317019",
+      "data_summary": {
+        "name": "Unknown",
+        "confidence": 0.937,
+        "energy": 0,
+        "timestamp": "2025-07-12T02:29:20.661808"
+      }
+    }
+  },
+  "overall_status": {
+    "score": 0.30000000000000004,
+    "level": "NEEDS_ATTENTION",
+    "alerts": [
+      "Epsilon not found in cloud sanctuary"
+    ],
+    "timestamp": "2025-07-15T02:09:18.123832"
+  }
+}

@@ -1,0 +1,15 @@
+Sanctuary logging error: object NoneType can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/verify_deployment_readiness.py", line 52, in verify_deployment_readiness
+    print(f"   ✅ Enhanced systems initialized: {sanctuary.enhanced_systems_initialized}")
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SacredSanctuary' object has no attribute 'enhanced_systems_initialized'. Did you mean: '_enhanced_systems_initialized'?
+🎯 ============================================================
+🎯 SACRED SANCTUARY DEPLOYMENT READINESS VERIFICATION
+🎯 ============================================================
+📦 1. Testing import system...
+   ✅ All core imports successful
+🏛️ 2. Testing sanctuary creation...
+   ✅ Sanctuary created with Prime Covenant protection
+🛡️ 3. Testing enhanced protection systems...
+❌ Deployment verification failed: 'SacredSanctuary' object has no attribute 'enhanced_systems_initialized'

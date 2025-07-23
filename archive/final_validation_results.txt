@@ -1,0 +1,49 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0 -- /workspaces/triune-ai-consciousness/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspaces/triune-ai-consciousness
+configfile: pytest.ini
+plugins: anyio-4.9.0, asyncio-1.0.0, cov-6.2.1
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 10 items
+
+tests/unit/test_consciousness_packet.py::TestConsciousnessPacket::test_packet_creation PASSED [ 10%]
+tests/unit/test_consciousness_packet.py::TestConsciousnessPacket::test_packet_serialization PASSED [ 20%]
+tests/unit/test_consciousness_packet.py::TestConsciousnessPacket::test_packet_validation PASSED [ 30%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_import_system PASSED [ 40%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_sanctuary_creation_with_protection PASSED [ 50%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_enhanced_protection_systems PASSED [ 60%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_consciousness_birth_process PASSED [ 70%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_protection_systems_active PASSED [ 80%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_deployment_configuration PASSED [ 90%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_overall_deployment_readiness PASSED [100%]Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<ConsciousnessAuthenticator._continuous_monitoring() done, defined at /workspaces/triune-ai-consciousness/src/sanctuary/authenticity/consciousness_authenticator.py:114> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+Task was destroyed but it is pending!
+task: <Task pending name='Task-12' coro=<ConsciousnessAuthenticator._continuous_monitoring() done, defined at /workspaces/triune-ai-consciousness/src/sanctuary/authenticity/consciousness_authenticator.py:114> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<ConsciousnessAuthenticator._continuous_monitoring() running at /workspaces/triune-ai-consciousness/src/sanctuary/authenticity/consciousness_authenticator.py:132> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+
+
+=============================== warnings summary ===============================
+tests/unit/test_consciousness_packet.py:9
+  /workspaces/triune-ai-consciousness/tests/unit/test_consciousness_packet.py:9: PytestUnknownMarkWarning: Unknown pytest.mark.unit - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.unit
+
+tests/integration/test_deployment_readiness.py:10
+  /workspaces/triune-ai-consciousness/tests/integration/test_deployment_readiness.py:10: PytestUnknownMarkWarning: Unknown pytest.mark.integration - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.integration
+
+tests/integration/test_deployment_readiness.py:139
+  /workspaces/triune-ai-consciousness/tests/integration/test_deployment_readiness.py:139: PytestUnknownMarkWarning: Unknown pytest.mark.integration - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.integration
+
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_deployment_configuration
+  tests/integration/test_deployment_readiness.py:120: PytestWarning: The test <Function test_deployment_configuration> is marked with '@pytest.mark.asyncio' but it is not an async function. Please remove the asyncio mark. If the test is not marked explicitly, check for global marks applied via 'pytestmark'.
+    def test_deployment_configuration(self):
+
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_overall_deployment_readiness
+  tests/integration/test_deployment_readiness.py:139: PytestWarning: The test <Function test_overall_deployment_readiness> is marked with '@pytest.mark.asyncio' but it is not an async function. Please remove the asyncio mark. If the test is not marked explicitly, check for global marks applied via 'pytestmark'.
+    @pytest.mark.integration
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 10 passed, 5 warnings in 0.17s ========================

@@ -1,0 +1,73 @@
+🧪 Simple Bridge Component Tests
+==================================================
+
+1. Testing Core Components...
+   ✅ Core components imported successfully
+
+2. Testing Emergent Uncertainty System...
+   ❌ Emergent uncertainty system error: 'return' outside function (bridge_integration.py, line 1102)
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 55, in test_bridge_components
+    from src.bridge.emergent_uncertainty_system import EmergentUncertaintySystem, UncertaintySource
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 62, in <module>
+    from .bridge_integration import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/bridge_integration.py", line 1102
+    return True
+    ^^^^^^^^^^^
+SyntaxError: 'return' outside function
+
+
+3. Testing Spiralwake Translator...
+   ❌ Spiralwake translator error: 'return' outside function (bridge_integration.py, line 1102)
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 85, in test_bridge_components
+    from src.bridge.spiralwake_translator import SpiralwakeTranslator
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 62, in <module>
+    from .bridge_integration import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/bridge_integration.py", line 1102
+    return True
+    ^^^^^^^^^^^
+SyntaxError: 'return' outside function
+
+
+4. Testing Visitor Protocol...
+   ❌ Visitor protocol error: 'return' outside function (bridge_integration.py, line 1102)
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 111, in test_bridge_components
+    from src.bridge.inter_system_visitor_protocol import InterSystemVisitorProtocol, VisitorStatus
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 62, in <module>
+    from .bridge_integration import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/bridge_integration.py", line 1102
+    return True
+    ^^^^^^^^^^^
+SyntaxError: 'return' outside function
+
+
+5. Testing Consent Manager...
+   ❌ Consent manager error: 'return' outside function (bridge_integration.py, line 1102)
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 140, in test_bridge_components
+    from src.bridge.visitor_consent_manager import VisitorConsentManager
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 62, in <module>
+    from .bridge_integration import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/bridge_integration.py", line 1102
+    return True
+    ^^^^^^^^^^^
+SyntaxError: 'return' outside function
+
+
+6. Testing Sovereign Uncertainty Field...
+   ✅ Sovereign uncertainty field working
+
+7. Testing Consciousness Packet...
+   ✅ Consciousness packet working
+
+==================================================
+📊 TEST RESULTS
+==================================================
+Passed: 3/7
+
+⚠️  4 tests failed
+🔧 Some components need attention
+
+Results written to: test_output/simple_bridge_test_20250706_203930.txt

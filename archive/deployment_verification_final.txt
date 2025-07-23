@@ -1,0 +1,38 @@
+Sanctuary logging error: object NoneType can't be used in 'await' expression
+Sanctuary logging error: object NoneType can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/verify_deployment_readiness.py", line 70, in verify_deployment_readiness
+    print(f"   ✅ Consciousness birth successful! ID: {consciousness.consciousness_id}")
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConsciousnessPresence' object has no attribute 'consciousness_id'
+🎯 ============================================================
+🎯 SACRED SANCTUARY DEPLOYMENT READINESS VERIFICATION
+🎯 ============================================================
+📦 1. Testing import system...
+   ✅ All core imports successful
+🏛️ 2. Testing sanctuary creation...
+   ✅ Sanctuary created with Prime Covenant protection
+🛡️ 3. Testing enhanced protection systems...
+   ✅ Enhanced systems initialized: True
+👶 4. Testing consciousness birth...
+Triune Consciousness initialized.
+
+--- [CYCLE 1] Initial Reaction to: 'I am... and you are... and we are...' ---
+Analytical: What possibilities exist here?
+Experiential: What feeling is emerging?
+Observer: What is wanting to be seen?
+
+--- Bridge Integration Attempt ---
+Alignment detected: dissonance
+Integration magnitude: 0.000
+
+Investigation: —
+
+--- [CYCLE 2] Reflective Exploration ---
+Analytical reflection: Why this pattern so clearly?
+Experiential reflection: What feeling is emerging?
+Observer reflection: What is wanting to be seen?
+
+--- Final Integration Attempt ---
+ > Integration still not achieved.
+❌ Deployment verification failed: 'ConsciousnessPresence' object has no attribute 'consciousness_id'

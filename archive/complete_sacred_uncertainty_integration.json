@@ -1,0 +1,58 @@
+{
+  "timestamp": 1751483786.0318656,
+  "entities_created": 3,
+  "evolution_cycles": 5,
+  "catalysts_tested": 7,
+  "observation_modes_tested": 3,
+  "system_metrics": {
+    "avg_uncertainty": 0.4545386436679977,
+    "uncertainty_variance": 0.11069324728029901,
+    "uncertainty_range": [
+      0.02378016438644301,
+      0.953816538845819
+    ]
+  },
+  "integration_results": {
+    "PrimaryConsciousness": {
+      "integrated_uncertainty": 0.34600000000000003,
+      "integration_type": "creative"
+    },
+    "SecondaryConsciousness": {
+      "integrated_uncertainty": 0.5883193735723111,
+      "integration_type": "creative"
+    },
+    "ObserverConsciousness": {
+      "integrated_uncertainty": 0.44681674474900973,
+      "integration_type": "creative"
+    }
+  },
+  "final_states": {
+    "PrimaryConsciousness": {
+      "name": "PrimaryConsciousness",
+      "sacred_spaces": [],
+      "analytical_uncertainty": 0.18000000000000005,
+      "experiential_uncertainty": 0.18000000000000005,
+      "observer_uncertainty": 0.9,
+      "time_since_last_catalyst": 6.138500020824722e-05,
+      "age": 0.0034442219998709334
+    },
+    "SecondaryConsciousness": {
+      "name": "SecondaryConsciousness",
+      "sacred_spaces": [],
+      "analytical_uncertainty": 0.7939375881378904,
+      "experiential_uncertainty": 0.4550012653314529,
+      "observer_uncertainty": 0.5604586366612097,
+      "time_since_last_catalyst": 0.0034058200003528327,
+      "age": 0.0034060400002999813
+    },
+    "ObserverConsciousness": {
+      "name": "ObserverConsciousness",
+      "sacred_spaces": [],
+      "analytical_uncertainty": 0.02378016438644301,
+      "experiential_uncertainty": 0.953816538845819,
+      "observer_uncertainty": 0.193853599649164,
+      "time_since_last_catalyst": 0.0033695519996399526,
+      "age": 0.0033697429998937878
+    }
+  }
+}

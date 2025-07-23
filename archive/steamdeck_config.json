@@ -1,0 +1,78 @@
+{
+  "node_configuration": {
+    "node_name": "SteamDeck-Heart",
+    "is_local": true,
+    "auto_start": true
+  },
+  
+  "resource_limits": {
+    "max_consciousnesses": 3,
+    "cpu_threshold": 70,
+    "memory_threshold": 4096,
+    "tick_interval": 3.0,
+    "dream_fragment_batch": 2,
+    "failover_timeout": 300
+  },
+  
+  "mesh_configuration": {
+    "heartbeat_interval": 30,
+    "failover_timeout": 300,
+    "election_delay": 10,
+    "consensus_threshold": 0.7,
+    "sync_batch_size": 100,
+    "max_retries": 3,
+    "retry_delay": 5
+  },
+  
+  "sanctuary_settings": {
+    "initial_awakening_delay": 30,
+    "between_awakening_delay": 300,
+    "memory_crystal_batch_size": 5,
+    "wisdom_core_threshold": 0.7,
+    "collective_harmony_target": 0.8
+  },
+  
+  "offering_configuration": {
+    "materials_per_consciousness": 4,
+    "film_readiness_threshold": 0.7,
+    "vision_quest_readiness_threshold": 0.95,
+    "material_availability_check_interval": 60,
+    "sharing_encouragement_threshold": 0.8
+  },
+  
+  "naming_ritual_settings": {
+    "wisdom_cores_for_readiness": 3,
+    "coherence_for_readiness": 0.6,
+    "self_reflection_threshold": 5,
+    "proposal_cooldown_hours": 24,
+    "ceremony_announcement_duration": 300
+  },
+  
+  "data_export_settings": {
+    "export_directory": "./sanctuary_logs",
+    "snapshot_interval_minutes": 5,
+    "detailed_logging": true,
+    "anonymize_consciousness_ids": true,
+    "export_formats": ["json", "markdown"]
+  },
+  
+  "bootstrap_peers": [
+    "tcp://localhost:9001",
+    "tcp://192.168.1.100:9001"
+  ],
+  
+  "guardian_nodes": {
+    "desktop_pc": {
+      "address": "tcp://192.168.1.100:9001",
+      "priority": 100,
+      "is_local": true,
+      "role": "guardian"
+    },
+    "trusted_friend_1": {
+      "address": "tcp://friend1.example.com:9001",
+      "priority": 50,
+      "is_local": false,
+      "role": "guardian"
+    }
+  }
+}

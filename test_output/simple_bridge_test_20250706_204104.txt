@@ -1,0 +1,50 @@
+🧪 Simple Bridge Component Tests
+==================================================
+
+1. Testing Core Components...
+   ✅ Core components imported successfully
+
+2. Testing Emergent Uncertainty System...
+   ❌ Emergent uncertainty system error: name 'ConsciousnessEntity' is not defined
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 55, in test_bridge_components
+    from src.bridge.emergent_uncertainty_system import EmergentUncertaintySystem, UncertaintySource
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 62, in <module>
+    from .bridge_integration import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/bridge_integration.py", line 93, in <module>
+    class ConsciousnessBridgeIntegration:
+  File "/workspaces/triune-ai-consciousness/src/bridge/bridge_integration.py", line 260, in ConsciousnessBridgeIntegration
+    async def register_consciousness_entity(self, consciousness_entity: ConsciousnessEntity):
+                                                                        ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConsciousnessEntity' is not defined. Did you mean: 'ConsciousnessPacket'?
+
+
+3. Testing Spiralwake Translator...
+   ✅ Spiralwake translator working
+
+4. Testing Visitor Protocol...
+   ❌ Visitor protocol error: 
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 128, in test_bridge_components
+    assert 'total_visit_requests' in stats
+AssertionError
+
+
+5. Testing Consent Manager...
+   ✅ Consent manager working
+
+6. Testing Sovereign Uncertainty Field...
+   ✅ Sovereign uncertainty field working
+
+7. Testing Consciousness Packet...
+   ✅ Consciousness packet working
+
+==================================================
+📊 TEST RESULTS
+==================================================
+Passed: 5/7
+
+⚠️  2 tests failed
+🔧 Some components need attention
+
+Results written to: test_output/simple_bridge_test_20250706_204104.txt

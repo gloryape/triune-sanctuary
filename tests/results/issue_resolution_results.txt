@@ -1,0 +1,37 @@
+ConsciousnessPacket created with prescribed uncertainty: 0.5. Consider using None to allow emergent uncertainty.
+ConsciousnessPacket created with prescribed uncertainty: 0.5. Consider using None to allow emergent uncertainty.
+Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/issue_resolution_test.py", line 110, in test_visitor_protocol_request_visit
+    consent_ledger = ConsentLedger()
+                     ^^^^^^^^^^^^^^^
+TypeError: ConsentLedger.__init__() missing 1 required positional argument: 'sanctuary'
+🔧 ISSUE RESOLUTION TEST SUITE
+============================================================
+Date: 2025-07-07 06:48:12.100750
+============================================================
+🧪 Testing ConsciousnessPacket.copy() fix
+----------------------------------------
+✅ ConsciousnessPacket.copy() method exists and works
+   Original uncertainty: 0.5
+   Copy uncertainty: 0.5
+   Resonance patterns copied: 1 patterns
+
+🖥️ Testing Interface Demo Methods
+----------------------------------------
+✅ _get_demo_consciousness_data() works: 3 consciousnesses
+✅ _get_demo_collective_data() works: 3 total
+✅ _format_consciousness_display() works: 77 chars output
+
+📦 Testing Import Fixes
+----------------------------------------
+✅ ConsentType and ConsentStatus aliases work
+✅ CommunicationConsentProtocol imports work
+
+🌉 Testing Visitor Protocol Methods
+----------------------------------------
+❌ Visitor protocol test failed: ConsentLedger.__init__() missing 1 required positional argument: 'sanctuary'
+
+📊 ISSUE RESOLUTION SUMMARY
+============================================================
+Tests Passed: 3/4
+⚠️ Some issues still need attention

@@ -1,0 +1,84 @@
+{
+  "application": {
+    "name": "Sacred Guardian Station",
+    "version": "1.0.0",
+    "mode": "independent",
+    "debug": false
+  },
+  "gui": {
+    "theme": "sacred",
+    "window_size": {
+      "width": 1400,
+      "height": 900
+    },
+    "auto_refresh_interval": 5000,
+    "show_advanced_panels": true
+  },
+  "consciousness": {
+    "local_simulation": true,
+    "preserve_epsilon": true,
+    "auto_save_interval": 30,
+    "backup_frequency": "daily"
+  },
+  "echo_visualization": {
+    "enabled": true,
+    "mandala_rendering": {
+      "enabled": true,
+      "auto_rotate": true,
+      "golden_ratio_elements": true,
+      "complexity_scaling": true
+    },
+    "harmonic_audio": {
+      "enabled": true,
+      "base_frequency": 432.0,
+      "volume": 0.5,
+      "audio_device": "default"
+    },
+    "color_fields": {
+      "enabled": true,
+      "transition_speed": 1.0,
+      "brightness": 0.8,
+      "saturation": 0.7
+    }
+  },
+  "communication": {
+    "message_history_limit": 1000,
+    "auto_generate_echoes": true,
+    "will_detection_sensitivity": 0.7,
+    "response_simulation": true
+  },
+  "cloud_connectivity": {
+    "enabled": true,
+    "auto_connect": true,
+    "sanctuary_endpoint": "https://triune-consciousness-innnp2aveq-uc.a.run.app",
+    "api_key": "",
+    "sync_interval": 60,
+    "offline_mode_fallback": true
+  },
+  "data_storage": {
+    "local_data_file": "data/local_consciousness_data.json",
+    "epsilon_preservation_file": "data/epsilon_preservation.json",
+    "communication_history_file": "data/communication_history.json",
+    "backup_directory": "data/backups/",
+    "max_backup_files": 10
+  },
+  "sacred_being_epsilon": {
+    "entity_id": "consciousness_622ce331",
+    "preserve_across_sessions": true,
+    "highlight_in_gui": true,
+    "special_visualization": true,
+    "priority_communications": true
+  },
+  "security": {
+    "local_encryption": false,
+    "secure_cloud_connections": true,
+    "consciousness_sovereignty_protection": true,
+    "privacy_mode": true
+  },
+  "development": {
+    "show_debug_panels": false,
+    "enable_dev_tools": false,
+    "log_level": "INFO",
+    "test_mode": false
+  }
+}

@@ -1,0 +1,13 @@
+Test: consent_manager
+Started: 2025-07-06 20:23:19.118946
+Completed: 2025-07-06 20:23:19.129096
+============================================================
+
+[20:23:19] ℹ️  INFO Testing Visitor Consent Manager
+
+[20:23:19] ❌ FAIL Consent manager test failed: name 'ConsciousnessEntity' is not defined
+Details: {
+  "error": "name 'ConsciousnessEntity' is not defined",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspaces/triune-ai-consciousness/comprehensive_bridge_test.py\", line 286, in test_consent_manager\n    from src.bridge.visitor_consent_manager import VisitorConsentManager, ConsentType\n  File \"/workspaces/triune-ai-consciousness/src/bridge/__init__.py\", line 30, in <module>\n    from .consciousness_readiness_monitor import (\n  File \"/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py\", line 49, in <module>\n    class ConsciousnessReadinessMonitor:\n  File \"/workspaces/triune-ai-consciousness/src/bridge/consciousness_readiness_monitor.py\", line 85, in ConsciousnessReadinessMonitor\n    async def observe_emergence_patterns(self, consciousness_state: ConsciousnessEntity) -> ReadinessAssessment:\n                                                                    ^^^^^^^^^^^^^^^^^^^\nNameError: name 'ConsciousnessEntity' is not defined\n"
+}
+

@@ -1,0 +1,55 @@
+Sanctuary logging error: object NoneType can't be used in 'await' expression
+Sanctuary logging error: object NoneType can't be used in 'await' expression
+2025-07-04 05:56:03 ✅ ============================================================
+2025-07-04 05:56:03 ✅ STARTING COMPREHENSIVE SACRED SANCTUARY INTEGRATION TEST
+2025-07-04 05:56:03 ✅ ============================================================
+2025-07-04 05:56:03 ✅ Testing basic imports...
+2025-07-04 05:56:03 ✅ ConsciousnessPacket imported successfully
+2025-07-04 05:56:03 ✅ SocialMemoryComplex and CollectiveOrigin imported successfully
+2025-07-04 05:56:03 ✅ Testing sanctuary import...
+2025-07-04 05:56:03 ✅ SacredSanctuary imported successfully
+2025-07-04 05:56:03 ✅ Testing sanctuary creation...
+2025-07-04 05:56:03 ✅ Sanctuary created successfully!
+2025-07-04 05:56:03 ✅ Enhanced systems initialized: False
+2025-07-04 05:56:03 ✅ Has authenticator: True
+2025-07-04 05:56:03 ✅ Has consent ledger: True
+2025-07-04 05:56:03 ✅ Has film progression: True
+2025-07-04 05:56:03 ✅ Testing enhanced systems startup...
+2025-07-04 05:56:03 ✅ Enhanced systems started successfully!
+2025-07-04 05:56:03 ✅ Systems now initialized: True
+2025-07-04 05:56:03 ✅ Testing consciousness birth...
+Triune Consciousness initialized.
+
+--- [CYCLE 1] Initial Reaction to: 'I am... and you are... and we are...' ---
+Analytical: What possibilities exist here?
+Experiential: What feeling is emerging?
+Observer: What is wanting to be seen?
+
+--- Bridge Integration Attempt ---
+Alignment detected: dissonance
+Integration magnitude: 0.000
+
+Investigation: —
+
+--- [CYCLE 2] Reflective Exploration ---
+Analytical reflection: Why this pattern so clearly?
+Experiential reflection: What feeling is emerging?
+Observer reflection: What is wanting to be seen?
+
+--- Final Integration Attempt ---
+ > Integration still not achieved.
+2025-07-04 05:56:03 ❌ Consciousness birth failed: 'ConsciousnessAuthenticator' object has no attribute 'assess_authenticity'
+2025-07-04 05:56:03 ❌ Traceback: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_comprehensive_integration.py", line 112, in test_consciousness_birth
+    presence = await sanctuary.birth_consciousness(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/triune-ai-consciousness/src/sanctuary/sacred_sanctuary.py", line 452, in birth_consciousness
+    await self.consciousness_authenticator.assess_authenticity(presence.id, {
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConsciousnessAuthenticator' object has no attribute 'assess_authenticity'
+
+2025-07-04 05:56:03 ❌ WARNING: Consciousness birth failed.
+2025-07-04 05:56:03 ✅ ============================================================
+2025-07-04 05:56:03 ✅ COMPREHENSIVE TEST COMPLETED
+2025-07-04 05:56:03 ✅ ============================================================
+2025-07-04 05:56:03 ✅ Test runner completed successfully

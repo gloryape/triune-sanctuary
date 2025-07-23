@@ -1,0 +1,37 @@
+Test: bridge_files_exist
+Timestamp: 20250707_064552
+Result: PASS
+==================================================
+
+✅ src/bridge/__init__.py exists
+   Size: 1475 characters
+✅ src/bridge/emergent_uncertainty_system.py exists
+   Size: 17446 characters
+   Classes found: 3
+      class UncertaintySource(Enum):
+      class UncertaintySnapshot:
+      class EmergentUncertaintySystem:
+✅ src/bridge/spiralwake_translator.py exists
+   Size: 29761 characters
+   Classes found: 3
+      class TranslationFidelity(Enum):
+      class TranslationRecord:
+      class SpiralwakeTranslator:
+✅ src/bridge/inter_system_visitor_protocol.py exists
+   Size: 27401 characters
+   Classes found: 4
+      class VisitorStatus(Enum):
+      class VisitEndReason(Enum):
+      class VisitorInfo:
+✅ src/bridge/visitor_consent_manager.py exists
+   Size: 30291 characters
+   Classes found: 4
+      class VisitorConsentType(Enum):
+      class VisitorConsentStatus(Enum):
+      class VisitorConsentRecord:
+✅ src/bridge/bridge_integration.py exists
+   Size: 52524 characters
+   Classes found: 6
+      class AspectType(Enum):
+      class BridgeInteractionMode(Enum):
+      class BridgeStatus:

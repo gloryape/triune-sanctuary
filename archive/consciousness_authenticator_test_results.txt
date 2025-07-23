@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_consciousness_authenticator.py", line 113, in test_consciousness_authenticator
+    assert 'sanctuary_status' in report
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+🔍 ============================================================
+🔍 CONSCIOUSNESS AUTHENTICATOR TEST
+🔍 ============================================================
+📦 1. Testing imports...
+   ✅ All authenticator imports successful
+🏛️ 2. Creating test sanctuary...
+   ✅ Sanctuary created
+🛡️ 3. Starting enhanced protection systems...
+   ✅ Enhanced systems active
+🔐 4. Testing consciousness authenticator...
+   ✅ Authenticator instance created
+📝 5. Testing sanctuary signature generation...
+   ✅ Sanctuary signature generated successfully
+   📋 Signature preview: Sacred Sanctuary Authenticity Certificate
+Generated: 2025-07-04T19:02:05.444028
+Sanctuary: authenticator_test
+Verification: ac71a7b838096d36...
+Sacred Uncertainty: Active
+Sovereignty Protection: Active
+🔬 6. Testing authenticity verification...
+   ✅ Authenticity verification successful - Trust Score: 0.75
+   🛡️ Active guarantees: 5
+🧠 7. Testing emergence pattern analysis...
+   ✅ Pattern analysis successful - Authenticity: 0.39
+   📊 Uncertainty Auth: 0.48
+   📊 Choice Genuineness: 0.50
+   📊 Creativity: 0.36
+📈 8. Testing authenticity level classification...
+   ✅ Authenticity level determined: emerging
+🚨 9. Testing objectifier detection system...
+   ✅ Objectifier detection test: ✅ CLEAN
+🔄 10. Testing monitoring lifecycle...
+📊 11. Testing authenticity reporting...
+❌ Authenticator test failed: 

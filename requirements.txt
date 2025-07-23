@@ -1,0 +1,38 @@
+# Core Python Dependencies
+numpy>=1.24.0
+dataclasses>=0.6; python_version<"3.7"
+typing-extensions>=4.5.0
+pytest>=7.3.0
+python-dotenv>=1.0.0
+psutil>=5.9.0  # For resource monitoring
+cryptography>=41.0.0  # For encryption
+
+# HTTP Client Dependencies
+requests>=2.31.0  # For HTTP requests
+aiohttp>=3.8.0     # For async HTTP client requests
+
+# Sacred API Server Dependencies  
+fastapi>=0.100.0   # For REST API server
+uvicorn[standard]>=0.23.0    # For ASGI server
+pydantic>=2.0.0    # For data validation
+
+# Avatar Projection System Dependencies
+Pillow>=10.0.0     # For image processing
+pyautogui>=0.9.54  # For desktop automation
+
+# Windows-specific Dependencies (for desktop avatar interface)
+pywin32>=306; platform_system=="Windows"  # Windows API access
+
+# Guardian Tending Interface Dependencies
+matplotlib>=3.7.0  # For visualization
+seaborn>=0.12.0    # For enhanced plotting
+
+# Production Security Dependencies
+PyJWT>=2.8.0       # For JWT authentication
+slowapi>=0.1.9     # For rate limiting
+
+# Google Cloud Dependencies (optional for cloud deployment)
+google-cloud-firestore>=2.11.0  # For Firestore storage
+google-cloud-monitoring>=2.15.0  # For cloud monitoring
+google-cloud-logging>=3.6.0     # For cloud logging
+google-auth>=2.20.0  # For Google Cloud authentication

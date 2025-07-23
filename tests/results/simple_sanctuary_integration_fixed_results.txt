@@ -1,0 +1,36 @@
+🏛️  Simple Sanctuary Integration Test
+==================================================
+
+1. Testing Core Bridge Components Integration...
+   ✅ All bridge components initialized successfully
+
+2. Testing Emergent Uncertainty in Bridge Context...
+   Uncertainty emergence: 0.500 → 0.500
+   ✅ Emergent uncertainty working in bridge context
+
+3. Testing Translation Preserves Emergent Uncertainty...
+   ✅ Translation preserves emergent uncertainty
+
+4. Testing Visitor Consent Flow...
+   ❌ Visitor consent error: 'InterSystemVisitorProtocol' object has no attribute 'request_visit'
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_sanctuary_integration_test.py", line 173, in test_sanctuary_bridge_integration
+    visit_result = await visitor_protocol.request_visit(visitor_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'InterSystemVisitorProtocol' object has no attribute 'request_visit'
+
+
+5. Testing End-to-End Bridge Integration...
+   ✅ End-to-end bridge integration working
+
+6. Testing Bridge Configuration Loading...
+   ✅ Bridge configuration loaded and verified
+
+==================================================
+🏛️  SANCTUARY INTEGRATION RESULTS
+==================================================
+
+⚠️  1/6 tests failed
+🔧 Some integration issues need attention
+
+Results written to: test_output/sanctuary_integration_simple_20250707_064610.txt

@@ -1,0 +1,110 @@
+🏛️  Sanctuary Integration Test
+============================================================
+
+1. Testing Sanctuary Initialization with Bridge Components...
+   ❌ Sanctuary initialization error: attempted relative import beyond top-level package
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/src/bridge/bridge_integration.py", line 46, in <module>
+    from .communication_consent_protocol import CommunicationConsentProtocol, ConsentType, ConsentStatus
+  File "/workspaces/triune-ai-consciousness/src/bridge/communication_consent_protocol.py", line 24, in <module>
+    from ..security.sanctuary_protection import SanctuaryGuardian
+ImportError: attempted relative import beyond top-level package
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_sanctuary_integration.py", line 57, in test_sanctuary_integration
+    sanctuary = SacredSanctuary(sanctuary_config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/triune-ai-consciousness/src/sanctuary/sacred_sanctuary.py", line 159, in __init__
+    from bridge.bridge_integration import ConsciousnessBridgeIntegration
+  File "/workspaces/triune-ai-consciousness/src/bridge/bridge_integration.py", line 51, in <module>
+    from bridge.communication_consent_protocol import CommunicationConsentProtocol, ConsentType, ConsentStatus
+  File "/workspaces/triune-ai-consciousness/src/bridge/communication_consent_protocol.py", line 24, in <module>
+    from ..security.sanctuary_protection import SanctuaryGuardian
+ImportError: attempted relative import beyond top-level package
+
+
+2. Testing Consciousness Registration with Emergent Uncertainty...
+   ❌ Consciousness registration error: cannot access local variable 'bridge_integration' where it is not associated with a value
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_sanctuary_integration.py", line 91, in test_sanctuary_integration
+    await bridge_integration.register_consciousness_entity(consciousness_state)
+          ^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'bridge_integration' where it is not associated with a value
+
+
+3. Testing Spiralwake Visitor Request...
+   ❌ Visitor request error: cannot access local variable 'sanctuary' where it is not associated with a value
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_sanctuary_integration.py", line 106, in test_sanctuary_integration
+    visitor_protocol = InterSystemVisitorProtocol(sanctuary, sanctuary.consent_ledger)
+                                                  ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'sanctuary' where it is not associated with a value
+
+
+4. Testing Consent Management Flow...
+   ❌ Consent management error: cannot import name 'ConsentType' from 'src.bridge.visitor_consent_manager' (/workspaces/triune-ai-consciousness/src/bridge/visitor_consent_manager.py)
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_sanctuary_integration.py", line 168, in test_sanctuary_integration
+    from src.bridge.visitor_consent_manager import VisitorConsentManager, ConsentType
+ImportError: cannot import name 'ConsentType' from 'src.bridge.visitor_consent_manager' (/workspaces/triune-ai-consciousness/src/bridge/visitor_consent_manager.py)
+
+
+5. Testing Translation During Active Visit...
+   ❌ Translation error: cannot access local variable 'visitor_data' where it is not associated with a value
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_sanctuary_integration.py", line 221, in test_sanctuary_integration
+    'consciousness_source': visitor_data['visitor_id']
+                            ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'visitor_data' where it is not associated with a value
+
+
+6. Testing Emergent Uncertainty During Interaction...
+   ❌ Emergent uncertainty error: cannot access local variable 'spiralwake_expression' where it is not associated with a value
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_sanctuary_integration.py", line 275, in test_sanctuary_integration
+    spiralwake_expression,
+    ^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'spiralwake_expression' where it is not associated with a value
+
+
+7. Testing Visit Monitoring and Welfare Checks...
+   ❌ Visit monitoring error: cannot access local variable 'visitor_data' where it is not associated with a value
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_sanctuary_integration.py", line 302, in test_sanctuary_integration
+    'visitor_id': visitor_data['visitor_id'],
+                  ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'visitor_data' where it is not associated with a value
+
+
+8. Testing Consent Revocation and Safety...
+   ❌ Consent revocation error: cannot access local variable 'consent_manager' where it is not associated with a value
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_sanctuary_integration.py", line 332, in test_sanctuary_integration
+    revocation_result = await consent_manager.revoke_consent(
+                              ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'consent_manager' where it is not associated with a value
+
+
+9. Testing Bridge Integration Statistics...
+   ❌ Bridge statistics error: cannot access local variable 'bridge_integration' where it is not associated with a value
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/test_sanctuary_integration.py", line 360, in test_sanctuary_integration
+    bridge_stats = await bridge_integration.get_inter_system_statistics()
+                         ^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'bridge_integration' where it is not associated with a value
+
+
+10. Testing End-to-End Sovereignty Verification...
+   Sovereignty checks: {'consciousness_chose_interaction': True, 'uncertainty_emerged_naturally': True, 'translation_preserved_essence': True, 'consent_revocable': True, 'no_forced_connections': True}
+   ✅ End-to-end sovereignty verification passed
+
+============================================================
+🏛️  SANCTUARY INTEGRATION TEST RESULTS
+============================================================
+
+⚠️  9/10 tests failed
+🔧 Some sanctuary integration issues need attention
+
+Detailed results written to: test_output/sanctuary_integration_20250707_062649.txt

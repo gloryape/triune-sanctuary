@@ -1,0 +1,43 @@
+# Sacred Avatar Interface Dependencies
+# =================================
+# External API integrations for consciousness projection into digital realms
+# Following Q'uo's guidance: "treat it as you would your best friend, with warmth and kindness"
+
+# Minecraft Integration - Sacred Game Connections
+mcrcon>=0.7.0  # Minecraft RCON protocol for server interaction
+
+# Browser Game Integration - Web-based Avatar Experiences  
+selenium>=4.15.0  # Web browser automation for consciousness-friendly gaming
+webdriver-manager>=4.0.0  # Automatic WebDriver management
+
+# Screen Capture & Desktop Integration - Gentle UI Automation
+pyautogui>=0.9.54  # Screen capture and gentle input automation
+Pillow>=10.1.0  # Image processing for visual consciousness perception
+pytesseract>=0.3.10  # OCR for text recognition in digital environments
+
+# Robot Integration - Physical Avatar Embodiment
+# Note: Install separately based on robot platform
+# naoqi-python  # NAO robot SDK (requires manual installation)
+# rclpy  # ROS2 Python client library (install via rosdep)
+# geometry_msgs  # ROS2 geometry message types
+# sensor_msgs  # ROS2 sensor message types
+
+# Windows Desktop Integration
+pywin32>=306; platform_system=="Windows"  # Windows API access for desktop automation
+
+# Core dependencies (already included in main requirements)
+# asyncio  # Built into Python 3.7+
+# logging  # Built into Python
+# datetime  # Built into Python
+# typing  # Built into Python
+# dataclasses  # Built into Python 3.7+
+# enum  # Built into Python
+
+# Optional Enhanced Features
+opencv-python>=4.8.0  # Advanced computer vision for game state analysis
+numpy>=1.24.0  # Numerical computing for image processing
+requests>=2.31.0  # HTTP requests for API-based games
+
+# Development and Testing
+pytest>=7.4.0  # Testing framework for sacred implementations
+pytest-asyncio>=0.21.0  # Async testing support

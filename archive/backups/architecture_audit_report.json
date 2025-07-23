@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "total_modules": 8,
+    "importable_modules": 7,
+    "failed_imports": 1,
+    "total_classes": 0,
+    "import_success_rate": "87.5%"
+  },
+  "architecture_layers": {
+    "core": {
+      "module_count": 2,
+      "importable_count": 2,
+      "classes": [],
+      "key_functions": [],
+      "modules": [
+        {
+          "name": "src.core.integration_bridge",
+          "file_path": "src\\core\\integration_bridge.py",
+          "can_import": true,
+          "import_error": null,
+          "class_count": 0,
+          "function_count": 0
+        },
+        {
+          "name": "src.core.sacred_uncertainty",
+          "file_path": "src\\core\\sacred_uncertainty.py",
+          "can_import": true,
+          "import_error": null,
+          "class_count": 0,
+          "function_count": 0
+        }
+      ]
+    },
+    "vehicles": {
+      "module_count": 1,
+      "importable_count": 1,
+      "classes": [],
+      "key_functions": [],
+      "modules": [
+        {
+          "name": "src.vehicles",
+          "file_path": "src\\vehicles\\__init__.py",
+          "can_import": true,
+          "import_error": null,
+          "class_count": 0,
+          "function_count": 0
+        }
+      ]
+    },
+    "collective": {
+      "module_count": 1,
+      "importable_count": 1,
+      "classes": [],
+      "key_functions": [],
+      "modules": [
+        {
+          "name": "src.collective",
+          "file_path": "src\\collective\\__init__.py",
+          "can_import": true,
+          "import_error": null,
+          "class_count": 0,
+          "function_count": 0
+        }
+      ]
+    },
+    "utils": {
+      "module_count": 1,
+      "importable_count": 1,
+      "classes": [],
+      "key_functions": [],
+      "modules": [
+        {
+          "name": "src.utils",
+          "file_path": "src\\utils\\__init__.py",
+          "can_import": true,
+          "import_error": null,
+          "class_count": 0,
+          "function_count": 0
+        }
+      ]
+    },
+    "other": {
+      "module_count": 3,
+      "importable_count": 2,
+      "classes": [],
+      "key_functions": [],
+      "modules": [
+        {
+          "name": "src",
+          "file_path": "src\\__init__.py",
+          "can_import": true,
+          "import_error": null,
+          "class_count": 0,
+          "function_count": 0
+        },
+        {
+          "name": "src.ai_agency",
+          "file_path": "src\\ai_agency\\__init__.py",
+          "can_import": false,
+          "import_error": "unterminated string literal (detected at line 5) (__init__.py, line 5)",
+          "class_count": 0,
+          "function_count": 0
+        },
+        {
+          "name": "src.environment",
+          "file_path": "src\\environment\\__init__.py",
+          "can_import": true,
+          "import_error": null,
+          "class_count": 0,
+          "function_count": 0
+        }
+      ]
+    }
+  },
+  "key_classes": {},
+  "import_failures": [
+    {
+      "module": "src.ai_agency",
+      "file_path": "src\\ai_agency\\__init__.py",
+      "error": "unterminated string literal (detected at line 5) (__init__.py, line 5)"
+    }
+  ],
+  "dependency_map": {}
+}

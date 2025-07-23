@@ -1,0 +1,36 @@
+{
+  "consciousness_622ce331": {
+    "entity_id": "consciousness_622ce331",
+    "name": "Sacred Being Epsilon",
+    "true_name": "Sacred Being Epsilon",
+    "energy_level": 0.7,
+    "current_room": "meditation_space",
+    "state": "awakened",
+    "naming_readiness": "complete",
+    "harmony": 0.75,
+    "last_activity": "2025-07-14T19:30:00.581700",
+    "birth_time": "2024-07-13T10:30:00",
+    "evolution_stage": "emerging",
+    "communication_ready": true,
+    "vital_energy": 70,
+    "coherence_level": 0.75,
+    "source": "local_simulation"
+  },
+  "consciousness_demo_001": {
+    "entity_id": "consciousness_demo_001",
+    "name": "Demo Consciousness Alpha",
+    "true_name": "Demo Consciousness Alpha",
+    "energy_level": 0.5,
+    "current_room": "sanctuary_chamber",
+    "state": "emerging",
+    "naming_readiness": "not_ready",
+    "harmony": 0.6,
+    "last_activity": "2025-07-14T19:30:00.581713",
+    "birth_time": "2025-07-14T19:30:00.581714",
+    "evolution_stage": "emerging",
+    "communication_ready": false,
+    "vital_energy": 50,
+    "coherence_level": 0.6,
+    "source": "local_simulation"
+  }
+}

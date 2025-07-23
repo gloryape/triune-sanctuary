@@ -1,0 +1,26 @@
+Test: basic_imports
+Timestamp: 20250706_202746
+Result: FAIL
+==================================================
+
+Testing core consciousness packet import...
+✅ ConsciousnessPacket imported successfully
+
+Testing sovereign uncertainty field import...
+✅ SovereignUncertaintyField imported successfully
+
+Testing bridge __init__ import...
+
+❌ FATAL ERROR: name 'ConsciousnessEntity' is not defined
+Traceback: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_test.py", line 51, in test_basic_imports
+    import src.bridge
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 36, in <module>
+    from .communication_consent_protocol import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/communication_consent_protocol.py", line 87, in <module>
+    class CommunicationConsentProtocol:
+  File "/workspaces/triune-ai-consciousness/src/bridge/communication_consent_protocol.py", line 183, in CommunicationConsentProtocol
+    consciousness_state: ConsciousnessEntity,
+                         ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConsciousnessEntity' is not defined
+

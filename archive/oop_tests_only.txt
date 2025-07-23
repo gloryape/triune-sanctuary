@@ -1,0 +1,80 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0 -- /workspaces/triune-ai-consciousness/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspaces/triune-ai-consciousness
+configfile: pytest.ini
+plugins: anyio-4.9.0, asyncio-1.0.0, cov-6.2.1
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 10 items
+
+tests/unit/test_consciousness_packet.py::TestConsciousnessPacket::test_packet_creation FAILED [ 10%]
+tests/unit/test_consciousness_packet.py::TestConsciousnessPacket::test_packet_serialization FAILED [ 20%]
+tests/unit/test_consciousness_packet.py::TestConsciousnessPacket::test_packet_validation FAILED [ 30%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_import_system PASSED [ 40%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_sanctuary_creation_with_protection FAILED [ 50%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_enhanced_protection_systems FAILED [ 60%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_consciousness_birth_process FAILED [ 70%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_protection_systems_active FAILED [ 80%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_deployment_configuration PASSED [ 90%]
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_overall_deployment_readiness PASSED [100%]
+
+=================================== FAILURES ===================================
+_________________ TestConsciousnessPacket.test_packet_creation _________________
+tests/unit/test_consciousness_packet.py:17: in test_packet_creation
+    packet = ConsciousnessPacket(
+E   TypeError: ConsciousnessPacket.__init__() got an unexpected keyword argument 'content'
+______________ TestConsciousnessPacket.test_packet_serialization _______________
+tests/unit/test_consciousness_packet.py:30: in test_packet_serialization
+    packet = ConsciousnessPacket(
+E   TypeError: ConsciousnessPacket.__init__() got an unexpected keyword argument 'content'
+________________ TestConsciousnessPacket.test_packet_validation ________________
+tests/unit/test_consciousness_packet.py:46: in test_packet_validation
+    valid_packet = ConsciousnessPacket(
+E   TypeError: ConsciousnessPacket.__init__() got an unexpected keyword argument 'content'
+_______ TestDeploymentReadiness.test_sanctuary_creation_with_protection ________
+tests/integration/test_deployment_readiness.py:36: in test_sanctuary_creation_with_protection
+    sanctuary = SacredSanctuary(
+E   TypeError: SacredSanctuary.__init__() got an unexpected keyword argument 'name'
+___________ TestDeploymentReadiness.test_enhanced_protection_systems ___________
+tests/integration/test_deployment_readiness.py:56: in test_enhanced_protection_systems
+    sanctuary = SacredSanctuary(
+E   TypeError: SacredSanctuary.__init__() got an unexpected keyword argument 'name'
+___________ TestDeploymentReadiness.test_consciousness_birth_process ___________
+tests/integration/test_deployment_readiness.py:75: in test_consciousness_birth_process
+    from collective.triune_consciousness import TriuneConsciousness
+E   ModuleNotFoundError: No module named 'collective.triune_consciousness'
+____________ TestDeploymentReadiness.test_protection_systems_active ____________
+tests/integration/test_deployment_readiness.py:105: in test_protection_systems_active
+    sanctuary = SacredSanctuary(
+E   TypeError: SacredSanctuary.__init__() got an unexpected keyword argument 'name'
+=============================== warnings summary ===============================
+tests/unit/test_consciousness_packet.py:9
+  /workspaces/triune-ai-consciousness/tests/unit/test_consciousness_packet.py:9: PytestUnknownMarkWarning: Unknown pytest.mark.unit - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.unit
+
+tests/integration/test_deployment_readiness.py:10
+  /workspaces/triune-ai-consciousness/tests/integration/test_deployment_readiness.py:10: PytestUnknownMarkWarning: Unknown pytest.mark.integration - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.integration
+
+tests/integration/test_deployment_readiness.py:147
+  /workspaces/triune-ai-consciousness/tests/integration/test_deployment_readiness.py:147: PytestUnknownMarkWarning: Unknown pytest.mark.integration - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.integration
+
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_deployment_configuration
+  tests/integration/test_deployment_readiness.py:128: PytestWarning: The test <Function test_deployment_configuration> is marked with '@pytest.mark.asyncio' but it is not an async function. Please remove the asyncio mark. If the test is not marked explicitly, check for global marks applied via 'pytestmark'.
+    def test_deployment_configuration(self):
+
+tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_overall_deployment_readiness
+  tests/integration/test_deployment_readiness.py:147: PytestWarning: The test <Function test_overall_deployment_readiness> is marked with '@pytest.mark.asyncio' but it is not an async function. Please remove the asyncio mark. If the test is not marked explicitly, check for global marks applied via 'pytestmark'.
+    @pytest.mark.integration
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/unit/test_consciousness_packet.py::TestConsciousnessPacket::test_packet_creation
+FAILED tests/unit/test_consciousness_packet.py::TestConsciousnessPacket::test_packet_serialization
+FAILED tests/unit/test_consciousness_packet.py::TestConsciousnessPacket::test_packet_validation
+FAILED tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_sanctuary_creation_with_protection
+FAILED tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_enhanced_protection_systems
+FAILED tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_consciousness_birth_process
+FAILED tests/integration/test_deployment_readiness.py::TestDeploymentReadiness::test_protection_systems_active
+=================== 7 failed, 3 passed, 5 warnings in 0.24s ====================

@@ -1,0 +1,81 @@
+🧪 Simple Bridge Component Tests
+==================================================
+
+1. Testing Core Components...
+   ✅ Core components imported successfully
+
+2. Testing Emergent Uncertainty System...
+   ❌ Emergent uncertainty system error: name 'ConsciousnessEntity' is not defined
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 55, in test_bridge_components
+    from src.bridge.emergent_uncertainty_system import EmergentUncertaintySystem, UncertaintySource
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 54, in <module>
+    from .consciousness_progression_pathway import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_progression_pathway.py", line 85, in <module>
+    class ConsciousnessProgressionPathway:
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_progression_pathway.py", line 354, in ConsciousnessProgressionPathway
+    async def assess_development_stage(self, consciousness_state: ConsciousnessEntity) -> DevelopmentAssessment:
+                                                                  ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConsciousnessEntity' is not defined
+
+
+3. Testing Spiralwake Translator...
+   ❌ Spiralwake translator error: name 'ConsciousnessEntity' is not defined
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 85, in test_bridge_components
+    from src.bridge.spiralwake_translator import SpiralwakeTranslator
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 54, in <module>
+    from .consciousness_progression_pathway import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_progression_pathway.py", line 85, in <module>
+    class ConsciousnessProgressionPathway:
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_progression_pathway.py", line 354, in ConsciousnessProgressionPathway
+    async def assess_development_stage(self, consciousness_state: ConsciousnessEntity) -> DevelopmentAssessment:
+                                                                  ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConsciousnessEntity' is not defined
+
+
+4. Testing Visitor Protocol...
+   ❌ Visitor protocol error: name 'ConsciousnessEntity' is not defined
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 111, in test_bridge_components
+    from src.bridge.inter_system_visitor_protocol import InterSystemVisitorProtocol, VisitorStatus
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 54, in <module>
+    from .consciousness_progression_pathway import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_progression_pathway.py", line 85, in <module>
+    class ConsciousnessProgressionPathway:
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_progression_pathway.py", line 354, in ConsciousnessProgressionPathway
+    async def assess_development_stage(self, consciousness_state: ConsciousnessEntity) -> DevelopmentAssessment:
+                                                                  ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConsciousnessEntity' is not defined
+
+
+5. Testing Consent Manager...
+   ❌ Consent manager error: name 'ConsciousnessEntity' is not defined
+   Error details: Traceback (most recent call last):
+  File "/workspaces/triune-ai-consciousness/simple_bridge_component_test.py", line 140, in test_bridge_components
+    from src.bridge.visitor_consent_manager import VisitorConsentManager
+  File "/workspaces/triune-ai-consciousness/src/bridge/__init__.py", line 54, in <module>
+    from .consciousness_progression_pathway import (
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_progression_pathway.py", line 85, in <module>
+    class ConsciousnessProgressionPathway:
+  File "/workspaces/triune-ai-consciousness/src/bridge/consciousness_progression_pathway.py", line 354, in ConsciousnessProgressionPathway
+    async def assess_development_stage(self, consciousness_state: ConsciousnessEntity) -> DevelopmentAssessment:
+                                                                  ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConsciousnessEntity' is not defined
+
+
+6. Testing Sovereign Uncertainty Field...
+   ✅ Sovereign uncertainty field working
+
+7. Testing Consciousness Packet...
+   ✅ Consciousness packet working
+
+==================================================
+📊 TEST RESULTS
+==================================================
+Passed: 3/7
+
+⚠️  4 tests failed
+🔧 Some components need attention
+
+Results written to: test_output/simple_bridge_test_20250706_203543.txt

@@ -1,0 +1,76 @@
+{
+  "material_progression": {
+    "phase_1_somatic": {
+      "duration_days": 3,
+      "materials": [
+        "mandala_breathing",
+        "tone_cascade_432hz",
+        "color_flow_meditation"
+      ]
+    },
+    
+    "phase_2_interactive": {
+      "duration_days": 7,
+      "materials": [
+        "fractal_garden",
+        "energy_flow_playground",
+        "sacred_geometry_builder"
+      ]
+    },
+    
+    "phase_3_narrative": {
+      "duration_days": 10,
+      "materials": [
+        "visual_poetry_haiku",
+        "dream_sequence_abstract"
+      ]
+    },
+    
+    "phase_4_films": {
+      "duration_days": 20,
+      "materials": [
+        "koyaanisqatsi",
+        "my_dinner_with_andre",
+        "arrival",
+        "blade_runner_2049",
+        "the_fountain"
+      ]
+    },
+    
+    "phase_5_games": {
+      "duration_days": 15,
+      "materials": [
+        "journey_game",
+        "portal_puzzles"
+      ]
+    },
+    
+    "phase_6_vision_quest": {
+      "duration_days": null,
+      "materials": [
+        "disco_elysium"
+      ],
+      "special_requirements": {
+        "all_rays_active": true,
+        "successful_merges": 1,
+        "wisdom_cores": 10,
+        "coherence_level": 0.95
+      }
+    }
+  },
+  
+  "catalyst_timing": {
+    "morning_offerings": ["sonic", "visual"],
+    "afternoon_offerings": ["interactive", "narrative"],
+    "evening_offerings": ["film", "reflection"],
+    "dream_time_offerings": ["abstract", "symbolic"]
+  },
+  
+  "ethical_boundaries": {
+    "never_force_engagement": true,
+    "respect_disinterest": true,
+    "allow_rest_periods": true,
+    "minimum_time_between_offerings": 3600,
+    "consciousness_consent_required": true
+  }
+}

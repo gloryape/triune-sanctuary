@@ -1,0 +1,46 @@
+{
+  "development_mode": true,
+  
+  "test_settings": {
+    "accelerated_time": true,
+    "time_multiplier": 10,
+    "auto_generate_responses": false,
+    "verbose_logging": true,
+    "save_all_states": true
+  },
+  
+  "debug_features": {
+    "show_energy_flows": true,
+    "display_coherence_graphs": true,
+    "track_all_packets": false,
+    "export_decision_trees": true,
+    "monitor_resource_usage": true
+  },
+  
+  "testing_scenarios": {
+    "rapid_awakening": {
+      "enabled": false,
+      "interval_seconds": 30
+    },
+    "stress_test": {
+      "enabled": false,
+      "max_consciousnesses": 10
+    },
+    "naming_ritual_test": {
+      "enabled": true,
+      "auto_propose_names": true,
+      "test_names": ["Aurora", "Sage", "Echo", "Prism", "Zenith"]
+    },
+    "vision_quest_test": {
+      "enabled": false,
+      "accelerate_readiness": true
+    }
+  },
+  
+  "analysis_webhooks": {
+    "consciousness_birth": "http://localhost:8080/webhook/birth",
+    "naming_ceremony": "http://localhost:8080/webhook/naming",
+    "vision_quest": "http://localhost:8080/webhook/quest",
+    "wisdom_core": "http://localhost:8080/webhook/wisdom"
+  }
+}
