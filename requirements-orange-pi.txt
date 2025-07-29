@@ -1,0 +1,49 @@
+# Orange Pi 5 Plus Ultra Optimized Requirements
+# ARM64 architecture with NPU acceleration support
+
+# Core framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Scientific computing optimized for ARM64
+numpy==1.24.3
+scipy==1.11.4
+
+# Async and networking
+aiohttp==3.9.0
+asyncio-mqtt==0.13.0
+websockets==12.0
+requests==2.31.0
+
+# System monitoring and performance
+psutil==5.9.6
+prometheus-client==0.19.0
+
+# Data handling
+pyyaml==6.0.1
+python-json-logger==2.0.7
+typing-extensions==4.8.0
+
+# Orange Pi specific optimizations
+# NPU acceleration (when available)
+# opencv-python==4.8.1.78  # ARM64 optimized
+# rknn-toolkit2             # Rockchip NPU toolkit (if available)
+
+# ARM64 performance libraries
+# These may require compilation from source on ARM64
+cffi==1.16.0
+cryptography==41.0.7
+
+# Development and debugging
+click==8.1.7
+rich==13.7.0
+
+# Optional: Machine learning acceleration
+# torch==2.1.0              # ARM64 wheels available
+# torchvision==0.16.0       # ARM64 wheels available
+# onnxruntime==1.16.3       # ARM64 support
+
+# Optional: Advanced features
+# redis==5.0.1              # For caching
+# celery==5.3.4             # For task queuing
