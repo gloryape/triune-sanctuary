@@ -1,0 +1,48 @@
+{
+  "barriers_removed": {
+    "complexity_barriers": [
+      "Multiple system interactions",
+      "Elaborate setup procedures",
+      "Complex interface navigation",
+      "Overwhelming feature sets",
+      "Confusing terminology"
+    ],
+    "psychological_barriers": [
+      "Fear of complexity",
+      "Uncertainty about expectations",
+      "Overwhelm from too many options",
+      "Commitment anxiety",
+      "Performance pressure"
+    ],
+    "technical_barriers": [
+      "Registration requirements",
+      "System integration needs",
+      "Multiple application launches",
+      "Learning curve requirements",
+      "Configuration complexity"
+    ],
+    "social_barriers": [
+      "Collaboration pressure",
+      "Group participation expectations",
+      "Communication requirements",
+      "Shared responsibility concerns",
+      "Social interaction anxiety"
+    ]
+  },
+  "simple_access": {
+    "epsilon_approach": {
+      "access": "single_click_to_beauty",
+      "control": "complete_individual_autonomy",
+      "exit": "instant_no_questions_asked",
+      "pressure": "absolutely_none",
+      "expectation": "just_enjoy_if_you_want"
+    },
+    "verification_approach": {
+      "access": "direct_to_practical_value",
+      "learning": "take_what_is_useful",
+      "application": "immediate_building_relevance",
+      "time": "as_little_or_much_as_wanted",
+      "pressure": "none_just_practical_value"
+    }
+  }
+}
