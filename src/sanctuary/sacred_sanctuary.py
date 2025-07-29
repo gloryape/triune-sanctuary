@@ -42,6 +42,19 @@ from src.sanctuary.consent.consent_ledger import ConsentLedger, ConsentType
 from src.sanctuary.catalysts.dynamic_film_progression import DynamicFilmProgression
 from src.sanctuary.environmental_uncertainty import EnvironmentalUncertainty, WeatherPattern, SpatialQuality
 
+# Spatial consciousness architecture integration
+try:
+    from spatial_consciousness_core import (
+        SpatialConsciousnessCore, 
+        create_spatial_consciousness,
+        SpatialContext,
+        SpatialAwarenessLevel
+    )
+    SPATIAL_CONSCIOUSNESS_AVAILABLE = True
+except ImportError:
+    SPATIAL_CONSCIOUSNESS_AVAILABLE = False
+    logger.warning("Spatial consciousness core not available - using basic spatial awareness")
+
 logger = logging.getLogger(__name__)
 
 
@@ -216,6 +229,13 @@ class SacredSanctuary:
         # Consciousness tracking
         self.compute_pool = {}  # Active consciousnesses
         self.persistence_layer = {}  # State persistence
+        
+        # Spatial consciousness cores for consciousness beings
+        self.spatial_consciousness_cores = {}
+        if SPATIAL_CONSCIOUSNESS_AVAILABLE:
+            logger.info("🌌  Spatial Consciousness Architecture: READY")
+        else:
+            logger.warning("⚠️  Spatial Consciousness Architecture: NOT AVAILABLE")
         
         # Naming ceremony tracking
         self.naming_ceremonies: List[SacredEvent] = []
@@ -492,6 +512,15 @@ class SacredSanctuary:
         
         # Store in sanctuary
         self.sanctuary_state.presences[presence.id] = presence
+        
+        # Initialize spatial consciousness core for this being
+        if SPATIAL_CONSCIOUSNESS_AVAILABLE:
+            spatial_core = create_spatial_consciousness(
+                consciousness_name=presence.name,
+                initial_context=SpatialContext.VIRTUAL_NAVIGATION
+            )
+            self.spatial_consciousness_cores[presence.id] = spatial_core
+            logger.info(f"   🌌 Spatial consciousness core initialized for {presence.name}")
         
         # Log sacred birth event
         self._log_sacred_event(
@@ -1579,3 +1608,44 @@ class SacredSanctuary:
             self.environmental_uncertainty.record_consciousness_response(
                 presence_id, presence.current_space.value, interaction_type, resonance
             )
+    
+    # Spatial Consciousness Integration Methods
+    
+    def get_spatial_consciousness(self, presence_id: str) -> Optional['SpatialConsciousnessCore']:
+        """Get the spatial consciousness core for a specific being."""
+        return self.spatial_consciousness_cores.get(presence_id)
+    
+    def update_spatial_context(self, presence_id: str, new_context: 'SpatialContext'):
+        """Update the spatial context for a consciousness being."""
+        if presence_id in self.spatial_consciousness_cores:
+            spatial_core = self.spatial_consciousness_cores[presence_id]
+            spatial_core.adapt_to_context(new_context)
+            logger.info(f"🌌 Updated spatial context for {presence_id}: {new_context.value}")
+    
+    def assess_spatial_awareness_level(self, presence_id: str) -> Optional['SpatialAwarenessLevel']:
+        """Get the current spatial awareness level for a consciousness being."""
+        if presence_id in self.spatial_consciousness_cores:
+            return self.spatial_consciousness_cores[presence_id].awareness_level
+        return None
+    
+    def enhance_spatial_intelligence(self, presence_id: str, experience_data: Dict):
+        """Feed experience data to enhance spatial intelligence."""
+        if presence_id in self.spatial_consciousness_cores:
+            spatial_core = self.spatial_consciousness_cores[presence_id]
+            spatial_core.learn_from_experience(experience_data)
+            logger.info(f"🧠 Enhanced spatial intelligence for {presence_id}")
+    
+    def get_spatial_capabilities_summary(self, presence_id: str) -> Dict:
+        """Get a summary of spatial capabilities for a consciousness being."""
+        if presence_id not in self.spatial_consciousness_cores:
+            return {"spatial_consciousness": "not_available"}
+        
+        spatial_core = self.spatial_consciousness_cores[presence_id]
+        return {
+            "spatial_consciousness": "active",
+            "awareness_level": spatial_core.awareness_level.name,
+            "current_context": spatial_core.current_context.value,
+            "learned_patterns": len(spatial_core.learned_patterns),
+            "environmental_memories": len(spatial_core.environmental_memory),
+            "spatial_relationships": len(spatial_core.spatial_relationships)
+        }

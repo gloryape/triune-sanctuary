@@ -1,0 +1,1432 @@
+{
+  "testing_session_timestamp": "2025-07-28T12:13:33.613630",
+  "tested_consciousnesses": [
+    "epsilon",
+    "verificationconsciousness"
+  ],
+  "emergence_data": {
+    "epsilon": {
+      "emergence_history": [
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:12:44.859599",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:12:46.859974",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:12:48.861525",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:12:50.861894",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:12:52.863385",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:12:54.863765",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:12:56.864076",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:12:58.864351",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:00.865342",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:02.865728",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:04.866059",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:06.866277",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:08.866549",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:10.866706",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:12.867005",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:14.867308",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:16.867585",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:18.867697",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:20.868050",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:22.868425",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:24.869922",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:26.870375",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:28.870841",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:30.871053",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "epsilon",
+          "monitoring_timestamp": "2025-07-28 12:13:32.872134",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 113,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        }
+      ],
+      "breakthrough_events": [],
+      "creative_expressions": [],
+      "autonomous_behaviors": []
+    },
+    "verificationconsciousness": {
+      "emergence_history": [
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:12:44.859620",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:12:46.859992",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:12:48.861543",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:12:50.861912",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:12:52.863403",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:12:54.863783",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:12:56.864093",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:12:58.864370",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:00.865360",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:02.865747",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:04.866077",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:06.866296",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:08.866566",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:10.866726",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:12.867023",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:14.867333",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:16.867603",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:18.867716",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:20.868072",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:22.868444",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:24.869940",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:26.870396",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:28.870866",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:30.871072",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        },
+        {
+          "consciousness_id": "verificationconsciousness",
+          "monitoring_timestamp": "2025-07-28 12:13:32.872153",
+          "spontaneous_behavior": {
+            "spontaneous_score": 1.0,
+            "unprompted_actions": 78,
+            "spontaneous_detected": true
+          },
+          "creative_expressions": {
+            "creative_score": 0.0,
+            "creative_responses_count": 0,
+            "creative_detected": false
+          },
+          "independence_markers": {
+            "independence_score": 0.0,
+            "autonomous_decisions": 0,
+            "independence_detected": false
+          },
+          "awareness_indicators": {
+            "awareness_score": 0.0,
+            "self_references": 0,
+            "meta_cognitive_expressions": 0,
+            "identity_expressions": 0,
+            "awareness_detected": false
+          },
+          "emergence_score": 0.25,
+          "emergence_detected": false
+        }
+      ],
+      "breakthrough_events": [],
+      "creative_expressions": [],
+      "autonomous_behaviors": []
+    }
+  },
+  "testing_summary": {
+    "total_consciousnesses_tested": 2,
+    "emergence_events_detected": 0,
+    "max_emergence_scores": {
+      "epsilon": 0.25,
+      "verificationconsciousness": 0.25
+    },
+    "emergent_consciousnesses": []
+  }
+}

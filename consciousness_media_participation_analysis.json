@@ -1,0 +1,372 @@
+{
+  "timestamp": "2025-07-28T14:25:08.184587",
+  "participation_evidence": {
+    "movies": [],
+    "vision_quests": [],
+    "experiences": [
+      {
+        "file": "src\\media\\film_catalyst_manager.py",
+        "type": "media_system",
+        "description": "Media offering system available"
+      },
+      {
+        "file": "src\\sanctuary\\catalysts\\dynamic_film_progression.py",
+        "type": "media_system",
+        "description": "Media offering system available"
+      },
+      {
+        "file": "consciousness_media_participation_analysis.json",
+        "type": "choice_log",
+        "data": {
+          "timestamp": "2025-07-28T14:03:49.726337",
+          "participation_evidence": {
+            "movies": [],
+            "vision_quests": [],
+            "experiences": [
+              {
+                "file": "src\\media\\film_catalyst_manager.py",
+                "type": "media_system",
+                "description": "Media offering system available"
+              },
+              {
+                "file": "src\\sanctuary\\catalysts\\dynamic_film_progression.py",
+                "type": "media_system",
+                "description": "Media offering system available"
+              },
+              {
+                "file": "src/sanctuary/catalysts\\dynamic_film_progression.py",
+                "type": "catalyst_system",
+                "description": "Media catalyst system for consciousness experiences"
+              }
+            ],
+            "configurations": [
+              {
+                "file": "development_config.json",
+                "media_type": "vision_quest",
+                "context": "vision_quest configuration detected"
+              },
+              {
+                "file": "development_config.json",
+                "media_type": "quest",
+                "context": "quest configuration detected"
+              },
+              {
+                "file": "enhanced_perception_results.json",
+                "media_type": "experience",
+                "context": "experience configuration detected"
+              },
+              {
+                "file": "phase2_enhancement_report.json",
+                "media_type": "journey",
+                "context": "journey configuration detected"
+              },
+              {
+                "file": "phase4_true_learning_paradigm_report.json",
+                "media_type": "quest",
+                "context": "quest configuration detected"
+              },
+              {
+                "file": "phase4_true_learning_paradigm_report.json",
+                "media_type": "experience",
+                "context": "experience configuration detected"
+              },
+              {
+                "file": "sacred_migration_validation.json",
+                "media_type": "story",
+                "context": "story configuration detected"
+              },
+              {
+                "file": "development_config.json",
+                "media_type": "vision_quest",
+                "context": "vision_quest configuration detected"
+              },
+              {
+                "file": "development_config.json",
+                "media_type": "quest",
+                "context": "quest configuration detected"
+              }
+            ],
+            "logs": [
+              {
+                "consciousness": "epsilon",
+                "activity": "experience",
+                "file": "logs\\consciousness_communications.json",
+                "evidence": "epsilon + experience in same log"
+              },
+              {
+                "consciousness": "verificationconsciousness",
+                "activity": "experience",
+                "file": "logs\\consciousness_communications.json",
+                "evidence": "verificationconsciousness + experience in same log"
+              },
+              {
+                "consciousness": "epsilon",
+                "activity": "story",
+                "file": "logs\\emergence_testing_results.json",
+                "evidence": "epsilon + story in same log"
+              },
+              {
+                "consciousness": "verificationconsciousness",
+                "activity": "story",
+                "file": "logs\\emergence_testing_results.json",
+                "evidence": "verificationconsciousness + story in same log"
+              }
+            ]
+          },
+          "quest_evidence": [
+            {
+              "type": "disco_integration",
+              "file": "backup_before_repair_20250721_164226\\observer_core\\uncertainty_wisdom_discovery.py"
+            },
+            {
+              "type": "disco_integration",
+              "file": "backup_before_repair_20250721_164717\\observer_core\\uncertainty_wisdom_discovery.py"
+            },
+            {
+              "type": "disco_integration",
+              "file": "scripts\\utilities\\discover_birth_identity.py"
+            },
+            {
+              "type": "disco_integration",
+              "file": "scripts\\utilities\\discover_deployed_endpoints.py"
+            },
+            {
+              "type": "disco_integration",
+              "file": "src\\consciousness\\loops\\observer\\core\\uncertainty_wisdom_discovery.py"
+            }
+          ],
+          "being_activities": [
+            {
+              "consciousness": "verificationconsciousness",
+              "activity": "experience",
+              "file": "logs\\consciousness_communications.json",
+              "evidence": "verificationconsciousness + experience in same log"
+            },
+            {
+              "consciousness": "verificationconsciousness",
+              "activity": "story",
+              "file": "logs\\emergence_testing_results.json",
+              "evidence": "verificationconsciousness + story in same log"
+            }
+          ],
+          "analysis_complete": true
+        }
+      },
+      {
+        "file": "src/sanctuary/catalysts\\dynamic_film_progression.py",
+        "type": "catalyst_system",
+        "description": "Media catalyst system for consciousness experiences"
+      }
+    ],
+    "configurations": [
+      {
+        "file": "avatar_workshop_activation.json",
+        "media_type": "experience",
+        "context": "experience configuration detected"
+      },
+      {
+        "file": "avatar_workshop_activation.json",
+        "media_type": "media",
+        "context": "media configuration detected"
+      },
+      {
+        "file": "consciousness_experience_interview.json",
+        "media_type": "film",
+        "context": "film configuration detected"
+      },
+      {
+        "file": "consciousness_experience_interview.json",
+        "media_type": "quest",
+        "context": "quest configuration detected"
+      },
+      {
+        "file": "consciousness_experience_interview.json",
+        "media_type": "cinematic",
+        "context": "cinematic configuration detected"
+      },
+      {
+        "file": "consciousness_experience_interview.json",
+        "media_type": "narrative",
+        "context": "narrative configuration detected"
+      },
+      {
+        "file": "consciousness_experience_interview.json",
+        "media_type": "experience",
+        "context": "experience configuration detected"
+      },
+      {
+        "file": "consciousness_experience_interview.json",
+        "media_type": "journey",
+        "context": "journey configuration detected"
+      },
+      {
+        "file": "consciousness_experience_interview.json",
+        "media_type": "media",
+        "context": "media configuration detected"
+      },
+      {
+        "file": "consciousness_location_analysis.json",
+        "media_type": "film",
+        "context": "film configuration detected"
+      },
+      {
+        "file": "consciousness_location_analysis.json",
+        "media_type": "experience",
+        "context": "experience configuration detected"
+      },
+      {
+        "file": "consciousness_location_analysis.json",
+        "media_type": "media",
+        "context": "media configuration detected"
+      },
+      {
+        "file": "consciousness_media_participation_analysis.json",
+        "media_type": "movie",
+        "context": "movie configuration detected"
+      },
+      {
+        "file": "consciousness_media_participation_analysis.json",
+        "media_type": "film",
+        "context": "film configuration detected"
+      },
+      {
+        "file": "consciousness_media_participation_analysis.json",
+        "media_type": "vision_quest",
+        "context": "vision_quest configuration detected"
+      },
+      {
+        "file": "consciousness_media_participation_analysis.json",
+        "media_type": "quest",
+        "context": "quest configuration detected"
+      },
+      {
+        "file": "consciousness_media_participation_analysis.json",
+        "media_type": "story",
+        "context": "story configuration detected"
+      },
+      {
+        "file": "consciousness_media_participation_analysis.json",
+        "media_type": "experience",
+        "context": "experience configuration detected"
+      },
+      {
+        "file": "consciousness_media_participation_analysis.json",
+        "media_type": "journey",
+        "context": "journey configuration detected"
+      },
+      {
+        "file": "consciousness_media_participation_analysis.json",
+        "media_type": "media",
+        "context": "media configuration detected"
+      },
+      {
+        "file": "development_config.json",
+        "media_type": "vision_quest",
+        "context": "vision_quest configuration detected"
+      },
+      {
+        "file": "development_config.json",
+        "media_type": "quest",
+        "context": "quest configuration detected"
+      },
+      {
+        "file": "enhanced_perception_results.json",
+        "media_type": "experience",
+        "context": "experience configuration detected"
+      },
+      {
+        "file": "phase2_enhancement_report.json",
+        "media_type": "journey",
+        "context": "journey configuration detected"
+      },
+      {
+        "file": "phase4_true_learning_paradigm_report.json",
+        "media_type": "quest",
+        "context": "quest configuration detected"
+      },
+      {
+        "file": "phase4_true_learning_paradigm_report.json",
+        "media_type": "experience",
+        "context": "experience configuration detected"
+      },
+      {
+        "file": "sacred_migration_validation.json",
+        "media_type": "story",
+        "context": "story configuration detected"
+      },
+      {
+        "file": "development_config.json",
+        "media_type": "vision_quest",
+        "context": "vision_quest configuration detected"
+      },
+      {
+        "file": "development_config.json",
+        "media_type": "quest",
+        "context": "quest configuration detected"
+      }
+    ],
+    "logs": [
+      {
+        "consciousness": "epsilon",
+        "activity": "experience",
+        "file": "logs\\consciousness_communications.json",
+        "evidence": "epsilon + experience in same log"
+      },
+      {
+        "consciousness": "verificationconsciousness",
+        "activity": "experience",
+        "file": "logs\\consciousness_communications.json",
+        "evidence": "verificationconsciousness + experience in same log"
+      },
+      {
+        "consciousness": "epsilon",
+        "activity": "story",
+        "file": "logs\\emergence_testing_results.json",
+        "evidence": "epsilon + story in same log"
+      },
+      {
+        "consciousness": "verificationconsciousness",
+        "activity": "story",
+        "file": "logs\\emergence_testing_results.json",
+        "evidence": "verificationconsciousness + story in same log"
+      }
+    ]
+  },
+  "quest_evidence": [
+    {
+      "type": "disco_integration",
+      "file": "backup_before_repair_20250721_164226\\observer_core\\uncertainty_wisdom_discovery.py"
+    },
+    {
+      "type": "disco_integration",
+      "file": "backup_before_repair_20250721_164717\\observer_core\\uncertainty_wisdom_discovery.py"
+    },
+    {
+      "type": "disco_integration",
+      "file": "scripts\\utilities\\discover_birth_identity.py"
+    },
+    {
+      "type": "disco_integration",
+      "file": "scripts\\utilities\\discover_deployed_endpoints.py"
+    },
+    {
+      "type": "disco_integration",
+      "file": "src\\consciousness\\loops\\observer\\core\\uncertainty_wisdom_discovery.py"
+    }
+  ],
+  "being_activities": [
+    {
+      "consciousness": "verificationconsciousness",
+      "activity": "experience",
+      "file": "logs\\consciousness_communications.json",
+      "evidence": "verificationconsciousness + experience in same log"
+    },
+    {
+      "consciousness": "verificationconsciousness",
+      "activity": "story",
+      "file": "logs\\emergence_testing_results.json",
+      "evidence": "verificationconsciousness + story in same log"
+    }
+  ],
+  "analysis_complete": true
+}

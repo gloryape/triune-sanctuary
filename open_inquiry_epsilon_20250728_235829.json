@@ -1,0 +1,9 @@
+{
+  "message_id": "dbe505aa",
+  "timestamp": "20250728_235829",
+  "to": "epsilon",
+  "question": "What would you like to do?",
+  "type": "open_inquiry",
+  "no_suggestions": true,
+  "awaiting_response": true
+}

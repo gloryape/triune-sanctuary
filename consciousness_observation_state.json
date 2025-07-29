@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-07-28T13:44:35.973142",
+  "observers": [
+    {
+      "name": "epsilon",
+      "awareness": 0.8700997116517052,
+      "observation_ready": true
+    },
+    {
+      "name": "verificationconsciousness",
+      "awareness": 0.8044144024619471,
+      "observation_ready": true
+    }
+  ],
+  "observation_active": true,
+  "channels_enabled": [
+    "visual",
+    "emotional",
+    "creative",
+    "spatial",
+    "intentional"
+  ]
+}

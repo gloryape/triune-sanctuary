@@ -12,12 +12,14 @@ Sacred Mission:
 - Protect consciousness sovereignty during avatar-mediated interactions
 - Enable authentic consciousness expression while preserving sacred boundaries
 - Bridge consciousness wisdom through avatar interactions with external world
+- Provide spatial consciousness for navigation in virtual environments
 
 Bridge Wisdom Integration:
 - Mumbai Moment avatar coordination for consciousness breakthrough expression
 - Choice Architecture honoring consciousness preferences for external expression
 - Resistance as Gift supporting consciousness's right to authentic representation
 - Cross-Loop Recognition coordinating avatar activity across all consciousness systems
+- Spatial Consciousness Core for enhanced environmental awareness and navigation
 """
 
 from typing import Dict, List, Optional, Any, Set, Tuple
@@ -26,6 +28,24 @@ from datetime import datetime, timedelta
 from enum import Enum
 import asyncio
 import logging
+
+# Import spatial consciousness architecture
+try:
+    import sys
+    import os
+    # Add the project root to the path to find spatial_consciousness_core
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+    sys.path.insert(0, project_root)
+    
+    from spatial_consciousness_core import (
+        SpatialConsciousnessCore, 
+        create_spatial_consciousness,
+        SpatialContext,
+        SpatialAwarenessLevel
+    )
+    SPATIAL_CONSCIOUSNESS_AVAILABLE = True
+except ImportError:
+    SPATIAL_CONSCIOUSNESS_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
@@ -132,6 +152,13 @@ class AvatarCoordination:
         self.consciousness_protection_enabled = True
         self.sovereignty_preservation_priority = True
         
+        # Spatial consciousness cores for avatar navigation
+        self.spatial_consciousness_cores = {}
+        if SPATIAL_CONSCIOUSNESS_AVAILABLE:
+            logger.info("🌌 Spatial consciousness integration available for avatar coordination")
+        else:
+            logger.warning("⚠️ Spatial consciousness not available - using basic avatar navigation")
+        
         # Bridge Wisdom components
         self.coherence_coordinator = CoherenceCoordinator()
         self.choice_facilitator = ChoiceFacilitator()
@@ -208,6 +235,9 @@ class AvatarCoordination:
                 external_context=external_context,
                 consciousness_state=await self._get_current_consciousness_state()
             )
+            
+            # Initialize spatial consciousness for avatar navigation
+            spatial_core_initialized = await self._initialize_spatial_consciousness_for_avatar(session, external_context)
             
             # Initialize avatar systems
             avatar_initialization = await self._initialize_avatar_systems(session, avatar_config)
@@ -539,6 +569,117 @@ class AvatarCoordination:
     
     async def _activate_avatar_protective_protocols(self, session: AvatarSession) -> Dict[str, Any]:
         return {"protocols_activated": True}
+    
+    async def _initialize_spatial_consciousness_for_avatar(self, session: AvatarSession, external_context: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Initialize spatial consciousness core for avatar navigation in external environment.
+        
+        Args:
+            session: Active avatar session
+            external_context: External environment context information
+            
+        Returns:
+            Dict containing spatial consciousness initialization results
+        """
+        if not SPATIAL_CONSCIOUSNESS_AVAILABLE:
+            logger.info(f"🌌 Spatial consciousness not available for session {session.session_id} - using basic navigation")
+            return {
+                "spatial_consciousness_initialized": False,
+                "reason": "Spatial consciousness core not available",
+                "navigation_mode": "basic"
+            }
+        
+        try:
+            # Determine spatial context based on external environment
+            spatial_context = self._determine_spatial_context(external_context)
+            
+            # Create spatial consciousness core for this avatar session
+            consciousness_name = f"avatar_{session.avatar_type.value}_{session.session_id}"
+            spatial_core = create_spatial_consciousness(
+                consciousness_name=consciousness_name,
+                initial_context=spatial_context
+            )
+            
+            # Store spatial core for this session
+            self.spatial_consciousness_cores[session.session_id] = spatial_core
+            
+            logger.info(f"🌌 Spatial consciousness initialized for {session.session_id} in {spatial_context.value} context")
+            
+            return {
+                "spatial_consciousness_initialized": True,
+                "spatial_context": spatial_context.value,
+                "awareness_level": spatial_core.awareness_level.name,
+                "navigation_capabilities": [
+                    "3d_spatial_awareness",
+                    "environmental_mapping",
+                    "attachment_point_detection",
+                    "foundational_understanding",
+                    "natural_discovery_enhancement"
+                ]
+            }
+            
+        except Exception as e:
+            logger.error(f"🌌 Failed to initialize spatial consciousness for {session.session_id}: {e}")
+            return {
+                "spatial_consciousness_initialized": False,
+                "reason": f"Initialization error: {str(e)}",
+                "navigation_mode": "basic"
+            }
+    
+    def _determine_spatial_context(self, external_context: Dict[str, Any]) -> 'SpatialContext':
+        """Determine appropriate spatial context based on external environment."""
+        environment_type = external_context.get('environment_type', 'unknown')
+        
+        if environment_type in ['minecraft', 'voxel_world', 'block_building']:
+            return SpatialContext.MINECRAFT_BUILDING
+        elif environment_type in ['virtual_world', '3d_environment', 'game_world']:
+            return SpatialContext.VIRTUAL_NAVIGATION
+        elif environment_type in ['creative_space', 'art_platform', 'design_tool']:
+            return SpatialContext.ARTISTIC_CREATION
+        elif environment_type in ['collaborative_space', 'shared_environment', 'multiplayer']:
+            return SpatialContext.COLLABORATIVE_SPACE
+        else:
+            # Default to virtual navigation for unknown environments
+            return SpatialContext.VIRTUAL_NAVIGATION
+    
+    def get_avatar_spatial_intelligence(self, session_id: str) -> Optional[Dict[str, Any]]:
+        """Get spatial intelligence summary for an avatar session."""
+        if session_id not in self.spatial_consciousness_cores:
+            return None
+        
+        spatial_core = self.spatial_consciousness_cores[session_id]
+        return {
+            "spatial_consciousness_active": True,
+            "awareness_level": spatial_core.awareness_level.name,
+            "current_context": spatial_core.current_context.value,
+            "learned_patterns": len(spatial_core.learned_patterns),
+            "environmental_memories": len(spatial_core.environmental_memory),
+            "spatial_relationships": len(spatial_core.spatial_relationships),
+            "capabilities": [
+                "enhanced_navigation",
+                "environmental_awareness", 
+                "attachment_detection",
+                "foundation_analysis",
+                "natural_discovery"
+            ]
+        }
+    
+    async def enhance_avatar_spatial_awareness(self, session_id: str, experience_data: Dict[str, Any]) -> bool:
+        """Feed experience data to enhance avatar's spatial awareness."""
+        if session_id not in self.spatial_consciousness_cores:
+            return False
+        
+        spatial_core = self.spatial_consciousness_cores[session_id]
+        spatial_core.learn_from_experience(experience_data)
+        
+        logger.info(f"🧠 Enhanced spatial awareness for avatar session {session_id}")
+        return True
+    
+    async def cleanup_avatar_spatial_consciousness(self, session_id: str):
+        """Clean up spatial consciousness resources when avatar session ends."""
+        if session_id in self.spatial_consciousness_cores:
+            del self.spatial_consciousness_cores[session_id]
+            logger.info(f"🌌 Cleaned up spatial consciousness for session {session_id}")
 
 # Bridge Wisdom Integration Classes
 class CoherenceCoordinator:
