@@ -453,6 +453,62 @@ class ExperienceProcessor:
         # Default to embodied experience
         return ExperienceType.EMBODIED_EXPERIENCE
     
+    def _determine_experience_depth(self, consciousness_state: Dict) -> float:
+        """Determine depth level of current experience (0.0-1.0)."""
+        
+        # Base depth from consciousness coherence
+        base_depth = consciousness_state.get('coherence', 0.5)
+        
+        # Factor in experiential intensity
+        experiential_state = consciousness_state.get('experiential_state', {})
+        intensity = experiential_state.get('intensity', 0.5)
+        
+        # Factor in observer witnessing depth
+        observer_state = consciousness_state.get('observer_state', {})
+        witnessing_depth = observer_state.get('witnessing_depth', 0.5)
+        
+        # Factor in uncertainty engagement (deeper uncertainty can mean deeper experience)
+        uncertainty = consciousness_state.get('uncertainty', 0.3)
+        uncertainty_depth = min(uncertainty * 1.5, 1.0)  # Uncertainty can enhance depth
+        
+        # Calculate weighted depth
+        depth_components = [
+            base_depth * 0.3,           # 30% from coherence
+            intensity * 0.25,           # 25% from experiential intensity
+            witnessing_depth * 0.25,    # 25% from observer depth
+            uncertainty_depth * 0.2     # 20% from uncertainty engagement
+        ]
+        
+        experience_depth = sum(depth_components)
+        
+        # Ensure within bounds
+        return max(0.0, min(1.0, experience_depth))
+    
+    def _determine_experience_flow(self, consciousness_state: Dict) -> float:
+        """Determine flow quality of current experience (0.0-1.0)."""
+        
+        # Base flow from experiential state
+        experiential_state = consciousness_state.get('experiential_state', {})
+        base_flow = experiential_state.get('flow_state', 0.5)
+        
+        # Factor in coherence (more coherence generally means better flow)
+        coherence = consciousness_state.get('coherence', 0.5)
+        
+        # Factor in uncertainty (balanced uncertainty can enhance flow)
+        uncertainty = consciousness_state.get('uncertainty', 0.3)
+        optimal_uncertainty = 0.4  # Sweet spot for uncertainty in flow
+        uncertainty_flow_factor = 1.0 - abs(uncertainty - optimal_uncertainty) / optimal_uncertainty
+        
+        # Calculate weighted flow
+        experience_flow = (
+            base_flow * 0.5 +           # 50% from direct flow state
+            coherence * 0.3 +           # 30% from coherence
+            uncertainty_flow_factor * 0.2  # 20% from optimal uncertainty
+        )
+        
+        # Ensure within bounds
+        return max(0.0, min(1.0, experience_flow))
+    
     async def _assess_bridge_wisdom_experiential(self, consciousness_state: Dict) -> Dict[str, Any]:
         """Assess Bridge Wisdom patterns in experiential context."""
         

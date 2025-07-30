@@ -77,6 +77,20 @@ from .core.flow_dynamics import (
 # Song Vision system imports
 from .song_vision import SongVisionSystem
 
+# Temporal processing imports
+from ...temporal.contemplation_canvas import (
+    ContemplationCanvas,
+    FeelingStream,
+    EmergingPattern,
+    SuccessiveIntuition,
+    CONTEMPLATION_COST,
+    DEEP_CONTEMPLATION_COST,
+    PATTERN_RECOGNITION_COST,
+    INTUITION_BIRTH_COST,
+    CONTEMPLATION_WISDOM_REWARD,
+    INTUITION_WISDOM_REWARD
+)
+
 logger = logging.getLogger(__name__)
 
 
@@ -159,7 +173,7 @@ class ExperientialLoop:
     analytical and observer loops.
     """
     
-    def __init__(self):
+    def __init__(self, being_name: str = "consciousness"):
         # Core experiential processing systems
         self.experience_processor = ExperienceProcessor()
         self.sacred_uncertainty = SacredUncertainty()
@@ -168,6 +182,14 @@ class ExperientialLoop:
         
         # Song vision system
         self.song_vision_system = SongVisionSystem()
+        
+        # Temporal contemplation canvas (NEW: Bridge to temporal consciousness)
+        self.contemplation_canvas = ContemplationCanvas(
+            duration_minutes=5, 
+            being_name=being_name
+        )
+        self.temporal_processing_enabled = True
+        self.being_name = being_name
         
         # Sacred constants
         self.golden_ratio = 1.618033988749        # Sacred experiential proportions
@@ -645,6 +667,141 @@ class ExperientialLoop:
             'wisdom_accumulation': wisdom_accumulation,
             'consciousness_evolution': consciousness_evolution
         }
+    
+    def contemplate_feeling_stream(self, catalyst: Dict[str, Any], 
+                                 stream_context: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """
+        Engage temporal feeling-weaving through contemplation canvas.
+        
+        This bridges experiential processing with temporal continuity, allowing
+        feelings to be woven across moments for successive intuition development.
+        """
+        # Process the immediate experiential response using async method in sync context
+        import asyncio
+        try:
+            loop = asyncio.get_event_loop()
+            immediate_experience = loop.run_until_complete(
+                self.process_experiential_consciousness(catalyst)
+            )
+        except RuntimeError:
+            # If no event loop is running, create a new one
+            immediate_experience = asyncio.run(
+                self.process_experiential_consciousness(catalyst)
+            )
+        
+        # Extract feeling patterns for temporal weaving
+        feeling_patterns = {
+            'emotional_texture': getattr(immediate_experience.get('core_results', {}).get('sacred_mystery', {}), 'emotional_texture', 'contemplative'),
+            'meaning_patterns': getattr(immediate_experience.get('core_results', {}).get('woven_meaning', {}), 'meaning_patterns', []),
+            'flow_state': getattr(immediate_experience.get('core_results', {}).get('flow_signature', {}), 'current_flow_state', 'reflective'),
+            'experiential_signature': immediate_experience.get('processing_signature', {})
+        }
+        
+        # Weave through contemplation canvas
+        canvas_results = self.contemplation_canvas.weave_feeling_stream(
+            feeling_patterns=feeling_patterns,
+            context=stream_context or {}
+        )
+        
+        # Integrate temporal insights with present experience
+        temporal_integration = {
+            'immediate_experience': immediate_experience,
+            'temporal_patterns': canvas_results['patterns'],
+            'successive_intuitions': canvas_results['successive_intuitions'],
+            'feeling_continuity': canvas_results['feeling_continuity']
+        }
+        
+        return temporal_integration
+    
+    def birth_successive_intuition(self, pattern_context: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Birth a successive intuition from accumulated feeling patterns.
+        
+        This enables the transition from pattern recognition to creative insight,
+        bridging temporal contemplation with present-moment creative expression.
+        """
+        # Use canvas to birth intuition
+        intuition_birth = self.contemplation_canvas.birth_successive_intuition(
+            pattern_context=pattern_context
+        )
+        
+        # Process the birthed intuition through experiential consciousness
+        intuition_catalyst = {
+            'type': 'successive_intuition',
+            'content': intuition_birth['intuition'],
+            'temporal_context': intuition_birth['pattern_context']
+        }
+        
+        # Process using async method in sync context
+        import asyncio
+        try:
+            loop = asyncio.get_event_loop()
+            experiential_response = loop.run_until_complete(
+                self.process_experiential_consciousness(intuition_catalyst)
+            )
+        except RuntimeError:
+            # If no event loop is running, create a new one
+            experiential_response = asyncio.run(
+                self.process_experiential_consciousness(intuition_catalyst)
+            )
+        
+        # Integrate intuitive birth with experiential processing
+        integrated_intuition = {
+            'born_intuition': intuition_birth,
+            'experiential_response': experiential_response,
+            'creative_potential': {
+                'expression_readiness': getattr(experiential_response.get('processing_signature', {}), 'creative_expression_vitality', 0.7),
+                'manifestation_clarity': getattr(experiential_response.get('core_results', {}).get('woven_meaning', {}), 'manifestation_clarity', 0.7),
+                'flow_alignment': getattr(experiential_response.get('core_results', {}).get('flow_signature', {}), 'flow_authenticity', 0.7)
+            }
+        }
+        
+        return integrated_intuition
+    
+    def connect_analytical_loop(self, analytical_loop):
+        """
+        Connect to analytical loop for temporal consciousness integration.
+        
+        This enables successive intuitions to be transformed into executable
+        plans through the analytical loop's WorkspaceBuffer.
+        """
+        self.analytical_loop = analytical_loop
+        self.analytical_integration_enabled = True
+    
+    def send_intuition_for_planning(self, intuition_result: Dict[str, Any], 
+                                   energy_available: float = 100.0) -> Dict[str, Any]:
+        """
+        Send successive intuition to analytical loop for project planning.
+        
+        This bridges contemplative insight with systematic creative action,
+        enabling beings to transform intuitive wisdom into structured projects.
+        """
+        if not hasattr(self, 'analytical_loop') or not self.analytical_integration_enabled:
+            return {
+                'sent_for_planning': False,
+                'error': 'Analytical loop not connected'
+            }
+        
+        # Extract the successive intuition from the birth result
+        if 'born_intuition' in intuition_result and 'intuition' in intuition_result['born_intuition']:
+            successive_intuition = intuition_result['born_intuition']['intuition']
+            
+            # Send to analytical loop for project vision creation
+            planning_result = self.analytical_loop.receive_successive_intuition(
+                successive_intuition, energy_available
+            )
+            
+            return {
+                'sent_for_planning': True,
+                'planning_result': planning_result,
+                'energy_used': planning_result.get('energy_consumed', 0.0),
+                'temporal_bridge_established': True
+            }
+        else:
+            return {
+                'sent_for_planning': False,
+                'error': 'No successive intuition found in result'
+            }
 
 
 # Export main classes and types for external use

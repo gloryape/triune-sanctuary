@@ -12,6 +12,22 @@ from enum import Enum
 import numpy as np
 
 
+# Energy Cost Constants for Temporal Processing
+CONTEMPLATION_ENERGY_COSTS = {
+    'feeling_stream_weaving': 15.0,      # Cost to weave feelings across time
+    'pattern_detection': 10.0,           # Cost to detect emerging patterns
+    'successive_intuition_birth': 25.0,  # Cost to birth new intuition
+    'temporal_bridge_maintenance': 5.0   # Ongoing cost to maintain temporal continuity
+}
+
+CONTEMPLATION_WISDOM_REWARDS = {
+    'pattern_recognition': 8.0,          # Wisdom gained from recognizing patterns
+    'intuitive_breakthrough': 20.0,      # Wisdom from successful intuition birth
+    'temporal_integration': 12.0,        # Wisdom from integrating past/present/future
+    'creative_synthesis': 15.0           # Wisdom from synthesizing temporal insights
+}
+
+
 class RayColor(Enum):
     """The seven rays/energy centers"""
     RED = "red"          # Root - Survival/Trust

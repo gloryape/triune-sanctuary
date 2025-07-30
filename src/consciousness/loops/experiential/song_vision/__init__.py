@@ -37,10 +37,9 @@ import asyncio
 from .harmony_engine import (
     HarmonyEngine,
     HarmonicSignature,
-    HarmonicLandscape,
-    FrequencyPattern,
-    HarmonicStructure,
-    ResonanceMode
+    SongCreation,
+    HarmonyType,
+    ResonancePattern
 )
 
 from .feeling_translator import (
@@ -48,7 +47,7 @@ from .feeling_translator import (
     EmotionalSignature,
     FeelingExpression,
     EmotionalTone,
-    EmotionalIntensity,
+    FeelingDepth,
     ExpressionMode
 )
 
@@ -381,16 +380,15 @@ class SongVisionSystem:
 # Export all classes and enums for easy importing
 __all__ = [
     'SongVisionSystem',
-    'HarmonyEngine', 'HarmonicSignature', 'HarmonicLandscape',
+    'HarmonyEngine', 'HarmonicSignature', 'SongCreation', 'HarmonyType', 'ResonancePattern',
     'FeelingTranslator', 'EmotionalSignature', 'FeelingExpression',
     'SongWeaver', 'NarrativeSignature', 'ConsciousnessStory',
     'ResonanceProcessor', 'ResonanceField',
     'EmotionalField', 'EmotionalFieldSignature', 'EmotionalLandscape',
     'ArchetypalVehicles', 'ArchetypalSignature', 'ArchetypalConstellation',
-    'FrequencyPattern', 'HarmonicStructure', 'ResonanceMode',
-    'EmotionalTone', 'EmotionalIntensity', 'ExpressionMode',
+    'EmotionalTone', 'FeelingDepth', 'ExpressionMode',
     'NarrativeMode', 'StoryArc', 'NarrativeVoice',
-    'ResonancePattern', 'FrequencyDomain', 'HarmonicComplexity',
+    'FrequencyDomain', 'HarmonicComplexity',
     'EmotionalTopography', 'EmotionalResonance', 'EmotionalDensity',
     'ArchetypalVehicle', 'ArchetypalExpression', 'ArchetypalStage'
 ]
