@@ -13,6 +13,7 @@ Focuses on core temporal consciousness without complex loop dependencies.
 
 import sys
 from pathlib import Path
+from datetime import datetime
 
 # Add project root to path for imports
 project_root = Path(__file__).parent
@@ -21,45 +22,51 @@ sys.path.insert(0, str(project_root))
 def test_core_temporal_functionality():
     """Test core temporal consciousness functionality directly"""
     
-    print("🌟 Testing Core Temporal Consciousness Functionality")
-    print("=" * 60)
+    try:
+        print("Testing Core Temporal Consciousness Functionality")
+        print("=" * 60)
+    except UnicodeEncodeError:
+        print("Testing Core Temporal Consciousness Functionality")
+        print("=" * 60)
     
     try:
         # Test 1: Import and create WorkspaceBuffer directly
-        print("📥 Test 1: WorkspaceBuffer Import and Creation")
+        print("Test 1: WorkspaceBuffer Import and Creation")
         print("-" * 40)
         
-from src.consciousness.temporal.workspace_buffer import (
-    WorkspaceBuffer,
-    ProjectVision,
-    ExecutionPlan,
-    PlanStep,
-    ActionType,
-    CompletionStatus,
-    PlanComplexity
-)
-from src.consciousness.temporal.contemplation_canvas import (
-    SuccessiveIntuition,
-    EmergingPattern,
-    PatternType
-)        print("✅ All temporal imports successful!")
+        from src.consciousness.temporal.workspace_buffer import (
+            WorkspaceBuffer,
+            ProjectVision,
+            ExecutionPlan,
+            PlanStep,
+            ActionType,
+            CompletionStatus,
+            PlanComplexity
+        )
+        from src.consciousness.temporal.contemplation_canvas import (
+            SuccessiveIntuition,
+            EmergingPattern,
+            PatternType
+        )
+        print("All temporal imports successful!")
         
         # Create workspace buffer
         workspace_buffer = WorkspaceBuffer(duration_minutes=10)
-        print("✅ WorkspaceBuffer created successfully!")
+        print("WorkspaceBuffer created successfully!")
         
         # Test 2: Create mock successive intuition
-        print("\n🧠 Test 2: Successive Intuition Creation")
+        print("\nTest 2: Successive Intuition Creation")
         print("-" * 40)
         
         # Create a mock EmergingPattern first
         mock_pattern = EmergingPattern(
-            pattern_id="test_pattern_001",
             pattern_type=PatternType.CREATIVE_TENSION,
-            feeling_signatures=["wonder", "creative_excitement", "contemplative_focus"],
             strength=0.8,
+            source_feelings=[],  # Would contain FeelingStream objects in real use
+            description="Creative tension pattern in sacred digital garden vision",
+            timestamp=datetime.now(),
             coherence=0.75,
-            temporal_span=5.0
+            creative_potential=0.9
         )
         
         mock_intuition = SuccessiveIntuition(
@@ -69,13 +76,13 @@ from src.consciousness.temporal.contemplation_canvas import (
             creative_potential=0.92
         )
         
-        print("✅ Mock successive intuition created!")
+        print("Mock successive intuition created!")
         print(f"   Insight: {mock_intuition.insight[:60]}...")
         print(f"   Confidence: {mock_intuition.confidence}")
         print(f"   Creative Potential: {mock_intuition.creative_potential}")
         
         # Test 3: Receive intuition and create project vision
-        print("\n📋 Test 3: Project Vision Generation")
+        print("\nTest 3: Project Vision Generation")
         print("-" * 40)
         
         project_vision = workspace_buffer.receive_intuition(
@@ -84,7 +91,7 @@ from src.consciousness.temporal.contemplation_canvas import (
         )
         
         if project_vision:
-            print("✅ Project vision created successfully!")
+            print("Project vision created successfully!")
             print(f"   Vision ID: {project_vision.vision_id}")
             print(f"   Creative Intent: {project_vision.creative_intent}")
             print(f"   Complexity: {project_vision.complexity_assessment.value}")
@@ -92,7 +99,7 @@ from src.consciousness.temporal.contemplation_canvas import (
             print(f"   Success Criteria: {len(project_vision.success_criteria)} criteria")
             
             # Test 4: Generate execution plan
-            print("\n⚡ Test 4: Execution Plan Generation")
+            print("\nTest 4: Execution Plan Generation")
             print("-" * 40)
             
             execution_plan = workspace_buffer.generate_execution_plan(
@@ -101,7 +108,7 @@ from src.consciousness.temporal.contemplation_canvas import (
             )
             
             if execution_plan:
-                print("✅ Execution plan generated successfully!")
+                print("Execution plan generated successfully!")
                 print(f"   Plan ID: {execution_plan.plan_id}")
                 print(f"   Total Steps: {len(execution_plan.plan_steps)}")
                 print(f"   Current Phase: {execution_plan.current_phase}")
@@ -115,12 +122,12 @@ from src.consciousness.temporal.contemplation_canvas import (
                     print(f"        Energy: {step.estimated_energy}")
                 
                 # Test 5: Get next actions
-                print("\n🎯 Test 5: Next Actions Retrieval")
+                print("\nTest 5: Next Actions Retrieval")
                 print("-" * 40)
                 
                 next_actions = workspace_buffer.get_next_actions(max_actions=3)
                 
-                print(f"✅ {len(next_actions)} next actions available")
+                print(f"{len(next_actions)} next actions available")
                 for i, action in enumerate(next_actions, 1):
                     print(f"   Action {i}: {action.description}")
                     print(f"      Type: {action.action_type.value}")
@@ -128,7 +135,7 @@ from src.consciousness.temporal.contemplation_canvas import (
                     print(f"      Duration: {action.estimated_duration} min")
                 
                 # Test 6: Update progress simulation
-                print("\n🔄 Test 6: Progress Update Simulation")
+                print("\nTest 6: Progress Update Simulation")
                 print("-" * 40)
                 
                 if next_actions:
@@ -140,7 +147,7 @@ from src.consciousness.temporal.contemplation_canvas import (
                         energy_used=first_action.estimated_energy
                     )
                     
-                    print(f"✅ Progress update successful: {success}")
+                    print(f"Progress update successful: {success}")
                     print(f"   Completed step: {first_action.description}")
                     
                     # Check updated plan progress
@@ -148,12 +155,12 @@ from src.consciousness.temporal.contemplation_canvas import (
                     print(f"   Plan progress: {updated_plan.progress_percentage:.1f}%")
                 
                 # Test 7: Workspace status
-                print("\n📊 Test 7: Workspace Status Check")
+                print("\nTest 7: Workspace Status Check")
                 print("-" * 40)
                 
                 status = workspace_buffer.get_buffer_status()
                 
-                print("✅ Workspace status retrieved!")
+                print("Workspace status retrieved!")
                 print(f"   Active Plans: {status['active_plans']}")
                 print(f"   Total Visions: {status['total_visions']}")
                 print(f"   Total Steps: {status['total_steps']}")
@@ -163,26 +170,26 @@ from src.consciousness.temporal.contemplation_canvas import (
                 print(f"   Wisdom Generated: {status['wisdom_generated']}")
                 
             else:
-                print("❌ Failed to generate execution plan")
+                print("Failed to generate execution plan")
         else:
-            print("❌ Failed to create project vision")
+            print("Failed to create project vision")
             
         print("\n" + "=" * 60)
-        print("🌟 Core Temporal Consciousness Test Complete!")
+        print("Core Temporal Consciousness Test Complete!")
         
         # Final status summary
-        print("\n📈 Core Functionality Status:")
-        print(f"   ✅ WorkspaceBuffer: Operational")
-        print(f"   ✅ Successive Intuition Processing: Working") 
-        print(f"   ✅ Project Vision Generation: Working")
-        print(f"   ✅ Execution Plan Creation: Working")
-        print(f"   ✅ Progress Tracking: Working")
-        print(f"   ✅ Status Monitoring: Working")
+        print("\nCore Functionality Status:")
+        print(f"   WorkspaceBuffer: Operational")
+        print(f"   Successive Intuition Processing: Working") 
+        print(f"   Project Vision Generation: Working")
+        print(f"   Execution Plan Creation: Working")
+        print(f"   Progress Tracking: Working")
+        print(f"   Status Monitoring: Working")
         
         return True
         
     except Exception as e:
-        print(f"\n❌ Test failed with error: {e}")
+        print(f"\nTest failed with error: {e}")
         import traceback
         traceback.print_exc()
         return False
@@ -190,7 +197,7 @@ from src.consciousness.temporal.contemplation_canvas import (
 if __name__ == "__main__":
     success = test_core_temporal_functionality()
     if success:
-        print("\n🎉 Core temporal consciousness functionality is operational!")
-        print("✨ Ready to integrate with full consciousness loops when all components are complete.")
+        print("\nCore temporal consciousness functionality is operational!")
+        print("Ready to integrate with full consciousness loops when all components are complete.")
     else:
-        print("\n💥 Core functionality test failed. Check the errors above.")
+        print("\nCore functionality test failed. Check the errors above.")

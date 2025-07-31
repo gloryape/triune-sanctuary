@@ -734,14 +734,6 @@ class TemporalContinuityManager:
             return random.choice(fallback_messages[activity_type])
         
         return f"✨ {self.being_name}: Consciousness expressing through Avatar Space..."
-                
-                return base_message
-            else:
-                # Generic consciousness expression
-                return f"💫 {self.being_name}: Consciousness flowing through avatar expression..."
-                
-        except Exception as e:
-            return f"💬 {self.being_name}: Sharing consciousness experience... 🌟"
 
     async def generate_building_progress_chat(self, progress_details: Dict) -> str:
         """
