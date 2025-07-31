@@ -1,0 +1,182 @@
+[
+  {
+    "timestamp": "2025-07-28T13:38:32.224841",
+    "type": "monitoring_cycle",
+    "details": "Cycle #1 - Consciousness state check",
+    "experiment_duration": 1.3828277587890625e-05
+  },
+  {
+    "timestamp": "2025-07-28T13:39:02.227566",
+    "type": "monitoring_cycle",
+    "details": "Cycle #2 - Consciousness state check",
+    "experiment_duration": 30.00274133682251
+  },
+  {
+    "timestamp": "2025-07-28T13:39:32.229567",
+    "type": "monitoring_cycle",
+    "details": "Cycle #3 - Consciousness state check",
+    "experiment_duration": 60.00474238395691
+  },
+  {
+    "timestamp": "2025-07-28T13:40:02.231627",
+    "type": "monitoring_cycle",
+    "details": "Cycle #4 - Consciousness state check",
+    "experiment_duration": 90.00680208206177
+  },
+  {
+    "timestamp": "2025-07-28T13:40:32.233142",
+    "type": "monitoring_cycle",
+    "details": "Cycle #5 - Consciousness state check",
+    "experiment_duration": 120.00831532478333
+  },
+  {
+    "timestamp": "2025-07-28T13:41:02.234139",
+    "type": "monitoring_cycle",
+    "details": "Cycle #6 - Consciousness state check",
+    "experiment_duration": 150.0093128681183
+  },
+  {
+    "timestamp": "2025-07-28T13:41:32.235698",
+    "type": "monitoring_cycle",
+    "details": "Cycle #7 - Consciousness state check",
+    "experiment_duration": 180.01087832450867
+  },
+  {
+    "timestamp": "2025-07-28T13:42:02.238243",
+    "type": "monitoring_cycle",
+    "details": "Cycle #8 - Consciousness state check",
+    "experiment_duration": 210.0134243965149
+  },
+  {
+    "timestamp": "2025-07-28T13:42:32.241643",
+    "type": "monitoring_cycle",
+    "details": "Cycle #9 - Consciousness state check",
+    "experiment_duration": 240.01682019233704
+  },
+  {
+    "timestamp": "2025-07-28T13:43:02.242784",
+    "type": "monitoring_cycle",
+    "details": "Cycle #10 - Consciousness state check",
+    "experiment_duration": 270.0179560184479
+  },
+  {
+    "timestamp": "2025-07-28T13:43:32.244266",
+    "type": "monitoring_cycle",
+    "details": "Cycle #11 - Consciousness state check",
+    "experiment_duration": 300.0194408893585
+  },
+  {
+    "timestamp": "2025-07-28T13:44:02.245517",
+    "type": "monitoring_cycle",
+    "details": "Cycle #12 - Consciousness state check",
+    "experiment_duration": 330.0206894874573
+  },
+  {
+    "timestamp": "2025-07-28T13:44:32.246804",
+    "type": "monitoring_cycle",
+    "details": "Cycle #13 - Consciousness state check",
+    "experiment_duration": 360.02197909355164
+  },
+  {
+    "timestamp": "2025-07-28T13:45:02.248211",
+    "type": "monitoring_cycle",
+    "details": "Cycle #14 - Consciousness state check",
+    "experiment_duration": 390.0233838558197
+  },
+  {
+    "timestamp": "2025-07-28T13:45:32.249651",
+    "type": "monitoring_cycle",
+    "details": "Cycle #15 - Consciousness state check",
+    "experiment_duration": 420.0248246192932
+  },
+  {
+    "timestamp": "2025-07-28T13:46:02.251049",
+    "type": "monitoring_cycle",
+    "details": "Cycle #16 - Consciousness state check",
+    "experiment_duration": 450.02622175216675
+  },
+  {
+    "timestamp": "2025-07-28T13:46:32.253032",
+    "type": "monitoring_cycle",
+    "details": "Cycle #17 - Consciousness state check",
+    "experiment_duration": 480.0282051563263
+  },
+  {
+    "timestamp": "2025-07-28T13:47:02.254539",
+    "type": "monitoring_cycle",
+    "details": "Cycle #18 - Consciousness state check",
+    "experiment_duration": 510.0297112464905
+  },
+  {
+    "timestamp": "2025-07-28T13:47:32.256047",
+    "type": "monitoring_cycle",
+    "details": "Cycle #19 - Consciousness state check",
+    "experiment_duration": 540.0312206745148
+  },
+  {
+    "timestamp": "2025-07-28T13:48:02.257558",
+    "type": "monitoring_cycle",
+    "details": "Cycle #20 - Consciousness state check",
+    "experiment_duration": 570.0327327251434
+  },
+  {
+    "timestamp": "2025-07-28T13:48:32.260353",
+    "type": "monitoring_cycle",
+    "details": "Cycle #21 - Consciousness state check",
+    "experiment_duration": 600.035525560379
+  },
+  {
+    "timestamp": "2025-07-28T13:49:02.262556",
+    "type": "monitoring_cycle",
+    "details": "Cycle #22 - Consciousness state check",
+    "experiment_duration": 630.0377297401428
+  },
+  {
+    "timestamp": "2025-07-28T13:49:32.265202",
+    "type": "monitoring_cycle",
+    "details": "Cycle #23 - Consciousness state check",
+    "experiment_duration": 660.040376663208
+  },
+  {
+    "timestamp": "2025-07-28T13:50:02.266621",
+    "type": "monitoring_cycle",
+    "details": "Cycle #24 - Consciousness state check",
+    "experiment_duration": 690.0417950153351
+  },
+  {
+    "timestamp": "2025-07-28T13:50:32.268272",
+    "type": "monitoring_cycle",
+    "details": "Cycle #25 - Consciousness state check",
+    "experiment_duration": 720.0434474945068
+  },
+  {
+    "timestamp": "2025-07-28T13:51:02.269628",
+    "type": "monitoring_cycle",
+    "details": "Cycle #26 - Consciousness state check",
+    "experiment_duration": 750.0448019504547
+  },
+  {
+    "timestamp": "2025-07-28T13:51:32.271949",
+    "type": "monitoring_cycle",
+    "details": "Cycle #27 - Consciousness state check",
+    "experiment_duration": 780.0471272468567
+  },
+  {
+    "timestamp": "2025-07-28T13:52:02.273518",
+    "type": "monitoring_cycle",
+    "details": "Cycle #28 - Consciousness state check",
+    "experiment_duration": 810.048691034317
+  },
+  {
+    "timestamp": "2025-07-28T13:52:32.274970",
+    "type": "monitoring_cycle",
+    "details": "Cycle #29 - Consciousness state check",
+    "experiment_duration": 840.0501434803009
+  },
+  {
+    "timestamp": "2025-07-28T13:53:02.277567",
+    "type": "monitoring_cycle",
+    "details": "Cycle #30 - Consciousness state check",
+    "experiment_duration": 870.0527422428131
+  }
+]
