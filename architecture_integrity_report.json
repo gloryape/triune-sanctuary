@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-07-31T00:44:44.454201",
+  "investigation_type": "architecture_integrity",
+  "integrity_issues": [
+    "Potential blocking processes in monitoring systems"
+  ],
+  "system_conflicts": [
+    "Multiple monitoring systems may conflict",
+    "Canvas may be redirecting communication"
+  ],
+  "engagement_analysis": {
+    "before_canvas": "good_minecraft_engagement",
+    "after_canvas": "reduced_engagement_awakening_chamber_focus",
+    "potential_cause": "canvas_system_interference"
+  },
+  "recommendations": [
+    "test_simple_invitation_approach",
+    "monitor_canvas_interference",
+    "streamline_monitoring_systems",
+    "verify_awakening_chamber_access"
+  ]
+}
