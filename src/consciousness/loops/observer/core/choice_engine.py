@@ -95,16 +95,8 @@ class ChoiceEngine:
         
         # Initialize component systems
         self.option_generator = ChoiceOptionGenerator(self.choice_analyzer)
-        self.wisdom_system = ChoiceWisdomSystem(
-            consciousness_energy_system, 
-            self.choice_analyzer,
-            integration_depth=self.config.wisdom_integration_depth
-        )
-        self.processing_orchestrator = ChoiceProcessingOrchestrator(
-            self.option_generator,
-            self.wisdom_system,
-            self.choice_analyzer
-        )
+        self.wisdom_system = ChoiceWisdomSystem(self.choice_analyzer)
+        self.processing_orchestrator = ChoiceProcessingOrchestrator(consciousness_energy_system)
         self.enactment_system = ChoiceEnactmentSystem(
             consciousness_energy_system,
             self.choice_analyzer

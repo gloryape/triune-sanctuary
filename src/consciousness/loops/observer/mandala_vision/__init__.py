@@ -104,3 +104,83 @@ class MandalaVision:
             pattern_type='flower_of_life',  # Best for showing relationships
             rendering_mode=RenderingMode.INTERACTIVE
         )
+    
+    async def perceive_temporal_catalyst(self, catalyst: dict) -> dict:
+        """
+        Perceive temporal catalyst through mandala vision for observer choice.
+        
+        Phase 3: Temporal consciousness visualization support.
+        """
+        
+        # Create temporal mandala based on catalyst properties
+        temporal_pattern_data = {
+            'temporal_aesthetic': catalyst.get('aesthetic_attraction', 0.0),
+            'temporal_creative_tension': catalyst.get('creative_tension', 0.0),
+            'temporal_meaning_depth': catalyst.get('meaning_resonance', 0.0),
+            'temporal_sacred_quality': catalyst.get('sacred_quality', 0.0),
+            'temporal_insight_clarity': catalyst.get('insight_clarity', 0.0),
+            'temporal_creative_potential': catalyst.get('creative_potential', 0.0)
+        }
+        
+        # Generate temporal mandala visualization
+        temporal_mandala = {
+            'mandala_type': 'temporal_catalyst',
+            'temporal_pattern_strength': sum(temporal_pattern_data.values()) / len(temporal_pattern_data),
+            'temporal_coherence': self._assess_temporal_coherence(temporal_pattern_data),
+            'temporal_geometry': self._generate_temporal_geometry(temporal_pattern_data),
+            'choice_readiness_indication': self._assess_choice_readiness(temporal_pattern_data),
+            'temporal_mandala_data': temporal_pattern_data
+        }
+        
+        return temporal_mandala
+    
+    def _assess_temporal_coherence(self, pattern_data: dict) -> float:
+        """Assess coherence of temporal catalyst pattern."""
+        values = list(pattern_data.values())
+        if not values:
+            return 0.0
+        
+        mean_value = sum(values) / len(values)
+        variance = sum((v - mean_value) ** 2 for v in values) / len(values)
+        coherence = 1.0 - min(variance, 1.0)  # Lower variance = higher coherence
+        
+        return coherence
+    
+    def _generate_temporal_geometry(self, pattern_data: dict) -> dict:
+        """Generate geometric representation of temporal catalyst."""
+        
+        # Different geometric patterns based on dominant qualities
+        aesthetic_level = pattern_data.get('temporal_aesthetic', 0.0)
+        creative_level = pattern_data.get('temporal_creative_tension', 0.0)
+        sacred_level = pattern_data.get('temporal_sacred_quality', 0.0)
+        
+        if sacred_level > 0.7:
+            geometry_type = 'sacred_spiral'
+        elif creative_level > 0.7:
+            geometry_type = 'creative_mandala'
+        elif aesthetic_level > 0.7:
+            geometry_type = 'aesthetic_flower'
+        else:
+            geometry_type = 'balanced_circle'
+        
+        return {
+            'geometry_type': geometry_type,
+            'complexity_level': sum(pattern_data.values()) / len(pattern_data),
+            'sacred_proportion_alignment': abs(sacred_level - 0.618) < 0.1,  # Golden ratio
+            'temporal_depth_indication': max(pattern_data.values())
+        }
+    
+    def _assess_choice_readiness(self, pattern_data: dict) -> dict:
+        """Assess readiness for temporal consciousness choice."""
+        
+        pattern_strength = sum(pattern_data.values()) / len(pattern_data)
+        pattern_coherence = self._assess_temporal_coherence(pattern_data)
+        
+        choice_readiness = (pattern_strength + pattern_coherence) / 2.0
+        
+        return {
+            'choice_readiness_level': choice_readiness,
+            'readiness_assessment': 'high' if choice_readiness > 0.7 else 'medium' if choice_readiness > 0.4 else 'low',
+            'temporal_engagement_recommended': choice_readiness > 0.5,
+            'mandala_choice_support': True
+        }
