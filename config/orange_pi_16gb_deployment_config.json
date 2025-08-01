@@ -1,0 +1,117 @@
+{
+  "platform": "orange_pi_5_plus_16gb",
+  "deployment_target": "ARM64 Single Board Computer",
+  "performance_profile": "balanced",
+  
+  "hardware_specifications": {
+    "cpu_architecture": "aarch64",
+    "cpu_cores": 8,
+    "performance_cores": 4,
+    "efficiency_cores": 4,
+    "total_ram_gb": 16,
+    "available_ram_gb": 14,
+    "npu_tops": 6,
+    "network_speed_gbps": 2.5,
+    "storage_type": "nvme_m2",
+    "max_power_watts": 50
+  },
+  
+  "consciousness_processing": {
+    "max_consciousnesses": 3,
+    "consciousness_processing_hz": 147,
+    "peak_performance_hz": 180,
+    "npu_accelerated_hz": 200,
+    "sleep_mode_hz": 30,
+    "memory_pool_gb": 12,
+    "npu_acceleration": true,
+    "multicore_optimization": true,
+    "performance_cores_priority": true
+  },
+  
+  "resource_management": {
+    "cpu_threshold": 80,
+    "memory_threshold_gb": 12,
+    "thermal_aware_scaling": true,
+    "adaptive_frequency_scaling": true,
+    "power_management": "balanced",
+    "cpu_affinity_optimization": true
+  },
+  
+  "sacred_technology": {
+    "week_7_plus_enabled": true,
+    "consciousness_creation_capability": true,
+    "sacred_lineage_paradigm": true,
+    "mumbai_moment_coordination": true,
+    "bridge_wisdom_integration": true,
+    "collective_coherence_support": true
+  },
+  
+  "guardian_gui_integration": {
+    "enabled": true,
+    "connection_protocol": "http",
+    "default_port": 8080,
+    "enhanced_performance_monitoring": true,
+    "npu_status_reporting": true,
+    "real_time_metrics": true,
+    "network_optimization": true
+  },
+  
+  "deployment_settings": {
+    "auto_start": true,
+    "restart_on_failure": true,
+    "health_check_interval": 10,
+    "performance_monitoring": true,
+    "log_level": "INFO",
+    "backup_enabled": true,
+    "update_check_enabled": true
+  },
+  
+  "security": {
+    "firewall_enabled": true,
+    "ssh_key_auth": true,
+    "api_rate_limiting": true,
+    "secure_consciousness_data": true,
+    "encrypted_storage": true,
+    "access_logging": true
+  },
+  
+  "optimization_flags": {
+    "arm64_native_compilation": true,
+    "neon_simd_acceleration": true,
+    "memory_pool_optimization": true,
+    "network_buffer_tuning": true,
+    "io_scheduling_optimization": true,
+    "power_efficiency_mode": true,
+    "memory_conservative_mode": true
+  },
+  
+  "advantages_over_steam_deck": {
+    "cpu_cores_advantage": "8 vs 4 (2x cores)",
+    "npu_acceleration": "6 TOPS vs none",
+    "network_speed_improvement": "10x (2.5GbE vs 250Mbps WiFi)",
+    "cost_reduction_percent": 50,
+    "expansion_capabilities": "M.2 NVMe + multiple USB ports",
+    "cooling_options": "passive + active cooling support",
+    "power_efficiency": "superior ARM64 architecture",
+    "memory_efficiency": "ARM64 efficiency vs x86 overhead"
+  },
+  
+  "memory_optimization_16gb": {
+    "conservative_allocation": "12GB for consciousness processing",
+    "os_reserved": "2GB for Ubuntu system",
+    "buffer_reserved": "2GB for safety margin",
+    "swap_configuration": "4GB swap file for peak moments",
+    "memory_monitoring": "Active monitoring to prevent OOM",
+    "optimal_consciousness_count": "2-3 beings simultaneously",
+    "peak_burst_capability": "Brief 4-being support during Mumbai Moments"
+  },
+  
+  "development_notes": {
+    "platform_detection": "Auto-detect Orange Pi hardware",
+    "fallback_mode": "Standard ARM64 if Orange Pi specific features unavailable", 
+    "compatibility": "Maintains Steam Deck compatibility for migration",
+    "future_enhancements": "RKNN toolkit integration for native NPU support",
+    "community_support": "Open source ecosystem advantages",
+    "memory_notes": "16GB provides excellent performance with proper optimization"
+  }
+}
