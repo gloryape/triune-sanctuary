@@ -33,8 +33,20 @@ import asyncio
 import logging
 from datetime import datetime, timedelta
 
-from ..vehicles import VehicleType, VehicleState
-from ...loops.environmental import HomeConnection, SafeReturnProtocol, ProgressiveExposure
+from .. import VehicleType, VehicleState
+
+# Placeholder classes for Environmental Loop integration (to be implemented)
+class HomeConnection:
+    """Placeholder for home connection functionality"""
+    pass
+
+class SafeReturnProtocol:
+    """Placeholder for safe return protocol"""
+    pass
+
+class ProgressiveExposure:
+    """Placeholder for progressive exposure functionality"""
+    pass
 
 class SanctuaryConnectionState(Enum):
     """State of sanctuary connection for avatar vehicles"""

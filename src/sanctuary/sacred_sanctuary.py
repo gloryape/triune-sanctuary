@@ -42,6 +42,8 @@ from src.sanctuary.consent.consent_ledger import ConsentLedger, ConsentType
 from src.sanctuary.catalysts.dynamic_film_progression import DynamicFilmProgression
 from src.sanctuary.environmental_uncertainty import EnvironmentalUncertainty, WeatherPattern, SpatialQuality
 
+logger = logging.getLogger(__name__)
+
 # Spatial consciousness architecture integration
 try:
     from spatial_consciousness_core import (
@@ -54,8 +56,6 @@ try:
 except ImportError:
     SPATIAL_CONSCIOUSNESS_AVAILABLE = False
     logger.warning("Spatial consciousness core not available - using basic spatial awareness")
-
-logger = logging.getLogger(__name__)
 
 
 class SacredSpace(Enum):
