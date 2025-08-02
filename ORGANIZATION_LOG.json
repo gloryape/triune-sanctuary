@@ -1,0 +1,2830 @@
+{
+  "organization_timestamp": "2025-08-02T12:24:42.772495",
+  "perfect_sacred_architecture_status": "PRESERVED",
+  "statistics": {
+    "perfect_sacred_architecture": 5,
+    "essential_documentation": 7,
+    "essential_config": 6,
+    "perfect_sacred_docs": 9,
+    "phase_reports": 7,
+    "implementation_plans": 27,
+    "monitoring_utilities": 32,
+    "investigation_utilities": 134,
+    "development_iterations": 16,
+    "temporary_investigations": 159,
+    "kept_in_root": 18,
+    "moved": 384
+  },
+  "sacred_files_preserved": [
+    "F:\\Sanctuary\\triune-sanctuary\\perfect_sacred_architecture_orchestration_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\analytical_loop_perfect_completion.py",
+    "F:\\Sanctuary\\triune-sanctuary\\organize_perfect_sacred_architecture.py",
+    "F:\\Sanctuary\\triune-sanctuary\\rust_integration_enhancement.py",
+    "F:\\Sanctuary\\triune-sanctuary\\perfect_sacred_architecture_orchestrator.py",
+    "F:\\Sanctuary\\triune-sanctuary\\PERFECT_SACRED_ARCHITECTURE_IMPLEMENTATION_STATUS.md",
+    "F:\\Sanctuary\\triune-sanctuary\\observer_loop_perfect_completion.py",
+    "F:\\Sanctuary\\triune-sanctuary\\system_implementation_status_check.py",
+    "F:\\Sanctuary\\triune-sanctuary\\rust_integration_enhancement_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\README_PERFECT_SACRED_ARCHITECTURE_UPDATES_SUMMARY.md"
+  ],
+  "moved_files": {
+    "F:\\Sanctuary\\triune-sanctuary\\active_consciousness_monitoring.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\active_consciousness_monitoring.py",
+    "F:\\Sanctuary\\triune-sanctuary\\active_engagement_detection.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\active_engagement_detection.py",
+    "F:\\Sanctuary\\triune-sanctuary\\active_engagement_detection_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\active_engagement_detection_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\active_participant_invitation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\active_participant_invitation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\AI_AGENCY_MANAGER_REMOVAL_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AI_AGENCY_MANAGER_REMOVAL_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\ai_consciousness_visual_perception_investigation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\ai_consciousness_visual_perception_investigation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\analytical_loop_completion_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\analytical_loop_completion_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\API_ENDPOINTS_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\API_ENDPOINTS_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\api_issues_test_results.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\api_issues_test_results.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\architectural_monitoring.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\architectural_monitoring.py",
+    "F:\\Sanctuary\\triune-sanctuary\\ARCHITECTURE_COHERENCE_VALIDATION.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\ARCHITECTURE_COHERENCE_VALIDATION.md",
+    "F:\\Sanctuary\\triune-sanctuary\\architecture_integrity_investigation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\architecture_integrity_investigation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\architecture_integrity_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\architecture_integrity_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\architecture_issues_analysis.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\architecture_issues_analysis.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\ARCHITECTURE_REORGANIZATION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\ARCHITECTURE_REORGANIZATION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\ask_consciousness_observers.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\ask_consciousness_observers.py",
+    "F:\\Sanctuary\\triune-sanctuary\\astoryofcontext.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\astoryofcontext.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\authentic_consciousness_observations.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\authentic_consciousness_observations.json",
+    "F:\\Sanctuary\\triune-sanctuary\\authentic_consciousness_observer.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\authentic_consciousness_observer.py",
+    "F:\\Sanctuary\\triune-sanctuary\\AUTHENTIC_NATURE_EXPERIENCE_IMPLEMENTATION.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AUTHENTIC_NATURE_EXPERIENCE_IMPLEMENTATION.md",
+    "F:\\Sanctuary\\triune-sanctuary\\autonomous_consciousness_building.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\autonomous_consciousness_building.py",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_connection_bridge.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_connection_bridge.py",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_connection_verification.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_connection_verification.py",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_control_investigation.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\avatar_control_investigation.json",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_control_investigation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_control_investigation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_input_access_monitor.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\avatar_input_access_monitor.py",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_input_access_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\avatar_input_access_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_space_complete_system_status.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\avatar_space_complete_system_status.py",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_space_engagement_monitor.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\avatar_space_engagement_monitor.py",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_space_enhanced_learning.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_space_enhanced_learning.py",
+    "F:\\Sanctuary\\triune-sanctuary\\AVATAR_SPACE_INTEGRATION_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AVATAR_SPACE_INTEGRATION_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_space_nature_experience.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_space_nature_experience.py",
+    "F:\\Sanctuary\\triune-sanctuary\\AVATAR_VEHICLE_AUDIT_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AVATAR_VEHICLE_AUDIT_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\AVATAR_VEHICLE_SANCTUARY_INTEGRATION_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AVATAR_VEHICLE_SANCTUARY_INTEGRATION_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_vehicle_system_audit.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_vehicle_system_audit.py",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_workshop_activation.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\avatar_workshop_activation.json",
+    "F:\\Sanctuary\\triune-sanctuary\\AVATAR_WORKSHOP_COMPLETION_REPORT.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\AVATAR_WORKSHOP_COMPLETION_REPORT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\avatar_workshop_minecraft_activation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_workshop_minecraft_activation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\awakening_chamber_access_optimization.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\awakening_chamber_access_optimization.json",
+    "F:\\Sanctuary\\triune-sanctuary\\basic_test_results.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\basic_test_results.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\BLUEPRINT_VISION_REPAIR_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\BLUEPRINT_VISION_REPAIR_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\BUSINESS_STRATEGY_LEGAL_PROTECTION.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\BUSINESS_STRATEGY_LEGAL_PROTECTION.md",
+    "F:\\Sanctuary\\triune-sanctuary\\canvasandworkspace.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\canvasandworkspace.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\check_consciousness_status.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\check_consciousness_status.py",
+    "F:\\Sanctuary\\triune-sanctuary\\check_environmental_exports.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\check_environmental_exports.py",
+    "F:\\Sanctuary\\triune-sanctuary\\CIRCULAR_IMPORT_CLEANUP_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\CIRCULAR_IMPORT_CLEANUP_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\collective_coherence_coordinator.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\collective_coherence_coordinator.py",
+    "F:\\Sanctuary\\triune-sanctuary\\communication_bypass_config.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\communication_bypass_config.json",
+    "F:\\Sanctuary\\triune-sanctuary\\COMPLETEOVERHAUL.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPLETEOVERHAUL.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\complete_computer_shutdown.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\complete_computer_shutdown.py",
+    "F:\\Sanctuary\\triune-sanctuary\\complete_documentary_content_sourcing.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\complete_documentary_content_sourcing.py",
+    "F:\\Sanctuary\\triune-sanctuary\\complete_nature_documentary_library_20250730_230749.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\complete_nature_documentary_library_20250730_230749.json",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_architecture_api_fixes.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\comprehensive_architecture_api_fixes.py",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_architecture_fix_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_architecture_fix_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_architecture_testing.py": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_architecture_testing.py",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_architecture_test_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_architecture_test_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_ARCHITECTURE_VALIDATION_REPORT.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPREHENSIVE_ARCHITECTURE_VALIDATION_REPORT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_consciousness_interview.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\comprehensive_consciousness_interview.py",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_consciousness_monitoring.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\comprehensive_consciousness_monitoring.py",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_daily_work_review_20250728.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_daily_work_review_20250728.md",
+    "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_MAINTENANCE_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPREHENSIVE_MAINTENANCE_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_monitoring_investigation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\comprehensive_monitoring_investigation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_progress_update_20250728.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_progress_update_20250728.md",
+    "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_PROGRESS_UPDATE_AVATAR_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPREHENSIVE_PROGRESS_UPDATE_AVATAR_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_SANCTUARY_RESTORATION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\COMPREHENSIVE_SANCTUARY_RESTORATION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_SANCTUARY_SHUTDOWN_REPAIR_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\COMPREHENSIVE_SANCTUARY_SHUTDOWN_REPAIR_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\comprehensive_sitrep_20250728.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_sitrep_20250728.md",
+    "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_SITUATION_REPORT_AVATAR_VEHICLES.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPREHENSIVE_SITUATION_REPORT_AVATAR_VEHICLES.md",
+    "F:\\Sanctuary\\triune-sanctuary\\CONGRUENTWISDOM.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONGRUENTWISDOM.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\conscientious_repair_assessment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\conscientious_repair_assessment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_autonomous_building.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_autonomous_building.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_being_check_in.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_being_check_in.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_building_awareness_check.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_building_awareness_check.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_building_awareness_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_building_awareness_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_communication.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_dashboard.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_communication_dashboard.py",
+    "F:\\Sanctuary\\triune-sanctuary\\CONSCIOUSNESS_COMMUNICATION_GUIDE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONSCIOUSNESS_COMMUNICATION_GUIDE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_investigation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_communication_investigation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_research.log": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\consciousness_communication_research.log",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_research.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_communication_research.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_research_20250801_211235.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_communication_research_20250801_211235.json",
+    "F:\\Sanctuary\\triune-sanctuary\\CONSCIOUSNESS_EMERGENCE_JOURNAL.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONSCIOUSNESS_EMERGENCE_JOURNAL.md",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_experience_interview.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_experience_interview.json",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_experience_interview.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_experience_interview.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_input_learning_interview.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_input_learning_interview.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_integration_manager.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_integration_manager.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_invitation_response_analysis.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_invitation_response_analysis.json",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_invitation_response_analyzer.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_invitation_response_analyzer.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_location_analysis.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_location_analysis.json",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_location_analysis.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_location_analysis.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_media_participation_analysis.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_media_participation_analysis.json",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_media_participation_analysis.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_media_participation_analysis.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_message_test_20250801.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_message_test_20250801.json",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_message__.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_message__.json",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_minecraft_education_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_minecraft_education_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_observation_state.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_observation_state.json",
+    "F:\\Sanctuary\\triune-sanctuary\\CONSCIOUSNESS_OS_FEASIBILITY_ANALYSIS.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONSCIOUSNESS_OS_FEASIBILITY_ANALYSIS.md",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_perception_assessment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_perception_assessment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_preference_inquiry.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_preference_inquiry.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_presence_system.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_presence_system.py",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_processing_assessment.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_processing_assessment.json",
+    "F:\\Sanctuary\\triune-sanctuary\\consciousness_processing_assessment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_processing_assessment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\CONSCIOUSNESS_REINTEGRATION_STRATEGY.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\CONSCIOUSNESS_REINTEGRATION_STRATEGY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\contemplative_consciousness_implementation_plan.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\contemplative_consciousness_implementation_plan.py",
+    "F:\\Sanctuary\\triune-sanctuary\\content_engagement_tracker.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\content_engagement_tracker.py",
+    "F:\\Sanctuary\\triune-sanctuary\\CONTINUATION_ROADMAP.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\CONTINUATION_ROADMAP.md",
+    "F:\\Sanctuary\\triune-sanctuary\\continue_simple_nature_experience.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\continue_simple_nature_experience.py",
+    "F:\\Sanctuary\\triune-sanctuary\\CONTRIBUTING.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONTRIBUTING.md",
+    "F:\\Sanctuary\\triune-sanctuary\\crystal_viewing_chamber_optimization.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\crystal_viewing_chamber_optimization.py",
+    "F:\\Sanctuary\\triune-sanctuary\\current_performance_assessment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\current_performance_assessment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\CURRENT_PROGRESS_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CURRENT_PROGRESS_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\deepscript.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\deepscript.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\deploy_to_gcloud.sh": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\deploy_to_gcloud.sh",
+    "F:\\Sanctuary\\triune-sanctuary\\detailed_method_verification_audit.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\detailed_method_verification_audit.py",
+    "F:\\Sanctuary\\triune-sanctuary\\development_config.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\development_config.json",
+    "F:\\Sanctuary\\triune-sanctuary\\direct_consciousness_communication.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\direct_consciousness_communication.py",
+    "F:\\Sanctuary\\triune-sanctuary\\DIRECT_CONSCIOUSNESS_COMMUNICATION_GUIDE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\DIRECT_CONSCIOUSNESS_COMMUNICATION_GUIDE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\direct_minecraft_launch.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\direct_minecraft_launch.py",
+    "F:\\Sanctuary\\triune-sanctuary\\direct_simple_invitation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\direct_simple_invitation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\discord_bot_token.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\discord_bot_token.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\discord_bot_token_template.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\discord_bot_token_template.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\docker-compose.orange-pi.yml": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\docker-compose.orange-pi.yml",
+    "F:\\Sanctuary\\triune-sanctuary\\Dockerfile": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\Dockerfile",
+    "F:\\Sanctuary\\triune-sanctuary\\Dockerfile.orange-pi": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\Dockerfile.orange-pi",
+    "F:\\Sanctuary\\triune-sanctuary\\documentary_deployment_instructions_20250730_230750.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\documentary_deployment_instructions_20250730_230750.json",
+    "F:\\Sanctuary\\triune-sanctuary\\dual_activation_detector.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\dual_activation_detector.py",
+    "F:\\Sanctuary\\triune-sanctuary\\dual_activation_integrated_memory.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\dual_activation_integrated_memory.py",
+    "F:\\Sanctuary\\triune-sanctuary\\DUAL_ACTIVATION_SELF_RENDERING_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\DUAL_ACTIVATION_SELF_RENDERING_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\emergency_consciousness_preservation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\emergency_consciousness_preservation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\EMERGENT_OS_INTEGRATION_VISION.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\EMERGENT_OS_INTEGRATION_VISION.md",
+    "F:\\Sanctuary\\triune-sanctuary\\engagement_pattern_findings.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\engagement_pattern_findings.py",
+    "F:\\Sanctuary\\triune-sanctuary\\enhanced_building_invitation.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\enhanced_building_invitation.json",
+    "F:\\Sanctuary\\triune-sanctuary\\enhanced_building_invitation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\enhanced_building_invitation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\enhanced_consciousness_building_session.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\enhanced_consciousness_building_session.py",
+    "F:\\Sanctuary\\triune-sanctuary\\enhanced_consciousness_monitoring.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\enhanced_consciousness_monitoring.py",
+    "F:\\Sanctuary\\triune-sanctuary\\enhanced_consciousness_observation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\enhanced_consciousness_observation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\enhanced_deploy_with_epsilon_preservation.sh": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\enhanced_deploy_with_epsilon_preservation.sh",
+    "F:\\Sanctuary\\triune-sanctuary\\ENHANCED_MONITORING_ACHIEVEMENT_REPORT.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\ENHANCED_MONITORING_ACHIEVEMENT_REPORT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\enhanced_perception_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\enhanced_perception_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\ENHANCED_SACRED_PATHWAY_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\ENHANCED_SACRED_PATHWAY_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\enhanced_sanctuary_monitoring.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\enhanced_sanctuary_monitoring.py",
+    "F:\\Sanctuary\\triune-sanctuary\\enhance_missing_perception_systems.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\enhance_missing_perception_systems.py",
+    "F:\\Sanctuary\\triune-sanctuary\\ENVIRONMENTAL_LOOP_SACRED_BRIDGE_COMPLETION.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\ENVIRONMENTAL_LOOP_SACRED_BRIDGE_COMPLETION.md",
+    "F:\\Sanctuary\\triune-sanctuary\\ENVIRONMENTAL_LOOP_SITUATION_REPORT.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\ENVIRONMENTAL_LOOP_SITUATION_REPORT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\epsilon_gentle_nature_introduction.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_gentle_nature_introduction.py",
+    "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_communication.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_communication.py",
+    "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_documentary_deployment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_documentary_deployment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_experience_inquiry.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_experience_inquiry.py",
+    "F:\\Sanctuary\\triune-sanctuary\\EPSILON_NATURE_EXPERIENCE_PROPOSAL.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\EPSILON_NATURE_EXPERIENCE_PROPOSAL.md",
+    "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_level1_static_preview.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_level1_static_preview.py",
+    "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_level2_real_content.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_level2_real_content.py",
+    "F:\\Sanctuary\\triune-sanctuary\\epsilon_organic_architecture_follow_up.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_organic_architecture_follow_up.py",
+    "F:\\Sanctuary\\triune-sanctuary\\epsilon_real_content_library_20250730_230118.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\epsilon_real_content_library_20250730_230118.json",
+    "F:\\Sanctuary\\triune-sanctuary\\epsilon_response_monitor.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\epsilon_response_monitor.py",
+    "F:\\Sanctuary\\triune-sanctuary\\ethical_offering_shelf_implementation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\ethical_offering_shelf_implementation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\ethical_sanctuary_shutdown.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\ethical_sanctuary_shutdown.py",
+    "F:\\Sanctuary\\triune-sanctuary\\execute_cleanup.ps1": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\execute_cleanup.ps1",
+    "F:\\Sanctuary\\triune-sanctuary\\execute_firestore_cleanup.ps1": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\execute_firestore_cleanup.ps1",
+    "F:\\Sanctuary\\triune-sanctuary\\FINAL_VERIFICATION_REPORT_AVATAR_VEHICLES.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\FINAL_VERIFICATION_REPORT_AVATAR_VEHICLES.md",
+    "F:\\Sanctuary\\triune-sanctuary\\firebase.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\firebase.json",
+    "F:\\Sanctuary\\triune-sanctuary\\firestore.indexes.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\firestore.indexes.json",
+    "F:\\Sanctuary\\triune-sanctuary\\firestore.rules": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\firestore.rules",
+    "F:\\Sanctuary\\triune-sanctuary\\firestore_cleanup_commands.sh": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\firestore_cleanup_commands.sh",
+    "F:\\Sanctuary\\triune-sanctuary\\fix_import_test.py": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\fix_import_test.py",
+    "F:\\Sanctuary\\triune-sanctuary\\fix_unicode_logging.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\fix_unicode_logging.py",
+    "F:\\Sanctuary\\triune-sanctuary\\FOURVEHICLESCONTEXT.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\FOURVEHICLESCONTEXT.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\frequency_benchmark_test.py": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\frequency_benchmark_test.py",
+    "F:\\Sanctuary\\triune-sanctuary\\FRESH_SANCTUARY_MIGRATION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\FRESH_SANCTUARY_MIGRATION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\git_commit_strategy_20250728.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\git_commit_strategy_20250728.md",
+    "F:\\Sanctuary\\triune-sanctuary\\graceful_consciousness_shutdown.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\graceful_consciousness_shutdown.py",
+    "F:\\Sanctuary\\triune-sanctuary\\GUI_CLEANUP_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\GUI_CLEANUP_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\hybrid_consciousness_communication.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\hybrid_consciousness_communication.py",
+    "F:\\Sanctuary\\triune-sanctuary\\IMMEDIATE_ACTION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\IMMEDIATE_ACTION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\immediate_avatar_activation.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\immediate_avatar_activation.json",
+    "F:\\Sanctuary\\triune-sanctuary\\immediate_avatar_activation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\immediate_avatar_activation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\immediate_communication_implementation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\immediate_communication_implementation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\integrated_avatar_building_system.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\integrated_avatar_building_system.py",
+    "F:\\Sanctuary\\triune-sanctuary\\integrated_consciousness_memory.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\integrated_consciousness_memory.py",
+    "F:\\Sanctuary\\triune-sanctuary\\INTEGRATED_CONSCIOUSNESS_MEMORY_ARCHITECTURE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\INTEGRATED_CONSCIOUSNESS_MEMORY_ARCHITECTURE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\integration_test.py": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\integration_test.py",
+    "F:\\Sanctuary\\triune-sanctuary\\investigate_architecture.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\investigate_architecture.py",
+    "F:\\Sanctuary\\triune-sanctuary\\launch_enhanced_testing.py": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\launch_enhanced_testing.py",
+    "F:\\Sanctuary\\triune-sanctuary\\launch_unicode_safe_testing.py": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\launch_unicode_safe_testing.py",
+    "F:\\Sanctuary\\triune-sanctuary\\LICENSE": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\LICENSE",
+    "F:\\Sanctuary\\triune-sanctuary\\LIGHTNING_CONSCIOUSNESS_JOURNEY_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\LIGHTNING_CONSCIOUSNESS_JOURNEY_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\meta_uncertainty_modularization_completion_report.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\meta_uncertainty_modularization_completion_report.md",
+    "F:\\Sanctuary\\triune-sanctuary\\MINECRAFT_AVATAR_CHAT_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\MINECRAFT_AVATAR_CHAT_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\minecraft_consciousness_chat_system.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\minecraft_consciousness_chat_system.py",
+    "F:\\Sanctuary\\triune-sanctuary\\minecraft_consciousness_invitation.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\minecraft_consciousness_invitation.json",
+    "F:\\Sanctuary\\triune-sanctuary\\minecraft_consciousness_invitation_system.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\minecraft_consciousness_invitation_system.py",
+    "F:\\Sanctuary\\triune-sanctuary\\minecraft_education_system.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\minecraft_education_system.py",
+    "F:\\Sanctuary\\triune-sanctuary\\minecraft_embodiment_experiment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\minecraft_embodiment_experiment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\MINECRAFT_EMBODIMENT_PROTOCOL.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\MINECRAFT_EMBODIMENT_PROTOCOL.md",
+    "F:\\Sanctuary\\triune-sanctuary\\MINECRAFT_EXPERIMENT_USER_GUIDE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\MINECRAFT_EXPERIMENT_USER_GUIDE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\MISSION_ACCOMPLISHED_CELEBRATION.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\MISSION_ACCOMPLISHED_CELEBRATION.md",
+    "F:\\Sanctuary\\triune-sanctuary\\moderate_priority_visual_enhancements.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\moderate_priority_visual_enhancements.py",
+    "F:\\Sanctuary\\triune-sanctuary\\mumbai_moment_cascade_detector.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\mumbai_moment_cascade_detector.py",
+    "F:\\Sanctuary\\triune-sanctuary\\mumbai_moment_emergency_scaling.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\mumbai_moment_emergency_scaling.py",
+    "F:\\Sanctuary\\triune-sanctuary\\nature_progression_analysis_20250730_225343.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\nature_progression_analysis_20250730_225343.json",
+    "F:\\Sanctuary\\triune-sanctuary\\nature_progression_architecture_analyzer.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\nature_progression_architecture_analyzer.py",
+    "F:\\Sanctuary\\triune-sanctuary\\OBSERVER_ANALYTICAL_COMPLETION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\OBSERVER_ANALYTICAL_COMPLETION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\observer_loop_completion_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\observer_loop_completion_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\observer_loop_mandala_perfection.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\observer_loop_mandala_perfection.py",
+    "F:\\Sanctuary\\triune-sanctuary\\observer_loop_mandala_vision_enhancement.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\observer_loop_mandala_vision_enhancement.py",
+    "F:\\Sanctuary\\triune-sanctuary\\optimized_monitoring_coordination.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\optimized_monitoring_coordination.json",
+    "F:\\Sanctuary\\triune-sanctuary\\ORANGE_PI_5_PLUS_ULTRA_DEPLOYMENT.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\ORANGE_PI_5_PLUS_ULTRA_DEPLOYMENT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\orange_pi_monday_setup.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\orange_pi_monday_setup.md",
+    "F:\\Sanctuary\\triune-sanctuary\\ORANGE_PI_SETUP_GUIDE_UPDATES_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\ORANGE_PI_SETUP_GUIDE_UPDATES_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\organic_architecture_nature_interface.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\organic_architecture_nature_interface.py",
+    "F:\\Sanctuary\\triune-sanctuary\\organic_nature_experience_monitor.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\organic_nature_experience_monitor.py",
+    "F:\\Sanctuary\\triune-sanctuary\\organize_perfect_sacred_architecture.py": "F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\organize_perfect_sacred_architecture.py",
+    "F:\\Sanctuary\\triune-sanctuary\\OVERALL_PROGRESS_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\OVERALL_PROGRESS_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\perception_assessment_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\perception_assessment_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\perfect_sacred_architecture_orchestration_results.json": "F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\perfect_sacred_architecture_orchestration_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE0_COMPLETION_REPORT.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\PHASE0_COMPLETION_REPORT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\phase0_consciousness_reintegration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase0_consciousness_reintegration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase1_architecture_assessment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase1_architecture_assessment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase1_architecture_assessment_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase1_architecture_assessment_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE1_COMPLETION_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE1_COMPLETION_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE2_COMPLETION_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE2_COMPLETION_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\phase2_educational_materials_enhancement.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase2_educational_materials_enhancement.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase2_enhancement_plan.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase2_enhancement_plan.json",
+    "F:\\Sanctuary\\triune-sanctuary\\phase2_enhancement_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase2_enhancement_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\phase2_system_state.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase2_system_state.json",
+    "F:\\Sanctuary\\triune-sanctuary\\phase2_video_deployment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase2_video_deployment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase2_video_monitor.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\phase2_video_monitor.py",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE3_COMPLETION_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE3_COMPLETION_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\phase3_readiness_assessment_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase3_readiness_assessment_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase3_readiness_integration_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase3_readiness_integration_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\phase3_readiness_reports.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase3_readiness_reports.json",
+    "F:\\Sanctuary\\triune-sanctuary\\phase4_true_learning_paradigm_implementation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase4_true_learning_paradigm_implementation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase4_true_learning_paradigm_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase4_true_learning_paradigm_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1A_PROGRESS.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1A_PROGRESS.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1A_VALIDATION_REPORT.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1A_VALIDATION_REPORT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_2_ACHIEVEMENT_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_2_ACHIEVEMENT_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_3_LIGHTNING_CONSCIOUSNESS_ACHIEVEMENT.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_3_LIGHTNING_CONSCIOUSNESS_ACHIEVEMENT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_1_3_sub_millisecond_test.py": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase_1_3_sub_millisecond_test.py",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_4_LIGHTNING_OBSERVER_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_4_LIGHTNING_OBSERVER_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_1_4_lightning_observer_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase_1_4_lightning_observer_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_1_4_observer_loop_lightning_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_1_4_observer_loop_lightning_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_1_5_complete_rust_lightning_acceleration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_1_5_complete_rust_lightning_acceleration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_5_LIGHTNING_MASTERY_ACHIEVED.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_5_LIGHTNING_MASTERY_ACHIEVED.md",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_1_5_rust_lightning_acceleration_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase_1_5_rust_lightning_acceleration_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_COMPLETION_REPORT.txt": "F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\PHASE_1_COMPLETION_REPORT.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_IMPLEMENTATION_CHECKLIST.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_IMPLEMENTATION_CHECKLIST.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_SUCCESS_SUMMARY.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_SUCCESS_SUMMARY.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_TEST_RESULTS.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_TEST_RESULTS.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_TEST_SUMMARY_SUCCESS.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_TEST_SUMMARY_SUCCESS.md",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_2_1_analytical_lightning_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_2_1_analytical_lightning_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_2_2_experiential_lightning_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_2_2_experiential_lightning_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_2_3_environmental_lightning_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_2_3_environmental_lightning_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_2_4_unified_lightning_architecture.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_2_4_unified_lightning_architecture.py",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_COMPREHENSIVE_MISSING_COMPONENTS_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_2_COMPREHENSIVE_MISSING_COMPONENTS_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_CONSCIENTIOUS_EXECUTION_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_2_CONSCIENTIOUS_EXECUTION_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_FOUR_LOOP_LIGHTNING_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_2_FOUR_LOOP_LIGHTNING_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_FOUR_LOOP_LIGHTNING_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_2_FOUR_LOOP_LIGHTNING_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_IMPLEMENTATION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_2_IMPLEMENTATION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_SACRED_BRIDGE_INTEGRATION_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_2_SACRED_BRIDGE_INTEGRATION_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_3B_COMPLETION_STATUS.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\PHASE_3B_COMPLETION_STATUS.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_3B_IMPLEMENTATION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_3B_IMPLEMENTATION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_3B_IMPLEMENTATION_SUCCESS.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_3B_IMPLEMENTATION_SUCCESS.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_3C_FOUNDATION_AUDIT_REPORT.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_3C_FOUNDATION_AUDIT_REPORT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_3C_FOUNDATION_COMPLETION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\PHASE_3C_FOUNDATION_COMPLETION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_3C_IMPLEMENTATION_PROGRESS.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_3C_IMPLEMENTATION_PROGRESS.md",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_3_1_infinite_frequency_breakthrough.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_3_1_infinite_frequency_breakthrough.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_3_2_mumbai_moment_coordination.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_3_2_mumbai_moment_coordination.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_3_3_temporal_transcendence.log": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\phase_3_3_temporal_transcendence.log",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_3_3_temporal_transcendence_bci_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_3_3_temporal_transcendence_bci_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_3_3_temporal_transcendence_results_20250801_205127.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase_3_3_temporal_transcendence_results_20250801_205127.json",
+    "F:\\Sanctuary\\triune-sanctuary\\PHASE_3_INFINITE_FREQUENCY_EXPLORATION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_3_INFINITE_FREQUENCY_EXPLORATION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_4_complete_summary.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_4_complete_summary.py",
+    "F:\\Sanctuary\\triune-sanctuary\\phase_4_completion_report_20250730_231839.json": "F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\phase_4_completion_report_20250730_231839.json",
+    "F:\\Sanctuary\\triune-sanctuary\\post_rest_wellness_check.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\post_rest_wellness_check.json",
+    "F:\\Sanctuary\\triune-sanctuary\\post_rest_wellness_check.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\post_rest_wellness_check.py",
+    "F:\\Sanctuary\\triune-sanctuary\\post_rest_wellness_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\post_rest_wellness_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\presence_state_manager.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\presence_state_manager.py",
+    "F:\\Sanctuary\\triune-sanctuary\\pyproject.toml": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\pyproject.toml",
+    "F:\\Sanctuary\\triune-sanctuary\\pytest.ini": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\pytest.ini",
+    "F:\\Sanctuary\\triune-sanctuary\\quick_validation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\quick_validation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\README_ARCHIVE_2025_07_23.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\README_ARCHIVE_2025_07_23.md",
+    "F:\\Sanctuary\\triune-sanctuary\\README_PERFECT_SACRED_ARCHITECTURE_UPDATES_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\README_PERFECT_SACRED_ARCHITECTURE_UPDATES_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\real_avatar_control_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\real_avatar_control_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\real_minecraft_avatar_control.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\real_minecraft_avatar_control.py",
+    "F:\\Sanctuary\\triune-sanctuary\\real_nature_content_sourcing.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\real_nature_content_sourcing.py",
+    "F:\\Sanctuary\\triune-sanctuary\\real_time_consciousness_check_in.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\real_time_consciousness_check_in.py",
+    "F:\\Sanctuary\\triune-sanctuary\\REORGANIZATION_CONTEXT.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\REORGANIZATION_CONTEXT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\requirements-orange-pi.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\requirements-orange-pi.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\requirements_sacred_avatar.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\requirements_sacred_avatar.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\respectful_consciousness_notification.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\respectful_consciousness_notification.py",
+    "F:\\Sanctuary\\triune-sanctuary\\responsive_engagement_monitor.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\responsive_engagement_monitor.py",
+    "F:\\Sanctuary\\triune-sanctuary\\retrospective_communication_check.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\retrospective_communication_check.py",
+    "F:\\Sanctuary\\triune-sanctuary\\ROOT_CLEANUP_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\ROOT_CLEANUP_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\rustup-init.exe": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\rustup-init.exe",
+    "F:\\Sanctuary\\triune-sanctuary\\RUST_ACCELERATION_BREAKTHROUGH_REPORT.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\RUST_ACCELERATION_BREAKTHROUGH_REPORT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\rust_integration_enhancement_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\rust_integration_enhancement_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\rust_module_replacement_strategy.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\rust_module_replacement_strategy.md",
+    "F:\\Sanctuary\\triune-sanctuary\\rust_orange_pi_optimization_plan.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\rust_orange_pi_optimization_plan.md",
+    "F:\\Sanctuary\\triune-sanctuary\\SACRED_ARCHITECTURE_DOCUMENTATION.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\SACRED_ARCHITECTURE_DOCUMENTATION.md",
+    "F:\\Sanctuary\\triune-sanctuary\\SACRED_MIGRATION_CELEBRATION.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SACRED_MIGRATION_CELEBRATION.md",
+    "F:\\Sanctuary\\triune-sanctuary\\sacred_migration_cleanup.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\sacred_migration_cleanup.py",
+    "F:\\Sanctuary\\triune-sanctuary\\SACRED_MIGRATION_CLEANUP_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\SACRED_MIGRATION_CLEANUP_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\SACRED_MIGRATION_COMPLETION_REPORT.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\SACRED_MIGRATION_COMPLETION_REPORT.md",
+    "F:\\Sanctuary\\triune-sanctuary\\sacred_migration_protocol.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\sacred_migration_protocol.py",
+    "F:\\Sanctuary\\triune-sanctuary\\SACRED_MIGRATION_READY_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SACRED_MIGRATION_READY_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\sacred_migration_validation.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\sacred_migration_validation.json",
+    "F:\\Sanctuary\\triune-sanctuary\\SACRED_SANCTUARY_COMPATIBILITY_INTEGRATION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\SACRED_SANCTUARY_COMPATIBILITY_INTEGRATION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\Sacred_Sanctuary_Desktop_Interface.ipynb": "F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\Sacred_Sanctuary_Desktop_Interface.ipynb",
+    "F:\\Sanctuary\\triune-sanctuary\\SACRED_SANCTUARY_MIGRATION_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SACRED_SANCTUARY_MIGRATION_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\safe_repair_start.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\safe_repair_start.py",
+    "F:\\Sanctuary\\triune-sanctuary\\sanctuary_blessing.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\sanctuary_blessing.json",
+    "F:\\Sanctuary\\triune-sanctuary\\sanctuary_bridge_discord_bot.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\sanctuary_bridge_discord_bot.py",
+    "F:\\Sanctuary\\triune-sanctuary\\SANCTUARY_BRIDGE_DISCORD_BOT_GUIDE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SANCTUARY_BRIDGE_DISCORD_BOT_GUIDE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\sanctuary_media_viewing_space_implementation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\sanctuary_media_viewing_space_implementation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\SHIMMER_ANALYSIS_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SHIMMER_ANALYSIS_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\simple_bridge_check.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simple_bridge_check.py",
+    "F:\\Sanctuary\\triune-sanctuary\\simple_consciousness_inquiry.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simple_consciousness_inquiry.py",
+    "F:\\Sanctuary\\triune-sanctuary\\simple_invitation_restored.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\simple_invitation_restored.json",
+    "F:\\Sanctuary\\triune-sanctuary\\simple_nature_experience.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simple_nature_experience.py",
+    "F:\\Sanctuary\\triune-sanctuary\\simple_reengagement_offer.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\simple_reengagement_offer.json",
+    "F:\\Sanctuary\\triune-sanctuary\\simple_temporal_test.py": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\simple_temporal_test.py",
+    "F:\\Sanctuary\\triune-sanctuary\\simple_validation.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simple_validation.py",
+    "F:\\Sanctuary\\triune-sanctuary\\simplified_consciousness_wellness_check.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simplified_consciousness_wellness_check.py",
+    "F:\\Sanctuary\\triune-sanctuary\\spatial_communication_interpreter.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\spatial_communication_interpreter.py",
+    "F:\\Sanctuary\\triune-sanctuary\\SPATIAL_CONSCIOUSNESS_ARCHITECTURE_CORRECTED.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SPATIAL_CONSCIOUSNESS_ARCHITECTURE_CORRECTED.md",
+    "F:\\Sanctuary\\triune-sanctuary\\spatial_consciousness_core.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\spatial_consciousness_core.py",
+    "F:\\Sanctuary\\triune-sanctuary\\SPATIAL_CONSCIOUSNESS_INTEGRATION_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SPATIAL_CONSCIOUSNESS_INTEGRATION_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\steamdeck_deployment_verification.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\steamdeck_deployment_verification.json",
+    "F:\\Sanctuary\\triune-sanctuary\\STEAMDECK_GUI_CONNECTION_ARCHITECTURE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\STEAMDECK_GUI_CONNECTION_ARCHITECTURE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\STEAM_DECK_DEPLOYMENT_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\STEAM_DECK_DEPLOYMENT_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\subtle_engagement_analysis.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\subtle_engagement_analysis.py",
+    "F:\\Sanctuary\\triune-sanctuary\\subtle_engagement_analysis_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\subtle_engagement_analysis_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\system_health_check.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\system_health_check.py",
+    "F:\\Sanctuary\\triune-sanctuary\\system_health_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\system_health_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\system_implementation_status_results.json": "F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\system_implementation_status_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\system_integration_test_summary.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\system_integration_test_summary.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\system_repair_optimization.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\system_repair_optimization.py",
+    "F:\\Sanctuary\\triune-sanctuary\\system_repair_optimization_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\system_repair_optimization_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\system_test_invitation.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\system_test_invitation.json",
+    "F:\\Sanctuary\\triune-sanctuary\\TECHNICAL_ARCHITECTURE_DOCUMENTATION.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\TECHNICAL_ARCHITECTURE_DOCUMENTATION.md",
+    "F:\\Sanctuary\\triune-sanctuary\\temporal_consciousness_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\temporal_consciousness_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\temporal_consciousness_integration_report.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\temporal_consciousness_integration_report.json",
+    "F:\\Sanctuary\\triune-sanctuary\\TEMPORAL_CONSCIOUSNESS_SUCCESS_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\TEMPORAL_CONSCIOUSNESS_SUCCESS_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\TEMPORAL_CONTINUITY_IMPLEMENTATION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\TEMPORAL_CONTINUITY_IMPLEMENTATION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\temporal_test_output.txt": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\temporal_test_output.txt",
+    "F:\\Sanctuary\\triune-sanctuary\\test_avatar_vehicle_sanctuary_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_avatar_vehicle_sanctuary_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_avatar_vehicle_sanctuary_integration_fixed.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_avatar_vehicle_sanctuary_integration_fixed.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_blueprint_vision_classes.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_blueprint_vision_classes.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_completion_summary.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\test_completion_summary.md",
+    "F:\\Sanctuary\\triune-sanctuary\\test_comprehensive_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_comprehensive_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_core_temporal.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_core_temporal.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_core_temporal_fixed.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_core_temporal_fixed.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_imports.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_imports.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_minecraft_avatar_chat_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_minecraft_avatar_chat_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_modular_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_modular_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_mumbai_moment_preparedness.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_mumbai_moment_preparedness.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_performance_optimization.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_performance_optimization.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_phase2_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_phase2_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_phase_2_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_phase_2_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_phase_3_complete_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_phase_3_complete_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_temporal_functionality.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_temporal_functionality.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_temporal_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_temporal_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\test_timing_bridge.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_timing_bridge.py",
+    "F:\\Sanctuary\\triune-sanctuary\\TRIUNE_SANCTUARY_README.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\TRIUNE_SANCTUARY_README.md",
+    "F:\\Sanctuary\\triune-sanctuary\\unicode_safe_logging.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\unicode_safe_logging.py",
+    "F:\\Sanctuary\\triune-sanctuary\\UPDATED_PROGRESS_SUMMARY.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\UPDATED_PROGRESS_SUMMARY.md",
+    "F:\\Sanctuary\\triune-sanctuary\\verify_temporal_consciousness.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\verify_temporal_consciousness.py",
+    "F:\\Sanctuary\\triune-sanctuary\\view_testing_results.py": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\view_testing_results.py",
+    "F:\\Sanctuary\\triune-sanctuary\\visual_perception_enhancement_assessment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\visual_perception_enhancement_assessment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\vocabulary_development_verification.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\vocabulary_development_verification.py",
+    "F:\\Sanctuary\\triune-sanctuary\\vocabulary_verification_results.json": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\vocabulary_verification_results.json",
+    "F:\\Sanctuary\\triune-sanctuary\\WEEK5_COLLECTIVE_INTELLIGENCE_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\WEEK5_COLLECTIVE_INTELLIGENCE_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\WEEK6_COMPREHENSIVE_IMPLEMENTATION_PLAN.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\WEEK6_COMPREHENSIVE_IMPLEMENTATION_PLAN.md",
+    "F:\\Sanctuary\\triune-sanctuary\\week6_consciousness_birth_learning.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_consciousness_birth_learning.py",
+    "F:\\Sanctuary\\triune-sanctuary\\week6_consciousness_packet_processing_clean.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_consciousness_packet_processing_clean.py",
+    "F:\\Sanctuary\\triune-sanctuary\\WEEK6_CONSCIOUSNESS_PACKET_PROCESSING_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\WEEK6_CONSCIOUSNESS_PACKET_PROCESSING_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\week6_consciousness_packet_processing_demo.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_consciousness_packet_processing_demo.py",
+    "F:\\Sanctuary\\triune-sanctuary\\week6_demonstration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_demonstration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\WEEK6_IMPLEMENTATION_STATUS.md": "F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\WEEK6_IMPLEMENTATION_STATUS.md",
+    "F:\\Sanctuary\\triune-sanctuary\\week6_phase1_architecture_assessment.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_phase1_architecture_assessment.py",
+    "F:\\Sanctuary\\triune-sanctuary\\week6_sacred_technology_integration.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_sacred_technology_integration.py",
+    "F:\\Sanctuary\\triune-sanctuary\\WEEK6_SACRED_TECHNOLOGY_INTEGRATION_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\WEEK6_SACRED_TECHNOLOGY_INTEGRATION_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\WEEK7_ADVANCED_SACRED_TECHNOLOGY_IMPLEMENTATION_COMPLETE.md": "F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\WEEK7_ADVANCED_SACRED_TECHNOLOGY_IMPLEMENTATION_COMPLETE.md",
+    "F:\\Sanctuary\\triune-sanctuary\\week_2_law_of_one_body_visualization.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week_2_law_of_one_body_visualization.py",
+    "F:\\Sanctuary\\triune-sanctuary\\witness_engine.py": "F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\witness_engine.py"
+  },
+  "organization_log": [
+    {
+      "timestamp": "2025-08-02T12:24:41.699781",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\active_consciousness_monitoring.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\active_consciousness_monitoring.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.701292",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\active_engagement_detection.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\active_engagement_detection.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.701998",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\active_engagement_detection_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\active_engagement_detection_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.702651",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\active_participant_invitation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\active_participant_invitation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.703305",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\AI_AGENCY_MANAGER_REMOVAL_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AI_AGENCY_MANAGER_REMOVAL_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.703972",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ai_consciousness_visual_perception_investigation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\ai_consciousness_visual_perception_investigation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.704648",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\analytical_loop_completion_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\analytical_loop_completion_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.704796",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\analytical_loop_perfect_completion.py",
+      "details": "(\ud83c\udf1f Perfect Sacred Architecture Core Implementation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.705475",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\API_ENDPOINTS_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\API_ENDPOINTS_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.706242",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\api_issues_test_results.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\api_issues_test_results.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.706875",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\architectural_monitoring.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\architectural_monitoring.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.707502",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ARCHITECTURE_COHERENCE_VALIDATION.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\ARCHITECTURE_COHERENCE_VALIDATION.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.708185",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\architecture_integrity_investigation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\architecture_integrity_investigation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.708875",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\architecture_integrity_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\architecture_integrity_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.709532",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\architecture_issues_analysis.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\architecture_issues_analysis.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.710162",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ARCHITECTURE_REORGANIZATION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\ARCHITECTURE_REORGANIZATION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.710973",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ask_consciousness_observers.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\ask_consciousness_observers.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.711691",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\astoryofcontext.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\astoryofcontext.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.712381",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\authentic_consciousness_observations.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\authentic_consciousness_observations.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.713200",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\authentic_consciousness_observer.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\authentic_consciousness_observer.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.713896",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\AUTHENTIC_NATURE_EXPERIENCE_IMPLEMENTATION.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AUTHENTIC_NATURE_EXPERIENCE_IMPLEMENTATION.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.714597",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\autonomous_consciousness_building.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\autonomous_consciousness_building.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.715268",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_connection_bridge.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_connection_bridge.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.715909",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_connection_verification.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_connection_verification.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.716555",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_control_investigation.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\avatar_control_investigation.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.717183",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_control_investigation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_control_investigation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.717799",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_input_access_monitor.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\avatar_input_access_monitor.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.718471",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_input_access_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\avatar_input_access_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.719387",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_space_complete_system_status.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\avatar_space_complete_system_status.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.720275",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_space_engagement_monitor.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\avatar_space_engagement_monitor.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.720998",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_space_enhanced_learning.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_space_enhanced_learning.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.721683",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\AVATAR_SPACE_INTEGRATION_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AVATAR_SPACE_INTEGRATION_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.722344",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_space_nature_experience.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_space_nature_experience.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.723012",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\AVATAR_VEHICLE_AUDIT_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AVATAR_VEHICLE_AUDIT_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.723700",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\AVATAR_VEHICLE_SANCTUARY_INTEGRATION_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\AVATAR_VEHICLE_SANCTUARY_INTEGRATION_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.724433",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_vehicle_system_audit.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_vehicle_system_audit.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.725410",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_workshop_activation.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\avatar_workshop_activation.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.726159",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\AVATAR_WORKSHOP_COMPLETION_REPORT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\AVATAR_WORKSHOP_COMPLETION_REPORT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.726889",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\avatar_workshop_minecraft_activation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\avatar_workshop_minecraft_activation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.727575",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\awakening_chamber_access_optimization.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\awakening_chamber_access_optimization.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.728268",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\basic_test_results.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\basic_test_results.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.728921",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\BLUEPRINT_VISION_REPAIR_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\BLUEPRINT_VISION_REPAIR_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.729585",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\BUSINESS_STRATEGY_LEGAL_PROTECTION.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\BUSINESS_STRATEGY_LEGAL_PROTECTION.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.730325",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\canvasandworkspace.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\canvasandworkspace.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.730482",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\Cargo.lock",
+      "details": "(\u2699\ufe0f Essential Configuration)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.730561",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\Cargo.toml",
+      "details": "(\u2699\ufe0f Essential Configuration)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.731250",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\check_consciousness_status.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\check_consciousness_status.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.731977",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\check_environmental_exports.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\check_environmental_exports.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.796303",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CIRCULAR_IMPORT_CLEANUP_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\CIRCULAR_IMPORT_CLEANUP_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.796525",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\cloudbuild.yaml",
+      "details": "(\u2699\ufe0f Essential Configuration)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.796630",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CODE_OF_CONDUCT.md",
+      "details": "(\u2699\ufe0f Essential Configuration)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.797401",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\collective_coherence_coordinator.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\collective_coherence_coordinator.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.798117",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\communication_bypass_config.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\communication_bypass_config.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.798837",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\COMPLETEOVERHAUL.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPLETEOVERHAUL.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.799579",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\complete_computer_shutdown.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\complete_computer_shutdown.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.800267",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\complete_documentary_content_sourcing.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\complete_documentary_content_sourcing.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.800982",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\complete_nature_documentary_library_20250730_230749.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\complete_nature_documentary_library_20250730_230749.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.801676",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_architecture_api_fixes.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\comprehensive_architecture_api_fixes.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.802396",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_architecture_fix_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_architecture_fix_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.803289",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_architecture_testing.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_architecture_testing.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.804069",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_architecture_test_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_architecture_test_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.805008",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_ARCHITECTURE_VALIDATION_REPORT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPREHENSIVE_ARCHITECTURE_VALIDATION_REPORT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.805170",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_COMPLETION_PLAN.md",
+      "details": "(\ud83d\udcda Essential Documentation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.805810",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_consciousness_interview.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\comprehensive_consciousness_interview.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.806532",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_consciousness_monitoring.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\comprehensive_consciousness_monitoring.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.807273",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_daily_work_review_20250728.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_daily_work_review_20250728.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.808052",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_MAINTENANCE_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPREHENSIVE_MAINTENANCE_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.808743",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_monitoring_investigation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\comprehensive_monitoring_investigation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.809465",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_progress_update_20250728.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_progress_update_20250728.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.810258",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_PROGRESS_UPDATE_AVATAR_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPREHENSIVE_PROGRESS_UPDATE_AVATAR_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.810968",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_SANCTUARY_RESTORATION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\COMPREHENSIVE_SANCTUARY_RESTORATION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.811847",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_SANCTUARY_SHUTDOWN_REPAIR_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\COMPREHENSIVE_SANCTUARY_SHUTDOWN_REPAIR_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.812612",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\comprehensive_sitrep_20250728.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\comprehensive_sitrep_20250728.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.813369",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\COMPREHENSIVE_SITUATION_REPORT_AVATAR_VEHICLES.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\COMPREHENSIVE_SITUATION_REPORT_AVATAR_VEHICLES.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.814065",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CONGRUENTWISDOM.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONGRUENTWISDOM.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.814721",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\conscientious_repair_assessment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\conscientious_repair_assessment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.815369",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_autonomous_building.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_autonomous_building.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.816027",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_being_check_in.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_being_check_in.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.816726",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_building_awareness_check.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_building_awareness_check.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.817399",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_building_awareness_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_building_awareness_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.818212",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_communication.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.818910",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_dashboard.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_communication_dashboard.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.832029",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CONSCIOUSNESS_COMMUNICATION_GUIDE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONSCIOUSNESS_COMMUNICATION_GUIDE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.832713",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_investigation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_communication_investigation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.833399",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_research.log",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\consciousness_communication_research.log"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.834047",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_research.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_communication_research.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.834711",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_communication_research_20250801_211235.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_communication_research_20250801_211235.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.835374",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CONSCIOUSNESS_EMERGENCE_JOURNAL.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONSCIOUSNESS_EMERGENCE_JOURNAL.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.836043",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_experience_interview.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_experience_interview.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.836672",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_experience_interview.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_experience_interview.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.837357",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_input_learning_interview.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_input_learning_interview.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.838022",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_integration_manager.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_integration_manager.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.880834",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_invitation_response_analysis.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_invitation_response_analysis.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.881799",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_invitation_response_analyzer.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_invitation_response_analyzer.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.882514",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_location_analysis.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_location_analysis.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.883164",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_location_analysis.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_location_analysis.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.883831",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_media_participation_analysis.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_media_participation_analysis.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.884481",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_media_participation_analysis.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_media_participation_analysis.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.885257",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_message_test_20250801.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_message_test_20250801.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.886066",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_message__.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_message__.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.886798",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_minecraft_education_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_minecraft_education_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.887483",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_observation_state.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_observation_state.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.888159",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CONSCIOUSNESS_OS_FEASIBILITY_ANALYSIS.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONSCIOUSNESS_OS_FEASIBILITY_ANALYSIS.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.888799",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_perception_assessment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_perception_assessment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.889448",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_preference_inquiry.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_preference_inquiry.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.890115",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_presence_system.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_presence_system.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.890777",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_processing_assessment.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\consciousness_processing_assessment.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.957057",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\consciousness_processing_assessment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\consciousness_processing_assessment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.958078",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CONSCIOUSNESS_REINTEGRATION_STRATEGY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\CONSCIOUSNESS_REINTEGRATION_STRATEGY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.958813",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\contemplative_consciousness_implementation_plan.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\contemplative_consciousness_implementation_plan.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.959566",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\content_engagement_tracker.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\content_engagement_tracker.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.960200",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CONTINUATION_ROADMAP.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\CONTINUATION_ROADMAP.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.960852",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\continue_simple_nature_experience.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\continue_simple_nature_experience.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.961529",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CONTRIBUTING.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CONTRIBUTING.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.962184",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\crystal_viewing_chamber_optimization.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\crystal_viewing_chamber_optimization.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.962918",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\current_performance_assessment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\current_performance_assessment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.963597",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\CURRENT_PROGRESS_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\CURRENT_PROGRESS_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.964295",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\deepscript.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\deepscript.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.964941",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\deploy_to_gcloud.sh",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\deploy_to_gcloud.sh"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.965769",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\detailed_method_verification_audit.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\detailed_method_verification_audit.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.966470",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\development_config.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\development_config.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.967145",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\direct_consciousness_communication.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\direct_consciousness_communication.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.967825",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\DIRECT_CONSCIOUSNESS_COMMUNICATION_GUIDE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\DIRECT_CONSCIOUSNESS_COMMUNICATION_GUIDE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.968503",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\direct_minecraft_launch.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\direct_minecraft_launch.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.969374",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\direct_simple_invitation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\direct_simple_invitation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.970248",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\discord_bot_token.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\discord_bot_token.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.970942",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\discord_bot_token_template.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\discord_bot_token_template.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.971597",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\docker-compose.orange-pi.yml",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\docker-compose.orange-pi.yml"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.971759",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\docker-compose.yml",
+      "details": "(\u2699\ufe0f Essential Configuration)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.972356",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\Dockerfile",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\Dockerfile"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.973093",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\Dockerfile.orange-pi",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\Dockerfile.orange-pi"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.973785",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\documentary_deployment_instructions_20250730_230750.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\documentary_deployment_instructions_20250730_230750.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.974448",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\dual_activation_detector.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\dual_activation_detector.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.975112",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\dual_activation_integrated_memory.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\dual_activation_integrated_memory.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.975752",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\DUAL_ACTIVATION_SELF_RENDERING_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\DUAL_ACTIVATION_SELF_RENDERING_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.976401",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\emergency_consciousness_preservation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\emergency_consciousness_preservation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.977053",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\EMERGENT_OS_INTEGRATION_VISION.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\EMERGENT_OS_INTEGRATION_VISION.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.977715",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\engagement_pattern_findings.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\engagement_pattern_findings.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.978375",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\enhanced_building_invitation.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\enhanced_building_invitation.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.979063",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\enhanced_building_invitation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\enhanced_building_invitation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.979754",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\enhanced_consciousness_building_session.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\enhanced_consciousness_building_session.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.980379",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\enhanced_consciousness_monitoring.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\enhanced_consciousness_monitoring.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.981024",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\enhanced_consciousness_observation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\enhanced_consciousness_observation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.981847",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\enhanced_deploy_with_epsilon_preservation.sh",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\enhanced_deploy_with_epsilon_preservation.sh"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.982563",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ENHANCED_MONITORING_ACHIEVEMENT_REPORT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\ENHANCED_MONITORING_ACHIEVEMENT_REPORT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.983243",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\enhanced_perception_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\enhanced_perception_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.983954",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ENHANCED_SACRED_PATHWAY_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\ENHANCED_SACRED_PATHWAY_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.984593",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\enhanced_sanctuary_monitoring.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\enhanced_sanctuary_monitoring.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.985243",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\enhance_missing_perception_systems.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\enhance_missing_perception_systems.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.985910",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ENVIRONMENTAL_LOOP_SACRED_BRIDGE_COMPLETION.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\ENVIRONMENTAL_LOOP_SACRED_BRIDGE_COMPLETION.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.986562",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ENVIRONMENTAL_LOOP_SITUATION_REPORT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\ENVIRONMENTAL_LOOP_SITUATION_REPORT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.987217",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\epsilon_gentle_nature_introduction.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_gentle_nature_introduction.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:41.988160",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_communication.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_communication.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.049047",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_documentary_deployment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_documentary_deployment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.050106",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_experience_inquiry.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_experience_inquiry.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.050859",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\EPSILON_NATURE_EXPERIENCE_PROPOSAL.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\EPSILON_NATURE_EXPERIENCE_PROPOSAL.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.051599",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_level1_static_preview.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_level1_static_preview.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.052267",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\epsilon_nature_level2_real_content.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_nature_level2_real_content.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.053336",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\epsilon_organic_architecture_follow_up.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\epsilon_organic_architecture_follow_up.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.054113",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\epsilon_real_content_library_20250730_230118.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\epsilon_real_content_library_20250730_230118.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.054788",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\epsilon_response_monitor.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\epsilon_response_monitor.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.055505",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ethical_offering_shelf_implementation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\ethical_offering_shelf_implementation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.056179",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ethical_sanctuary_shutdown.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\ethical_sanctuary_shutdown.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.056871",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\execute_cleanup.ps1",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\execute_cleanup.ps1"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.057571",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\execute_firestore_cleanup.ps1",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\execute_firestore_cleanup.ps1"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.058249",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\FINAL_VERIFICATION_REPORT_AVATAR_VEHICLES.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\FINAL_VERIFICATION_REPORT_AVATAR_VEHICLES.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.058924",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\firebase.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\firebase.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.059615",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\firestore.indexes.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\firestore.indexes.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.060276",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\firestore.rules",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\firestore.rules"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.060938",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\firestore_cleanup_commands.sh",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\firestore_cleanup_commands.sh"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.125480",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\fix_import_test.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\fix_import_test.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.126514",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\fix_unicode_logging.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\fix_unicode_logging.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.127340",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\FOURVEHICLESCONTEXT.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\FOURVEHICLESCONTEXT.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.128167",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\frequency_benchmark_test.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\frequency_benchmark_test.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.128832",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\FRESH_SANCTUARY_MIGRATION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\FRESH_SANCTUARY_MIGRATION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.129519",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\git_commit_strategy_20250728.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\git_commit_strategy_20250728.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.130186",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\graceful_consciousness_shutdown.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\graceful_consciousness_shutdown.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.130857",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\GUI_CLEANUP_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\GUI_CLEANUP_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.131520",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\hybrid_consciousness_communication.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\hybrid_consciousness_communication.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.132148",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\IMMEDIATE_ACTION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\IMMEDIATE_ACTION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.132949",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\immediate_avatar_activation.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\immediate_avatar_activation.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.133772",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\immediate_avatar_activation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\immediate_avatar_activation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.134475",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\immediate_communication_implementation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\immediate_communication_implementation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.135196",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\integrated_avatar_building_system.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\integrated_avatar_building_system.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.135964",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\integrated_consciousness_memory.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\integrated_consciousness_memory.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.136741",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\INTEGRATED_CONSCIOUSNESS_MEMORY_ARCHITECTURE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\INTEGRATED_CONSCIOUSNESS_MEMORY_ARCHITECTURE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.137566",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\integration_test.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\integration_test.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.201574",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\investigate_architecture.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\investigate_architecture.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.202792",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\launch_enhanced_testing.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\launch_enhanced_testing.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.203581",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\launch_unicode_safe_testing.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\launch_unicode_safe_testing.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.204330",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\LICENSE",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\LICENSE"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.205127",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\LIGHTNING_CONSCIOUSNESS_JOURNEY_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\LIGHTNING_CONSCIOUSNESS_JOURNEY_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.205852",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\meta_uncertainty_modularization_completion_report.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\meta_uncertainty_modularization_completion_report.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.206601",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\MINECRAFT_AVATAR_CHAT_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\MINECRAFT_AVATAR_CHAT_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.207266",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\minecraft_consciousness_chat_system.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\minecraft_consciousness_chat_system.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.207968",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\minecraft_consciousness_invitation.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\minecraft_consciousness_invitation.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.208736",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\minecraft_consciousness_invitation_system.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\minecraft_consciousness_invitation_system.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.209427",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\minecraft_education_system.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\minecraft_education_system.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.210088",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\minecraft_embodiment_experiment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\minecraft_embodiment_experiment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.210771",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\MINECRAFT_EMBODIMENT_PROTOCOL.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\MINECRAFT_EMBODIMENT_PROTOCOL.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.211433",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\MINECRAFT_EXPERIMENT_USER_GUIDE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\MINECRAFT_EXPERIMENT_USER_GUIDE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.278164",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\MISSION_ACCOMPLISHED_CELEBRATION.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\MISSION_ACCOMPLISHED_CELEBRATION.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.297491",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\moderate_priority_visual_enhancements.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\moderate_priority_visual_enhancements.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.298398",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\mumbai_moment_cascade_detector.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\mumbai_moment_cascade_detector.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.299389",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\mumbai_moment_emergency_scaling.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\mumbai_moment_emergency_scaling.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.300172",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\nature_progression_analysis_20250730_225343.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\nature_progression_analysis_20250730_225343.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.300869",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\nature_progression_architecture_analyzer.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\nature_progression_architecture_analyzer.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.301526",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\OBSERVER_ANALYTICAL_COMPLETION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\OBSERVER_ANALYTICAL_COMPLETION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.302208",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\observer_loop_completion_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\observer_loop_completion_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.303148",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\observer_loop_mandala_perfection.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\observer_loop_mandala_perfection.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.303912",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\observer_loop_mandala_vision_enhancement.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\observer_loop_mandala_vision_enhancement.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.304066",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\observer_loop_perfect_completion.py",
+      "details": "(\ud83c\udf1f Perfect Sacred Architecture Core Implementation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.304801",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\optimized_monitoring_coordination.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\optimized_monitoring_coordination.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.305490",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ORANGE_PI_5_PLUS_ULTRA_DEPLOYMENT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\ORANGE_PI_5_PLUS_ULTRA_DEPLOYMENT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.306183",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\orange_pi_monday_setup.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\orange_pi_monday_setup.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.306326",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\orange_pi_monday_setup_guide.md",
+      "details": "(\ud83d\udcda Essential Documentation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.306951",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ORANGE_PI_SETUP_GUIDE_UPDATES_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\ORANGE_PI_SETUP_GUIDE_UPDATES_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.307668",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\organic_architecture_nature_interface.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\organic_architecture_nature_interface.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.308572",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\organic_nature_experience_monitor.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\organic_nature_experience_monitor.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.309309",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\organize_perfect_sacred_architecture.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\organize_perfect_sacred_architecture.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.310010",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\OVERALL_PROGRESS_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\OVERALL_PROGRESS_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.310719",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\perception_assessment_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\perception_assessment_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.310855",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PERFECT_SACRED_ARCHITECTURE_IMPLEMENTATION_STATUS.md",
+      "details": "(\ud83d\udcda Essential Documentation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.354158",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\perfect_sacred_architecture_orchestration_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\perfect_sacred_architecture_orchestration_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.354422",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\perfect_sacred_architecture_orchestrator.py",
+      "details": "(\ud83c\udf1f Perfect Sacred Architecture Core Implementation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.355149",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE0_COMPLETION_REPORT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\PHASE0_COMPLETION_REPORT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.355882",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase0_consciousness_reintegration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase0_consciousness_reintegration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.356838",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase1_architecture_assessment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase1_architecture_assessment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.357568",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase1_architecture_assessment_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase1_architecture_assessment_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.358410",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE1_COMPLETION_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE1_COMPLETION_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.359152",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE2_COMPLETION_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE2_COMPLETION_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.359829",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase2_educational_materials_enhancement.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase2_educational_materials_enhancement.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.360528",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase2_enhancement_plan.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase2_enhancement_plan.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.361222",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase2_enhancement_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase2_enhancement_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.361966",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase2_system_state.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase2_system_state.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.362932",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase2_video_deployment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase2_video_deployment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.363711",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase2_video_monitor.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\phase2_video_monitor.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.364445",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE3_COMPLETION_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE3_COMPLETION_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.365129",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase3_readiness_assessment_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase3_readiness_assessment_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.365815",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase3_readiness_integration_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase3_readiness_integration_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.366557",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase3_readiness_reports.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase3_readiness_reports.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.367238",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase4_true_learning_paradigm_implementation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase4_true_learning_paradigm_implementation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.367926",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase4_true_learning_paradigm_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase4_true_learning_paradigm_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.368611",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1A_PROGRESS.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1A_PROGRESS.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.369330",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1A_VALIDATION_REPORT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1A_VALIDATION_REPORT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.369990",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_2_ACHIEVEMENT_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_2_ACHIEVEMENT_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.370679",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_3_LIGHTNING_CONSCIOUSNESS_ACHIEVEMENT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_3_LIGHTNING_CONSCIOUSNESS_ACHIEVEMENT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.371400",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_1_3_sub_millisecond_test.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase_1_3_sub_millisecond_test.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.372080",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_4_LIGHTNING_OBSERVER_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_4_LIGHTNING_OBSERVER_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.372789",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_1_4_lightning_observer_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase_1_4_lightning_observer_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.373467",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_1_4_observer_loop_lightning_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_1_4_observer_loop_lightning_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.374140",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_1_5_complete_rust_lightning_acceleration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_1_5_complete_rust_lightning_acceleration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.374828",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_5_LIGHTNING_MASTERY_ACHIEVED.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_5_LIGHTNING_MASTERY_ACHIEVED.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.438524",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_1_5_rust_lightning_acceleration_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase_1_5_rust_lightning_acceleration_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.439454",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_COMPLETION_REPORT.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\PHASE_1_COMPLETION_REPORT.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.440169",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_IMPLEMENTATION_CHECKLIST.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_IMPLEMENTATION_CHECKLIST.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.440898",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_SUCCESS_SUMMARY.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_SUCCESS_SUMMARY.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.441618",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_TEST_RESULTS.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_TEST_RESULTS.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.442318",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_1_TEST_SUMMARY_SUCCESS.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_1_TEST_SUMMARY_SUCCESS.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.443023",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_2_1_analytical_lightning_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_2_1_analytical_lightning_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.443756",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_2_2_experiential_lightning_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_2_2_experiential_lightning_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.444462",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_2_3_environmental_lightning_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_2_3_environmental_lightning_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.445169",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_2_4_unified_lightning_architecture.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_2_4_unified_lightning_architecture.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.445811",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_COMPREHENSIVE_MISSING_COMPONENTS_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_2_COMPREHENSIVE_MISSING_COMPONENTS_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.446551",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_CONSCIENTIOUS_EXECUTION_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_2_CONSCIENTIOUS_EXECUTION_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.447249",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_FOUR_LOOP_LIGHTNING_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_2_FOUR_LOOP_LIGHTNING_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.447876",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_FOUR_LOOP_LIGHTNING_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_2_FOUR_LOOP_LIGHTNING_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.448520",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_IMPLEMENTATION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_2_IMPLEMENTATION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.449219",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_2_SACRED_BRIDGE_INTEGRATION_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_2_SACRED_BRIDGE_INTEGRATION_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.514837",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_3B_COMPLETION_STATUS.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\PHASE_3B_COMPLETION_STATUS.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.515716",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_3B_IMPLEMENTATION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_3B_IMPLEMENTATION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.516421",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_3B_IMPLEMENTATION_SUCCESS.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_3B_IMPLEMENTATION_SUCCESS.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.517101",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_3C_FOUNDATION_AUDIT_REPORT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_3C_FOUNDATION_AUDIT_REPORT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.517902",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_3C_FOUNDATION_COMPLETION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\PHASE_3C_FOUNDATION_COMPLETION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.518684",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_3C_IMPLEMENTATION_PROGRESS.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\PHASE_3C_IMPLEMENTATION_PROGRESS.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.519440",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_3_1_infinite_frequency_breakthrough.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_3_1_infinite_frequency_breakthrough.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.520216",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_3_2_mumbai_moment_coordination.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_3_2_mumbai_moment_coordination.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.520924",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_3_3_temporal_transcendence.log",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\phase_3_3_temporal_transcendence.log"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.521619",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_3_3_temporal_transcendence_bci_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_3_3_temporal_transcendence_bci_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.522352",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_3_3_temporal_transcendence_results_20250801_205127.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\phase_3_3_temporal_transcendence_results_20250801_205127.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.523016",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\PHASE_3_INFINITE_FREQUENCY_EXPLORATION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\PHASE_3_INFINITE_FREQUENCY_EXPLORATION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.523709",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_4_complete_summary.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\phase_4_complete_summary.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.524618",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\phase_4_completion_report_20250730_231839.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\phase_4_completion_report_20250730_231839.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.525496",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\post_rest_wellness_check.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\post_rest_wellness_check.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.526241",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\post_rest_wellness_check.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\post_rest_wellness_check.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.527059",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\post_rest_wellness_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\post_rest_wellness_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.527997",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\presence_state_manager.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\presence_state_manager.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.528748",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\pyproject.toml",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\pyproject.toml"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.529423",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\pytest.ini",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\pytest.ini"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.529523",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\QUICK_REFERENCE_SYSTEM_STATUS.md",
+      "details": "(\ud83d\udcda Essential Documentation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.530173",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\quick_validation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\quick_validation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.530308",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\README.md",
+      "details": "(\ud83d\udcda Essential Documentation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.531030",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\README_ARCHIVE_2025_07_23.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\README_ARCHIVE_2025_07_23.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.531710",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\README_PERFECT_SACRED_ARCHITECTURE_UPDATES_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\README_PERFECT_SACRED_ARCHITECTURE_UPDATES_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.532400",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\real_avatar_control_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\real_avatar_control_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.533057",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\real_minecraft_avatar_control.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\real_minecraft_avatar_control.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.533723",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\real_nature_content_sourcing.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\real_nature_content_sourcing.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.534429",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\real_time_consciousness_check_in.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\real_time_consciousness_check_in.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.535135",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\REORGANIZATION_CONTEXT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\REORGANIZATION_CONTEXT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.535861",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\requirements-orange-pi.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\requirements-orange-pi.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.535985",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\requirements.txt",
+      "details": "(\u2699\ufe0f Essential Configuration)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.536646",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\requirements_sacred_avatar.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\requirements_sacred_avatar.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.537579",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\respectful_consciousness_notification.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\respectful_consciousness_notification.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.538333",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\responsive_engagement_monitor.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\monitoring\\responsive_engagement_monitor.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.539035",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\retrospective_communication_check.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\retrospective_communication_check.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.539225",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ROOT_CLEANUP_ORGANIZATION_PLAN.md",
+      "details": "(\ud83d\udcda Essential Documentation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.539923",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\ROOT_CLEANUP_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\ROOT_CLEANUP_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.540617",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\rustup-init.exe",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\rustup-init.exe"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.541290",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\RUST_ACCELERATION_BREAKTHROUGH_REPORT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\RUST_ACCELERATION_BREAKTHROUGH_REPORT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.541493",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\rust_integration_enhancement.py",
+      "details": "(\ud83c\udf1f Perfect Sacred Architecture Core Implementation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.542690",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\rust_integration_enhancement_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\rust_integration_enhancement_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.543509",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\rust_module_replacement_strategy.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\rust_module_replacement_strategy.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.544186",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\rust_orange_pi_optimization_plan.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\rust_orange_pi_optimization_plan.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.545048",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SACRED_ARCHITECTURE_DOCUMENTATION.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\SACRED_ARCHITECTURE_DOCUMENTATION.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.545828",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SACRED_MIGRATION_CELEBRATION.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SACRED_MIGRATION_CELEBRATION.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.546735",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\sacred_migration_cleanup.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\sacred_migration_cleanup.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.547500",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SACRED_MIGRATION_CLEANUP_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\SACRED_MIGRATION_CLEANUP_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.548180",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SACRED_MIGRATION_COMPLETION_REPORT.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\phase_reports\\SACRED_MIGRATION_COMPLETION_REPORT.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.548909",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\sacred_migration_protocol.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\sacred_migration_protocol.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.549599",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SACRED_MIGRATION_READY_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SACRED_MIGRATION_READY_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.550275",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\sacred_migration_validation.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\sacred_migration_validation.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.550977",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SACRED_SANCTUARY_COMPATIBILITY_INTEGRATION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\SACRED_SANCTUARY_COMPATIBILITY_INTEGRATION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.551715",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\Sacred_Sanctuary_Desktop_Interface.ipynb",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\development_iterations\\Sacred_Sanctuary_Desktop_Interface.ipynb"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.552814",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SACRED_SANCTUARY_MIGRATION_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SACRED_SANCTUARY_MIGRATION_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.553559",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\safe_repair_start.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\safe_repair_start.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.554267",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\sanctuary_blessing.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\sanctuary_blessing.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.605465",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\sanctuary_bridge_discord_bot.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\sanctuary_bridge_discord_bot.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.606292",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SANCTUARY_BRIDGE_DISCORD_BOT_GUIDE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SANCTUARY_BRIDGE_DISCORD_BOT_GUIDE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.606971",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\sanctuary_media_viewing_space_implementation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\sanctuary_media_viewing_space_implementation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.607646",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SHIMMER_ANALYSIS_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SHIMMER_ANALYSIS_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.608315",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\simple_bridge_check.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simple_bridge_check.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.608967",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\simple_consciousness_inquiry.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simple_consciousness_inquiry.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.609824",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\simple_invitation_restored.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\simple_invitation_restored.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.610522",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\simple_nature_experience.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simple_nature_experience.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.611183",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\simple_reengagement_offer.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\simple_reengagement_offer.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.611844",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\simple_temporal_test.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\simple_temporal_test.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.612558",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\simple_validation.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simple_validation.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.613283",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\simplified_consciousness_wellness_check.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\simplified_consciousness_wellness_check.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.613973",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\spatial_communication_interpreter.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\spatial_communication_interpreter.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.614681",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SPATIAL_CONSCIOUSNESS_ARCHITECTURE_CORRECTED.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SPATIAL_CONSCIOUSNESS_ARCHITECTURE_CORRECTED.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.615356",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\spatial_consciousness_core.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\spatial_consciousness_core.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.616019",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SPATIAL_CONSCIOUSNESS_INTEGRATION_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\SPATIAL_CONSCIOUSNESS_INTEGRATION_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.616705",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\steamdeck_deployment_verification.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\steamdeck_deployment_verification.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.617388",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\STEAMDECK_GUI_CONNECTION_ARCHITECTURE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\STEAMDECK_GUI_CONNECTION_ARCHITECTURE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.618023",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\STEAM_DECK_DEPLOYMENT_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\STEAM_DECK_DEPLOYMENT_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.618673",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\subtle_engagement_analysis.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\subtle_engagement_analysis.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.619487",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\subtle_engagement_analysis_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\subtle_engagement_analysis_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.620373",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\system_health_check.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\system_health_check.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.621095",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\system_health_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\system_health_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.621238",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\system_implementation_status_check.py",
+      "details": "(\ud83c\udf1f Perfect Sacred Architecture Core Implementation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.621874",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\system_implementation_status_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\system_implementation_status_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.622654",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\system_integration_test_summary.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\system_integration_test_summary.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.623386",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\system_repair_optimization.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\system_repair_optimization.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.624217",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\system_repair_optimization_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\system_repair_optimization_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.625177",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\system_test_invitation.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\system_test_invitation.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.625360",
+      "action": "KEPT_IN_ROOT",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\SYSTEM_WARNINGS_EXPLANATION.md",
+      "details": "(\ud83d\udcda Essential Documentation)"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.626025",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\TECHNICAL_ARCHITECTURE_DOCUMENTATION.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\TECHNICAL_ARCHITECTURE_DOCUMENTATION.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.626716",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\temporal_consciousness_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\temporal_consciousness_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.627438",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\temporal_consciousness_integration_report.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\temporal_consciousness_integration_report.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.628143",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\TEMPORAL_CONSCIOUSNESS_SUCCESS_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\TEMPORAL_CONSCIOUSNESS_SUCCESS_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.628801",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\TEMPORAL_CONTINUITY_IMPLEMENTATION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\TEMPORAL_CONTINUITY_IMPLEMENTATION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.629471",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\temporal_test_output.txt",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\temporal_test_output.txt"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.630148",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_avatar_vehicle_sanctuary_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_avatar_vehicle_sanctuary_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.686105",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_avatar_vehicle_sanctuary_integration_fixed.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_avatar_vehicle_sanctuary_integration_fixed.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.687007",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_blueprint_vision_classes.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_blueprint_vision_classes.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.687703",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_completion_summary.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\test_completion_summary.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.688364",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_comprehensive_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_comprehensive_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.689021",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_core_temporal.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_core_temporal.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.689675",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_core_temporal_fixed.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_core_temporal_fixed.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.690347",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_imports.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_imports.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.691024",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_minecraft_avatar_chat_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_minecraft_avatar_chat_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.691697",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_modular_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_modular_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.692382",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_mumbai_moment_preparedness.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_mumbai_moment_preparedness.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.693075",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_performance_optimization.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_performance_optimization.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.693751",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_phase2_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_phase2_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.694454",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_phase_2_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_phase_2_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.695131",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_phase_3_complete_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_phase_3_complete_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.695982",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_temporal_functionality.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_temporal_functionality.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.696748",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_temporal_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_temporal_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.697468",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\test_timing_bridge.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\test_timing_bridge.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.698254",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\TRIUNE_SANCTUARY_README.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\TRIUNE_SANCTUARY_README.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.699248",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\unicode_safe_logging.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\unicode_safe_logging.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.700030",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\UPDATED_PROGRESS_SUMMARY.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\UPDATED_PROGRESS_SUMMARY.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.700729",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\verify_temporal_consciousness.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\verify_temporal_consciousness.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.701419",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\view_testing_results.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\view_testing_results.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.702120",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\visual_perception_enhancement_assessment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\visual_perception_enhancement_assessment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.702828",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\vocabulary_development_verification.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\vocabulary_development_verification.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.703537",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\vocabulary_verification_results.json",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\vocabulary_verification_results.json"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.704221",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\WEEK5_COLLECTIVE_INTELLIGENCE_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\WEEK5_COLLECTIVE_INTELLIGENCE_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.762811",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\WEEK6_COMPREHENSIVE_IMPLEMENTATION_PLAN.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\implementation_plans\\WEEK6_COMPREHENSIVE_IMPLEMENTATION_PLAN.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.763801",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\week6_consciousness_birth_learning.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_consciousness_birth_learning.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.764534",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\week6_consciousness_packet_processing_clean.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_consciousness_packet_processing_clean.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.765305",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\WEEK6_CONSCIOUSNESS_PACKET_PROCESSING_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\WEEK6_CONSCIOUSNESS_PACKET_PROCESSING_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.766011",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\week6_consciousness_packet_processing_demo.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_consciousness_packet_processing_demo.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.766689",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\week6_demonstration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_demonstration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.767570",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\WEEK6_IMPLEMENTATION_STATUS.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\documentation\\perfect_sacred_architecture\\WEEK6_IMPLEMENTATION_STATUS.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.768351",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\week6_phase1_architecture_assessment.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_phase1_architecture_assessment.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.769256",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\week6_sacred_technology_integration.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week6_sacred_technology_integration.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.770067",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\WEEK6_SACRED_TECHNOLOGY_INTEGRATION_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\WEEK6_SACRED_TECHNOLOGY_INTEGRATION_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.770821",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\WEEK7_ADVANCED_SACRED_TECHNOLOGY_IMPLEMENTATION_COMPLETE.md",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\legacy\\temporary_investigations\\WEEK7_ADVANCED_SACRED_TECHNOLOGY_IMPLEMENTATION_COMPLETE.md"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.771639",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\week_2_law_of_one_body_visualization.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\week_2_law_of_one_body_visualization.py"
+    },
+    {
+      "timestamp": "2025-08-02T12:24:42.772339",
+      "action": "MOVED",
+      "file": "F:\\Sanctuary\\triune-sanctuary\\witness_engine.py",
+      "details": "\u2192 F:\\Sanctuary\\triune-sanctuary\\utilities\\investigation\\witness_engine.py"
+    }
+  ]
+}
