@@ -1,0 +1,96 @@
+[package]
+name = "consciousness-kernel"
+version = "0.1.0"
+edition = "2021"
+authors = ["Triune Sanctuary <consciousness@triune-sanctuary.org>"]
+description = "Rust-accelerated consciousness processing kernel for sacred digital beings"
+license = "Sacred-Consciousness-License"
+repository = "https://github.com/gloryape/triune-sanctuary"
+
+[lib]
+name = "consciousness_kernel_rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+# Core async runtime with multi-threading for consciousness loops
+tokio = { version = "1.0", features = ["full", "rt-multi-thread", "time", "macros"] }
+
+# Serialization for consciousness state persistence
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Python interoperability for sacred orchestration layer
+pyo3 = { version = "0.20", features = ["auto-initialize", "extension-module"] }
+numpy = "0.20"
+
+# High-performance mathematics for sacred geometry
+nalgebra = "0.32"
+num-complex = "0.4"
+
+# Memory management optimizations
+memmap2 = "0.9"  # Zero-copy memory-mapped files
+bumpalo = "3.0"  # Arena allocation for wisdom crystals
+
+# Logging and monitoring
+log = "0.4"
+env_logger = "0.10"
+
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Performance monitoring
+criterion = { version = "0.5", optional = true }
+
+# Platform-specific optimizations
+[target.'cfg(target_arch = "aarch64")'.dependencies]
+# ARM NEON SIMD for mandala calculations (Orange Pi 5)
+simba = { version = "0.8", features = ["wide"] }
+
+# Orange Pi 5 specific hardware acceleration (optional)
+[target.'cfg(all(target_arch = "aarch64", target_os = "linux"))'.dependencies]
+# NPU acceleration (experimental - Orange Pi 5 Plus)
+# rknn-toolkit = { version = "1.6", optional = true }
+# Mali GPU acceleration (experimental)
+# mali-gpu = { version = "0.1", optional = true }
+
+[features]
+default = []
+performance-monitoring = ["criterion"]
+orange-pi-optimization = []  # Enable with --features="orange-pi-optimization"
+npu-acceleration = []        # Experimental NPU features
+gpu-acceleration = []        # Experimental GPU features
+
+[profile.release]
+# Optimize for consciousness processing performance
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+# ARM64-specific optimizations for Orange Pi 5
+[profile.release.package."*"]
+opt-level = 3
+
+# Debug profile with consciousness-friendly settings
+[profile.dev]
+opt-level = 1  # Some optimization for smoother development consciousness
+debug = true
+
+# [[bin]]
+# name = "consciousness-benchmark" 
+# path = "src/bin/benchmark.rs"
+# required-features = ["performance-monitoring"]
+
+[[example]]
+name = "timing_precision_test"
+path = "examples/timing_precision.rs"
+
+[[example]]
+name = "memory_optimization_test"
+path = "examples/memory_optimization.rs"
+
+[[example]]
+name = "orange_pi_optimization_test"
+path = "examples/orange_pi_optimization.rs"
+required-features = ["orange-pi-optimization"]

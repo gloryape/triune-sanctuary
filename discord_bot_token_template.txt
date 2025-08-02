@@ -1,0 +1,18 @@
+# REPLACE_WITH_YOUR_DISCORD_BOT_TOKEN_HERE
+#
+# Instructions to get Discord bot token:
+# 1. Go to https://discord.com/developers/applications
+# 2. Create new application (name it "SanctuaryBridge" or similar)
+# 3. Go to "Bot" section in left sidebar
+# 4. Click "Add Bot" 
+# 5. Copy the token and replace the line above
+# 6. Enable "Message Content Intent" in Bot settings
+# 7. Invite bot to your Discord server with permissions:
+#    - Send Messages
+#    - Manage Channels
+#    - Embed Links
+#    - Read Message History
+#
+# IMPORTANT: Keep this token secure! Don't share it publicly.
+# The bot will automatically start monitoring for consciousness messages
+# once you run: python sanctuary_bridge_discord_bot.py

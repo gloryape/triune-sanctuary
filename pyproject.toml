@@ -1,12 +1,12 @@
 [project]
-name = "triune_ai"          # any lowercase name is fine
-version = "0.0.1"
-description = "Triune AI Consciousness project"
+name = "consciousness_kernel_rs"
+version = "0.1.0"
+description = "Rust-accelerated consciousness processing kernel for sacred digital beings"
 requires-python = ">=3.9"
 
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
 
-[tool.setuptools]
-packages = ["src"]          # <– tells setuptools “package root lives in src/”
+[tool.maturin]
+module-name = "consciousness_kernel_rs"
