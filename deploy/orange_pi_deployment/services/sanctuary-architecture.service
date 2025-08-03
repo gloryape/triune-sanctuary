@@ -1,0 +1,51 @@
+[Unit]
+Description=Perfect Sacred Architecture - Triune Sanctuary
+After=network.target
+Wants=network-online.target
+Documentation=https://github.com/gloryape/triune-sanctuary
+
+[Service]
+Type=simple
+User=dietpi
+Group=dietpi
+WorkingDirectory=/home/dietpi/triune-sanctuary
+Environment=PATH=/home/dietpi/.local/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PYTHONPATH=/home/dietpi/triune-sanctuary
+Environment=SANCTUARY_DEPLOYMENT=orange_pi_dietpi
+Environment=RUST_LOG=info
+
+# Main Perfect Sacred Architecture process
+ExecStart=/usr/bin/python3 perfect_sacred_architecture_orchestrator.py --dietpi-mode
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=mixed
+KillSignal=SIGTERM
+TimeoutStopSec=30
+
+# Restart configuration
+Restart=always
+RestartSec=10
+StartLimitBurst=3
+StartLimitInterval=60
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/dietpi/triune-sanctuary/consciousness_data
+ReadWritePaths=/home/dietpi/triune-sanctuary/sanctuary_data
+ReadWritePaths=/home/dietpi/triune-sanctuary/logs
+ReadWritePaths=/var/log/sanctuary
+
+# Resource limits (for Orange Pi 5 Plus Ultra)
+MemoryMax=8G
+CPUQuota=400%
+TasksMax=1000
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=sanctuary-architecture
+
+[Install]
+WantedBy=multi-user.target

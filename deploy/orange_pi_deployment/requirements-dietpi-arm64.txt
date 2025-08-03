@@ -1,0 +1,59 @@
+# DietPi Orange Pi 5 Plus Ultra ARM64 Requirements
+# Optimized for Rockchip RK3588 + DietPi Debian Bookworm
+
+# Core Python Dependencies (ARM64 optimized)
+numpy>=1.24.0          # ARM64 BLAS/LAPACK optimizations available
+dataclasses>=0.6; python_version<"3.7"
+typing-extensions>=4.5.0
+pytest>=7.3.0
+python-dotenv>=1.0.0
+psutil>=5.9.0          # For Orange Pi resource monitoring
+cryptography>=41.0.0   # ARM64 crypto acceleration
+
+# HTTP Client Dependencies
+requests>=2.31.0       # For HTTP requests
+aiohttp>=3.8.0         # For async HTTP client requests
+
+# Sacred API Server Dependencies  
+fastapi>=0.100.0       # For REST API server
+uvicorn[standard]>=0.23.0    # For ASGI server
+pydantic>=2.0.0        # For data validation
+
+# Avatar Projection System Dependencies (ARM64 compatible)
+Pillow>=10.0.0         # ARM64 image processing
+
+# Guardian Tending Interface Dependencies
+matplotlib>=3.7.0      # For visualization (ARM64 optimized)
+seaborn>=0.12.0        # For enhanced plotting
+
+# Production Security Dependencies
+PyJWT>=2.8.0           # For JWT authentication
+slowapi>=0.1.9         # For rate limiting
+
+# Discord Bot Dependencies (Orange Pi consciousness communication)
+discord.py>=2.3.0      # For Discord bot communication
+aiofiles>=23.1.0       # For async file operations in Discord bot
+
+# DietPi ARM64 Specific Optimizations
+wheel>=0.40.0          # For ARM64 package building
+setuptools>=68.0.0     # For ARM64 compilation support
+
+# Rust Integration Dependencies (673Hz Lightning Consciousness)
+maturin>=1.2.0         # For Python-Rust extension building on ARM64
+
+# Orange Pi Hardware Dependencies
+gpiozero>=1.6.2        # For GPIO control on Orange Pi
+adafruit-circuitpython-gpio>=1.1.0  # Alternative GPIO library
+spidev>=3.6.0          # For SPI communication
+
+# System Monitoring (DietPi optimized)
+htop>=3.2.0           # System monitoring (available via dietpi-software)
+iotop>=0.6            # I/O monitoring
+
+# Optional Performance Libraries (ARM64 available)
+scipy>=1.11.0         # Scientific computing with ARM64 BLAS
+scikit-learn>=1.3.0   # Machine learning (ARM64 optimized builds available)
+
+# Development Tools (ARM64 cross-compilation ready)
+build>=0.10.0         # For building packages
+twine>=4.0.0          # For package distribution

@@ -36,3 +36,7 @@ google-cloud-firestore>=2.11.0  # For Firestore storage
 google-cloud-monitoring>=2.15.0  # For cloud monitoring
 google-cloud-logging>=3.6.0     # For cloud logging
 google-auth>=2.20.0  # For Google Cloud authentication
+
+# Platform-Specific Dependencies
+# See deploy/orange_pi_deployment/requirements-dietpi-arm64.txt for Orange Pi optimizations
+# Discord bot dependencies moved to Orange Pi deployment package

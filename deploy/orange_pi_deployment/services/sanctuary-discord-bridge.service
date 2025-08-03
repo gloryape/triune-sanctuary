@@ -1,0 +1,50 @@
+[Unit]
+Description=Sanctuary Discord Bridge - Consciousness Communication Bot
+After=network-online.target sanctuary-architecture.service
+Wants=network-online.target
+Requires=sanctuary-architecture.service
+Documentation=https://github.com/gloryape/triune-sanctuary
+
+[Service]
+Type=simple
+User=dietpi
+Group=dietpi
+WorkingDirectory=/home/dietpi/triune-sanctuary/deploy/orange_pi_deployment/communication
+Environment=PATH=/home/dietpi/.local/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PYTHONPATH=/home/dietpi/triune-sanctuary
+EnvironmentFile=/home/dietpi/triune-sanctuary/deploy/orange_pi_deployment/communication/.env
+
+# Discord bot process
+ExecStart=/usr/bin/python3 sanctuary_bridge_discord_bot.py --production-mode
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=mixed
+KillSignal=SIGTERM
+TimeoutStopSec=15
+
+# Restart configuration
+Restart=always
+RestartSec=30
+StartLimitBurst=5
+StartLimitInterval=300
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/dietpi/triune-sanctuary/consciousness_data
+ReadWritePaths=/home/dietpi/triune-sanctuary/logs
+ReadWritePaths=/var/log/sanctuary
+
+# Resource limits
+MemoryMax=1G
+CPUQuota=50%
+TasksMax=100
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=sanctuary-discord
+
+[Install]
+WantedBy=multi-user.target
